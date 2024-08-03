@@ -1,0 +1,3459 @@
+@media(min-width:1440px){
+    .nav-menu-hamburgueza{
+        display: none;
+    }
+}
+
+@media(max-width:1024px){
+    header{
+        padding-right: 25px;
+        .nav-menu-hamburgueza{
+            display: none;
+        }
+        
+        .logo img{
+            height: 20px;
+            margin: 25px;
+        }
+    
+    .menu{
+        margin-right: 25px;
+        margin: 0 5px;
+        margin-left: 300px;
+    }
+    
+    .menu li{
+        margin-right: 20px;
+    }
+    
+    .menu a{
+        font-size: 14px;
+    }
+    
+    .bonton{
+        width: 145px;
+        height: 35px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    }
+
+.imagen-indexarriba{
+    height: 950px;
+    padding-top: 50px;
+    img{
+        height: 950px;
+    }
+}
+
+.h1-index{
+    font-size: 32px;
+    margin-left: 1.5625rem;
+    margin-top: -850px;
+    letter-spacing: 6px;
+}
+
+.texto-secudario-index{
+    .h2-index{
+        font-size: 18px;
+        margin-left: 1.5625rem;
+        margin-top: 5px;
+    }
+    .medium-h2{
+        margin-left: 1.125rem;
+    }
+    .retangulo{
+        height: 3px;
+        margin-left: 20px;
+        width: 375px;
+        }
+        .unete-ahora{
+            width: 270px;
+            height: 65px;
+            font-size: 24px;
+            margin-left: 75px;
+            margin-top: 45px;
+            letter-spacing: 2.5px;
+        }
+        .icon-flecha-circular{
+            margin-left: 220px;
+            margin-top: 55px;
+            img{
+                height: 140px;
+            }
+        }
+}
+
+.contador-general{
+    @include grid(12.5rem 12.5rem 12.5rem,6.25rem 6.25rem,"contador imagenes imagenes"  "contador descripcion descripcion",none,none);
+    margin-left:25px;
+    margin-top: 70px;
+    .contador{
+        width: 152px;
+        height: 154px;
+            font-size: 45px;
+            margin-top: 15px;
+    }
+    .imagenes img{
+        width: 300px;
+        margin-left: -65px;
+        margin-top: 10px;
+    }
+    .descripcion{
+        font-size: 16px;
+        p{
+            margin-left: -70px;
+        }
+    }
+    
+    .num-40{
+        font-weight: bold;
+        font-size: 20px;
+        text-decoration: underline;
+    }
+    
+    .neurona{
+        font-weight: bold;
+        font-size: 20px;
+        text-decoration: underline;
+    }
+}
+
+.contenedor-personaliza{
+    height: 480px;
+    margin-top: 150px;
+    .h2-personaliza{
+        font-size: 40px;
+        padding-top: 70px;
+    }
+    .text-inferior{
+        font-size: 26px;
+    }
+    .p-personaliza{
+        font-size: 15px;
+        margin-top: -220px;
+        margin-left: 500px;
+        span.line-break {
+            margin-bottom: 5px;
+        } 
+        
+        .control-futuro{
+            font-size: 20px;
+        }
+        
+        .you{
+            font-size: 20px;
+        }
+        
+        .financ{
+            font-size: 20px;
+        }
+    }    
+}
+
+.contenido-usuario-principal{
+    @include grid(267px 200px 200px 200px,none,none,none,none);
+    margin-top: -130px;
+    grid-gap: 20px;
+    .conten-info-person{
+        width: 267px;
+        height: 350px;
+        border-radius: 35px;
+        .icon-personal{
+            width: 58px;
+            height: 58px;
+            margin-top: 30px;
+            margin-left: 20px;
+            img{
+                width: 38px;
+                height: 38px;
+            }
+        }
+        .h2-info-perfil{
+            font-size: 14px;
+            margin-left: 95px;
+            margin-top: -55px;
+        }
+        .p-gestiona{
+            font-size: 15px;
+            margin-top: 30px;
+        }
+        .lista-clasificacion{
+            font-size: 14px;
+            margin-top: 20px;
+            width: 200px;
+            margin-left: 35px;
+        }
+        
+        .empezar{
+            width: 150px;
+            height: 40px;
+            font-size: 18px;
+            margin-left: 60px;
+            margin-top: 40px;
+            letter-spacing: 2px;
+            .textbutton{
+                margin-left: 20px
+            }
+            .iconbutton{
+                margin-right: 10px;
+                margin-top: 7px;
+            }
+            img{
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }
+    .conten-objetivo{
+        width: 200px;
+        height: 300px;
+        border-radius: 40px;
+        .icon-objetivo{
+            width: 58px;
+            height: 58px;
+            margin-top: 40px;
+            margin-left: 70px;
+            img{
+                width: 38px;
+                height: 38px;
+            }
+        }
+        .h2-objetivo-finan{
+            margin-top: 50px;
+            font-size: 12px;
+        }
+        .empezar2{
+            width: 150px;
+            height: 40px;
+            font-size: 18px;
+            margin-left: 25px;
+            margin-top: 40px;
+            letter-spacing: 2px;
+            .textbutton2{
+                margin-left: 20px
+            }
+            .iconbutton2{
+                margin-right: 10px;
+                margin-top: 7px;
+            }
+            img{
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }
+    
+    .conten-herramienta{
+        width: 200px;
+        height: 300px;
+        border-radius: 40px;
+        .icon-herramienta{
+            width: 58px;
+            height: 58px;
+            margin-top: 40px;
+            margin-left: 75px;
+            img{
+                width: 38px;
+                height: 38px;
+            }
+        }
+        .h2-herramientas-inter{
+            margin-top: 50px;
+            font-size: 12px;
+        }
+        .empezar3{
+            width: 150px;
+            height: 40px;
+            font-size: 18px;
+            margin-left: 25px;
+            margin-top: 40px;
+            letter-spacing: 2px;
+            .textbutton3{
+                margin-left: 20px
+            }
+            .iconbutton3{
+                margin-right: 10px;
+                margin-top: 7px;
+            }
+            img{
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }
+    
+    .conten-soporte{
+        width: 200px;
+        height: 300px;
+        border-radius: 40px;
+        .icon-soporte{
+            width: 58px;
+            height: 58px;
+            margin-top: 40px;
+            margin-left: 75px;
+            img{
+                width: 38px;
+                height: 38px;
+            }
+        }
+        .h2-soporte-asist{
+            margin-top: 50px;
+            font-size: 12px;
+        }
+        .empezar4{
+            width: 150px;
+            height: 40px;
+            font-size: 18px;
+            margin-left: 25px;
+            margin-top: 40px;
+            letter-spacing: 2px;
+            .textbutton4{
+                margin-left: 20px
+            }
+            .iconbutton4{
+                margin-right: 10px;
+                margin-top: 7px;
+            }
+            img{
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }    
+}
+
+.title-segundo{
+    .h2-index2{
+        letter-spacing: 6px;
+        font-size: 45px;
+        margin-top: 140px;
+    }
+    .h3-index2{
+        font-size: 12px;
+        margin-top: 30px;
+    }
+    .p-index2{
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    img{
+        width: 930px;
+        margin-top: 40px;
+    }
+    .buttom-index2{
+        width: 255px;
+        height: 70px;
+        font-size: 26px;
+        letter-spacing: 6px;
+        margin-left: 384px;
+        margin-top: -30px;
+        border: 7px solid map-get($colores , color1 );
+    }
+}
+
+footer{
+    padding-right: 30px;
+    border-radius:100px 100px 0px 0px;
+    width: 950px;
+    height: 200px;
+    margin-left: 37px;
+    margin-top: 200px;
+    .menu-footer{
+        ul{
+            padding: 0;
+            margin-right: 30px;
+            margin: 0 10px;
+            margin-left: 40px;
+        }
+        li{
+            margin-right: 15px;
+        }
+        a{
+            font-size: 12px;
+        }
+    }
+    .logo-footer{
+        margin-left: 10px;
+    }
+    .redes-sociales{
+        li{
+            margin-right: 20px;
+        }
+    }
+    .copy-mat img{
+        width: 250px;
+    }
+}
+
+.imag-contacto{
+    margin-top: 100px;
+    img{
+        width: 680px;
+    }
+}
+.title-1-contacto{
+    .h1-contacto{
+        font-size:50px;
+        letter-spacing: 9px;
+        margin-top: -270px;
+    }
+    
+    .h2-contacto{
+        font-size: 30px;
+        font-weight: 300;
+        letter-spacing: 9px;
+        margin-top: 30px;
+    }
+    
+    .p-contacto{
+        margin-top: 100px;
+        font-size: 20px;
+        letter-spacing: 4px;
+        font-weight: 300;
+        .contacto-nosotros{
+            font-size: 23px;
+        }
+    }
+}
+
+
+.contenedor-formulario{
+    width: 1024px;
+    height: 694px;
+    background: map-get($colores , color2 );
+    border-radius: 100px 100px 0px 0px;
+    box-shadow: inset 0px 10px 10px map-get($colores , color3 );
+    margin-top: 200px;
+    @include grid(550px 550px,21.6875rem 21.6875rem,"envianos formulario" "descripcion boton-formulario",none,0px);
+    .h2-contacto-envianos{
+        font-size: 35px;
+        grid-area: envianos;
+        margin-top: 70px;
+        margin-left: 90px;
+        }
+        .p-contacto2{
+            font-size: 20px;
+            font-weight: 300;
+            margin-top: -90px;
+            margin-left: 90px;
+            }
+            
+            .formulario{
+                font-size: 24px;
+                font-weight: 400;
+                width: 400px;
+                margin-top: 50px;
+                .input-form{
+                    input{
+                        margin-top: 50px;
+                        margin-left: -220px;
+                        border-radius: 100px;
+                        height: 54px;
+                        width: 450px;
+                    }
+                }
+                
+                .input-form2{
+                    margin-top: 80px;
+                    input{
+                        margin-top: 50px;
+                        margin-left: -230px;
+                        border-radius: 100px;
+                        height: 54px;
+                        width: 450px;
+                    }
+                }
+                
+                .input-form3{
+                    margin-top: 80px;
+                    input{
+                        margin-top: 50px;
+                        margin-left: -126px;
+                        border-radius: 50px;
+                        height: 173px;
+                        width: 450px;
+                    }
+                }
+                
+                .botton-formulario{
+                    grid-area: boton-formulario;
+                    .bonton-input{
+                        width: 200px;
+                        height: 50px;
+                        border-radius: 100px;
+                        font-size: 24px;
+                        margin-left: 100px;
+                        letter-spacing: 3px;
+                        margin-top: 250px;
+                    }
+                }
+            }
+}
+
+.sector-contactanos{
+    @include grid(500px 500px,400px 400px,"h1 h1" "card1 card2",50px,none);
+    margin-top: 120px;
+    .h2-contacto2{
+        font-size: 50px;
+        margin-top: 150px;
+    }
+    .correo-electronico-contenedor{
+        border-radius: 50px;
+        width: 237px;
+        height: 226px;
+        margin-left: 160px;
+        margin-top: 50px;
+        img{
+            height: 65px;
+            margin-left: 90px;
+            margin-top: 20px;
+        }
+        .h2-card1contacto{
+            margin-top: 10px;
+            font-size: 18px;
+        }
+        .p-card1contacto{
+            font-size: 12px;
+            font-weight: 400;
+            margin-top: 10px;
+        }
+    }
+}
+
+
+.telefono-contenedor{
+    border-radius: 50px;
+    width: 237px;
+    height: 226px;
+    margin-left: 80px;
+    margin-top: 50px;
+    img{
+        height: 65px;
+        margin-left: 90px;
+        margin-top: 20px;
+    }
+    .h1-card2contacto{
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    .p-card2contacto{
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: 50px;
+    }
+}
+
+.img-nosotros{
+    margin-top: 100px;
+    margin-right: 100px;
+    height: 800px;
+}
+.title-nosotros-principal{
+    h1{
+        font-size: 55px;
+        margin-top: -790px;
+        letter-spacing: 9px;
+        margin-left: 50px;
+    }
+    h2{
+        font-size: 40px;
+        letter-spacing: 9px;
+        margin-left: 110px;
+    }
+    img{
+        margin-top: 50px;
+        margin-left: 150px;
+        height: 150px;
+    }
+}
+.contenedor1-superior{
+    width: 100%;
+margin-top: 160px;
+height: 655px;
+@include grid(500px 500px,100px 150px 200px,"introduccion introduccion" "titulo-somo parrafo-somo" "titulo-nuestro parrafo-nuestro",none,none);
+.frase-nosotros{
+    font-size: 18px;
+    margin-top: 60px;
+    .nombre-actor{
+        font-weight: 600;
+    }
+}
+.h2-1nosotros{
+    font-size: 40px;
+    margin-top: 35px;
+}
+.h2-2nosotros{
+    font-size: 40px;
+}
+.parrafo-somo{
+    margin-top: 35px;
+    font-size: 20px;
+font-weight: 300px;
+letter-spacing: -0.5px;
+.you{
+    @include you(20px);
+}
+.financ{
+    @include financ(20px);
+}
+}
+.parrafo-nuestro{
+    margin-top: 15px;
+    font-size: 20px;
+font-weight: 300px;
+.queremos-nosotros{
+    font-size: 21px;
+}
+}
+}
+
+.card1-nosotros{
+    border-radius: 100px;
+    height: 466px;
+    width: 470px;
+    margin-top: 755px;
+    margin-left: 25px;
+    border-radius: 70px;
+    .h2-card1{
+        margin-top: 40px;
+        font-size: 35px;
+        .mision{
+            letter-spacing: 9px;
+            font-size: 60px;
+        }
+    }
+    .retangulo-nosotros{
+        height: 4px;
+        width: 250px;
+        margin-left: 110px;
+        margin-top: 5px;
+    }
+    .descr-card1{
+        font-size: 20px;
+        font-weight: 300;
+    margin-top: 40px;
+    .you{
+        @include you(20px);
+    }
+    .financ{
+        @include financ(20px);
+    }
+    }
+}
+.card2-nosotros{
+    height: 466px;
+    width: 470px;
+    margin-top: 755px;
+    margin-left: 530px;
+    border-radius: 70px;
+    .h2-card2{
+        margin-top: 40px;
+        font-size: 35px;
+        .enfoque{
+            font-size: 60px;
+        }
+    }
+    .descr-card2{
+        font-size: 20px;
+        font-weight: 300;
+    margin-top: 40px;
+    .you{
+        @include you(20px);
+    }
+    .financ{
+        @include financ(20px);
+    }
+    }
+}
+.contenedor1-inferior{
+    margin-top: 1170px;
+    border-radius: 0px 0px 100px 100px;
+    height: 966px;
+    @include grid(410px 510px,330px 164px 164px 240px,"titulo-q texto-prin" "lista-p1 lista-s2" "lista-t3 lista-t3" "texto-fin texto-fin",10px,none);
+    .h2-ofrecemos{
+        margin-top: 130px;
+        font-size: 35px;
+    }
+    .p-ofrecemos{
+        font-weight: 300;
+        font-size: 15px;
+        margin-top: 170px;
+        .you{
+            @include you(20px);
+        }
+        .financ{
+            @include financ(20px);
+        }
+    }
+    .lista-nosotros1{
+        font-size: 16px;
+        font-weight: 300;
+        width: 350px;
+    }
+    .lista-nosotros2{
+        font-size: 16px;
+        font-weight: 300;
+        margin-left: 70px;
+        width: 350px;
+    }
+    .lista-nosotros3{
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .parrafos-finales{
+        .you{
+            @include you(20px);
+        }
+        .financ{
+            @include financ(20px);
+        }
+        .p-ofrecemos2{
+            font-size: 20px;
+            font-weight: 300;
+        }
+        
+        .p-ofrecemos3{
+            font-size: 17px;
+            font-weight: 300;
+            margin-top: 15px;
+        }
+        
+        .p-ofrecemos32{
+            font-size: 17px;
+            font-weight: 300;
+        }
+        
+        .p-ofrecemos33{
+            font-size: 17px;
+            font-weight: 300;
+        }
+    }
+}
+
+.info-nosotros-fin{
+    .h2-nosotros2{
+        font-size: 45px;
+        letter-spacing: 9px;
+        margin-top: 150px;
+    }
+    .p-nosotros2{
+        font-size: 16px;
+        font-weight: 300;
+        margin-top: 50px;
+        .you{
+            @include you(18px);
+        }
+        .financ{
+            @include financ(18px);
+        }
+    }
+    img{
+        margin-top: 50px;
+        margin-left: 35px;
+        width: 950px;
+    }
+    .buttom-nosotros2{
+        width: 320px;
+        height: 70px;
+        border-radius: 100px;
+        font-size: 30px;
+        letter-spacing: 9px;
+        margin-left: 350px;
+        margin-top: -45px;
+        border: 8px solid map-get($colores , color1 );
+    }
+}
+}
+
+@media(max-width:768px){
+    header{
+        padding-right: 15px;
+        .nav-menu-hamburgueza{
+            display: none;
+        }
+        .logo img{
+            height: 25px;
+            margin: 25px;
+        }
+    
+    .menu{
+        margin-right: 15px;
+        margin: 0 5px;
+        margin-left: 35px;
+    }
+    
+    .menu li{
+        margin-right: 15px;
+    }
+    
+    .menu a{
+        font-size: 14px;
+    }
+    
+    .bonton{
+        width: 145px;
+        height: 35px;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    }
+
+
+.imagen-indexarriba{
+    height: 750px;
+    padding-top: 50px;
+    img{
+        height: 750px;
+    }
+}
+
+.h1-index{
+    font-size: 25px;
+    margin-left: 1.5625rem;
+    margin-top: -660px;
+    letter-spacing: 4px;
+}
+.texto-secudario-index{
+    .h2-index{
+        font-size: 13px;
+        margin-left: 1.5625rem;
+        margin-top: 15px;
+    }
+    .medium-h2{
+        margin-left: 1.125rem;
+    }
+    
+    .retangulo{
+    height: 3px;
+    margin-left: 20px;
+    width: 270px;
+    }
+    
+    .unete-ahora{
+        width: 200px;
+        height: 55px;
+        font-size: 18px;
+        margin-left: 45px;
+        margin-top: 45px;
+        letter-spacing: 2.5px;
+    }
+    
+    .icon-flecha-circular{
+        margin-left: 150px;
+        margin-top: 20px;
+        img{
+            height: 110px;
+        }
+    }
+}
+
+.contador-general{
+    @include grid(8.75rem 8.75rem 8.75rem,3.75rem 3.75rem,"contador imagenes imagenes"  "contador descripcion descripcion",none,none);
+    margin-left: 10px;
+    margin-top: 35px;
+    .contador{
+        width: 100px;
+        height: 105px;
+        border-radius: 25%;
+        font-size: 35px;
+        margin-top: 7px;
+    }
+    .imagenes img{
+        width: 225px;
+        margin-left: -55px;
+        margin-top: -5px;
+    }
+    .descripcion{
+        font-size: 12px;p{
+            margin-left: -55px;
+        }
+    }
+    
+    .num-40{
+        font-weight: bold;
+        font-size: 14px;
+        text-decoration: $texto-transfor;
+    }
+    
+    .neurona{
+        font-weight: bold;
+        font-size: 14px;
+        text-decoration: $texto-transfor;
+    }
+}
+
+
+.contenedor-personaliza{
+    height: 800px;
+    margin-top: 120px;
+    .h2-personaliza{
+        font-size: 25px;
+        padding-top: 70px;
+    }
+    .text-inferior{
+        font-size: 16px;
+    }
+    .p-personaliza{
+        font-size: 12px;
+        margin-top: -140px;
+        margin-left: 350px;
+        span.line-break {
+            margin-bottom: 2.5px;
+        } 
+        
+        .control-futuro{
+            font-size: 14px;
+        }
+        
+        .you{
+            font-size: 14px;
+        }
+        
+        .financ{
+            font-size: 14px;
+        }
+    }    
+}
+
+.contenido-usuario-principal{
+    @include grid(267px 200px 200px,350px 350px,"conten-info-person conten-objetivo conten-herramienta"  "conten-info-person conten-soporte conten-herramienta",25px,25px);
+    margin-top: -550px;
+    .conten-info-person{
+        grid-area: conten-info-person;
+        width: 267px;
+        height: 350px;
+        border-radius: 35px;
+        .icon-personal{
+            width: 58px;
+            height: 58px;
+            margin-top: 30px;
+            margin-left: 20px;
+            img{
+                width: 38px;
+                height: 38px;
+            }
+        }
+        .h2-info-perfil{
+            font-size: 14px;
+            margin-left: 95px;
+            margin-top: -55px;
+        } 
+        .p-gestiona{
+            font-size: 15px;
+            margin-top: 30px;
+        }
+        
+        .lista-clasificacion{
+            font-size: 14px;
+            margin-top: 20px;
+            width: 200px;
+            margin-left: 35px;
+        }  
+        .empezar{
+            width: 150px;
+            height: 40px;
+            font-size: 18px;
+            margin-left: 60px;
+            margin-top: 40px;
+            letter-spacing: 2px;
+            .textbutton{
+                margin-left: 20px
+            }
+            .iconbutton{
+                margin-right: 10px;
+                margin-top: 7px;
+            }
+            img{
+                width: 24px;
+                height: 24px;
+            }
+        }     
+    } 
+    .conten-objetivo{
+        grid-area: conten-objetivo;
+        width: 200px;
+        height: 300px;
+        border-radius: 40px;
+        .icon-objetivo{
+            width: 58px;
+            height: 58px;
+            margin-top: 40px;
+            margin-left: 70px;
+            img{
+                width: 38px;
+                height: 38px;
+            }
+        }
+        .h2-objetivo-finan{
+            margin-top: 50px;
+            font-size: 12px;
+        }
+        .empezar2{
+            width: 150px;
+            height: 40px;
+            font-size: 18px;
+            margin-left: 25px;
+            margin-top: 40px;
+            letter-spacing: 2px;
+            .textbutton2{
+                margin-left: 20px
+            }
+            .iconbutton2{
+                margin-right: 10px;
+                margin-top: 7px;
+            }
+            img{
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }   
+}
+
+.conten-herramienta{
+    grid-area: conten-herramienta;
+    width: 200px;
+    height: 300px;
+    border-radius: 40px;
+    .icon-herramienta{
+        width: 58px;
+        height: 58px;
+        margin-top: 40px;
+        margin-left: 75px;
+        img{
+            width: 38px;
+            height: 38px;
+        }
+    }
+    .h2-herramientas-inter{
+        margin-top: 50px;
+        font-size: 12px;
+    }
+    .empezar3{
+        width: 150px;
+        height: 40px;
+        font-size: 18px;
+        margin-left: 25px;
+        margin-top: 40px;
+        letter-spacing: 2px;
+        .textbutton3{
+            margin-left: 20px
+        }
+        .iconbutton3{
+            margin-right: 10px;
+            margin-top: 7px;
+        }
+        img{
+            width: 24px;
+            height: 24px;
+        }
+    }
+    .conten-soporte{
+        grid-area: conten-soporte;
+        width: 200px;
+        height: 300px;
+        border-radius: 40px;
+        .icon-soporte{
+            width: 58px;
+            height: 58px;
+            margin-top: 40px;
+            margin-left: 75px;
+            img{
+                width: 38px;
+                height: 38px;
+            }
+        }
+        .h2-soporte-asist{
+            margin-top: 50px;
+            font-size: 12px;
+        }
+        
+    }
+    .empezar4{
+        width: 150px;
+        height: 40px;
+        font-size: 18px;
+        margin-left: 25px;
+        margin-top: 40px;
+        letter-spacing: 2px;
+        .textbutton4{
+            margin-left: 20px
+        }
+        .iconbutton4{
+            margin-right: 10px;
+            margin-top: 7px;
+        }
+        img{
+            width: 24px;
+            height: 24px;
+        }
+    }
+}
+
+.title-segundo{
+    .h2-index2{
+        letter-spacing: 6px;
+        font-size: 35px;
+        margin-top: 70px;
+    }
+    .h3-index2{
+        font-size: 12px;
+        margin-top: 15px;
+    }
+    .p-index2{
+        font-size: 14px;
+        margin-top: 20px;
+        width: 530px;
+        margin-left: 120px;
+    }
+    img{
+        width: 680px;
+        margin-top: 30px;
+        margin-left: 45px;
+    }
+    .buttom-index2{
+        width: 185px;
+        height: 50px;
+        font-size: 20px;
+        letter-spacing: 3px;
+        margin-left: 291px;
+        margin-top: -21px;
+        border: 5px solid map-get($colores , color1 );
+    }    
+}
+
+footer{
+    padding-right: 30px;
+    border-radius:70px 70px 0px 0px;
+    width: 680px;
+    height: 140px;
+    margin-left: 45px;
+    margin-top: 140px;
+    .menu-footer{
+        ul{
+            padding: 0;
+            margin-right: 15px;
+            margin: 0 10px;
+            margin-left: 30px;
+        }
+        li{
+            margin-right: 15px;
+        }
+        a{
+            font-size: 12px;
+        }
+    }   
+    .logo-footer{
+        margin-left: -30px;
+        img{
+            height: 50px;
+        }
+    }   
+    .redes-sociales{
+        margin-left: -50px;
+        li{
+            margin-right: 15px;
+        }
+        img{
+            width: 25px;
+        }
+    }  
+    .copy-mat img{
+        width: 200px;
+    }
+}
+
+.imag-contacto{
+    margin-top: 100px;
+    img{
+        width: 540px;
+    }    
+}
+.title-1-contacto{
+    .h1-contacto{
+        font-size:40px;
+        letter-spacing: 9px;
+        margin-top: -220px;
+    }
+    
+    .h2-contacto{
+        font-size: 25px;
+        font-weight: 300;
+        letter-spacing: 9px;
+        margin-top: 30px;
+    }
+    
+    .p-contacto{
+        margin-top: 100px;
+        font-size: 16px;
+        letter-spacing: 4px;
+        font-weight: 300;
+        .contacto-nosotros{
+            font-size: 18px;
+        }
+    }
+}
+
+.contenedor-formulario{
+    width: 768px;
+    height: 920px;
+    border-radius: 70px 70px 0px 0px;
+    margin-top: 200px;
+    @include grid(550px,18.75rem 18.75rem 18.75rem,"titulo" "formulario" "boton-formulario",none,0px);
+    .h2-contacto-envianos{
+        font-size: 35px;
+        grid-area: titulo;
+        margin-top: 30px;
+        margin-left: 10px;
+        text-align: center;
+        }
+        
+        .p-contacto2{
+        grid-area: titulo;
+        font-size: 20px;
+        font-weight: 300;
+        margin-top: 190px;
+        margin-left: 10px;
+        text-align: center;
+        }
+        
+        .formulario{
+            font-size: 24px;
+            font-weight: 400;
+            width: 400px;
+            margin-top: 0px;
+            margin-left: 75px;
+            .input-form{
+                input{
+                    margin-top: 50px;
+                    margin-left: -220px;
+                    border-radius: 100px;
+                    height: 54px;
+                    width: 450px;
+                }
+            }
+            
+            
+            .input-form2{
+                margin-top: 80px;
+                input{
+                    margin-top: 50px;
+                    margin-left: -230px;
+                    border-radius: 100px;
+                    height: 54px;
+                    width: 450px;
+                }
+            }
+            
+            .input-form3{
+                margin-top: 80px;
+                input{
+                    margin-top: 50px;
+                    margin-left: -126px;
+                    border-radius: 50px;
+                    height: 173px;
+                    width: 450px;
+                }
+            }
+            
+            .botton-formulario{
+                grid-area: boton-formulario;
+                .bonton-input{
+                    width: 200px;
+                    height: 50px;
+                    border-radius: 100px;
+                    font-size: 24px;
+                    margin-left: 165px;
+                    letter-spacing: 3px;
+                    margin-top: 225px;
+                margin-left: 100px
+                }
+            }
+        }
+}
+
+.sector-contactanos{
+    @include grid(384px 384px,400px 400px,"h1 h1" "card1 card2",50px,none);
+    margin-top: 120px;
+    .h2-contacto2{
+        font-size: 40px;
+        margin-top: 150px;
+    }
+    .correo-electronico-contenedor{
+        border-radius: 50px;
+        width: 237px;
+        height: 226px;
+        margin-left:75px;
+        margin-top: 50px;
+        img{
+            height: 65px;
+            margin-left: 90px;
+            margin-top: 20px;
+        }
+        .h2-card1contacto{
+            margin-top: 10px;
+            font-size: 18px;
+        }
+        .p-card1contacto{
+            font-size: 12px;
+            font-weight: 400;
+            margin-top: 10px;
+        }        
+    }
+    .telefono-contenedor{
+        border-radius: 50px;
+        width: 237px;
+        height: 226px;
+        margin-left: 75px;
+        margin-top: 50px;
+        img{
+            height: 65px;
+            margin-left: 90px;
+            margin-top: 20px;
+        }
+        .h1-card2contacto{
+            margin-top: 10px;
+            font-size: 18px;
+        }
+        
+        .p-card2contacto{
+            font-size: 12px;
+            font-weight: 400;
+            margin-top: 50px;
+        }
+    }
+}
+.img-nosotros{
+    margin-top: 100px;
+    margin-right: 100px;
+    height: 550px;
+}
+.title-nosotros-principal{
+    h1{
+        font-size: 35px;
+        margin-top: -520px;
+        letter-spacing: 9px;
+        margin-left: 50px;
+    }
+    h2{
+        font-size: 30px;
+        letter-spacing: 9px;
+        margin-left: 90px;
+    }
+    img{
+        margin-top: 50px;
+        margin-left: 120px;
+        height: 130px;
+    }
+}
+.contenedor1-superior{
+    width: 100%;
+margin-top: 50px;
+border-radius: 70px 70px 0px 0px;
+height: 550px;
+@include grid(384px 384px,100px 150px 200px,"introduccion introduccion" "titulo-somo parrafo-somo" "titulo-nuestro parrafo-nuestro",none,none);
+.frase-nosotros{
+    font-size: 16px;
+    margin-top: 60px;
+    .nombre-actor{
+        font-weight: 600;
+    }
+}
+.h2-1nosotros{
+    font-size: 30px;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+.h2-2nosotros{
+    font-size: 35px;
+    margin-left: 20px;
+}
+.parrafo-somo{
+    margin-top: 35px;
+    font-size: 16px;
+font-weight: 300px;
+letter-spacing: -0.5px;
+width: 350px;
+.you{
+    @include you(16px);
+}
+.financ{
+    @include financ(16px);
+}
+}
+.parrafo-nuestro{
+    margin-top: 15px;
+    font-size: 16px;
+font-weight: 300px;
+.queremos-nosotros{
+    font-size: 17px;
+}
+}
+}
+
+.card1-nosotros{
+    border-radius: 100px;
+    height: 366px;
+    width: 340px;
+    margin-top: 550px;
+    margin-left: 25px;
+    border-radius: 70px;
+    .h2-card1{
+        margin-top: 50px;
+        font-size: 25px;
+        .mision{
+            letter-spacing: 9px;
+            font-size: 40px;
+        }
+    }
+    .retangulo-nosotros{
+display: none;
+    }
+    .descr-card1{
+        font-size: 14px;
+        font-weight: 300;
+    margin-top: 40px;
+    .you{
+        @include you(14px);
+    }
+    .financ{
+        @include financ(14px);
+    }
+    }
+}
+.card2-nosotros{
+    height: 366px;
+    width: 340px;
+    margin-top: 550px;
+    margin-left: 405px;
+    border-radius: 70px;
+    .h2-card2{
+        margin-top: 50px;
+        font-size: 25px;
+        .enfoque{
+            font-size: 40px;
+        }
+    }
+    .descr-card2{
+        font-size: 14px;
+        font-weight: 300;
+    margin-top: 40px;
+    .you{
+        @include you(14px);
+    }
+    .financ{
+        @include financ(14px);
+    }
+    }
+}
+.contenedor1-inferior{
+    margin-top: 850px;
+    border-radius: 0px 0px 100px 100px;
+    height: 750px;
+    @include grid(355px 400px,330px 90px 90px 240px,"titulo-q texto-prin" "lista-p1 lista-s2" "lista-t3 lista-t3" "texto-fin texto-fin",10px,none);
+    .h2-ofrecemos{
+        margin-top: 130px;
+        font-size: 30px;
+    }
+    .p-ofrecemos{
+display: none;
+    }
+    .p-ofrecemos-reponsive{
+        font-weight: 300;
+        font-size: 14px;
+        margin-top: 170px;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        .you{
+            @include you(12px);
+        }
+        .financ{
+            @include financ(12px);
+        }
+    }
+    .lista-nosotros1{
+        font-size: 16px;
+        font-weight: 300;
+        width: 350px;
+    }
+    .lista-nosotros2{
+        font-size: 16px;
+        font-weight: 300;
+        margin-left: 10px;
+        width: 350px;
+    }
+    .lista-nosotros3{
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .parrafos-finales{
+        .you{
+            @include you(16px);
+        }
+        .financ{
+            @include financ(16px);
+        }
+        .p-ofrecemos2{
+            font-size: 16px;
+            font-weight: 300;
+        }
+        
+        .p-ofrecemos3{
+            font-size: 14px;
+            font-weight: 300;
+            margin-top: 15px;
+        }
+        
+        .p-ofrecemos32{
+            font-size: 14px;
+            font-weight: 300;
+        }
+        
+        .p-ofrecemos33{
+            font-size: 14px;
+            font-weight: 300;
+        }
+    }
+}
+
+.info-nosotros-fin{
+    .h2-nosotros2{
+        font-size: 30px;
+        letter-spacing: 9px;
+        margin-top: 150px;
+    }
+    .p-nosotros2{
+        font-size: 15px;
+        font-weight: 300;
+        margin-top: 50px;
+        width: 470px;
+        margin-left: 160px;
+        .you{
+            @include you(16px);
+        }
+        .financ{
+            @include financ(16px);
+        }
+    }
+    img{
+        margin-top: 50px;
+        margin-left: 50px;
+        width: 670px;
+    }
+    .buttom-nosotros2{
+        width: 230px;
+        height: 55px;
+        border-radius: 100px;
+        font-size: 20px;
+        letter-spacing: 6px;
+        margin-left: 270px;
+        margin-top: -30px;
+        border: 8px solid map-get($colores , color1 );
+    }
+}
+}
+
+@media(max-width:480px){
+header{
+        padding-right: 25px;
+        .logo img{
+            height: 25px;
+            margin: 25px;
+        }
+        .menu{
+            display: none;
+        }
+        .bonton{
+            display: none;
+        }
+        .nav-menu-hamburgueza {
+            height: 100%;
+            @include flex-p(space-between,center);
+        }
+        .menu_hamburguesa{
+            display: none;
+        }
+        .menu_hamburguesa:checked + .menu-links{
+            height: 200px;
+        }
+        .labe_hamburguesa {
+            cursor: pointer;
+            img{
+                height: 30px;
+            }
+        }
+        .menu-links{
+            list-style: none;
+            width: 200px;
+            border-radius: 25px;
+            background-color: map-get($colores , color2 );
+            position: absolute;
+            margin-top: 270px;
+            right: 10px;
+            height: 0;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: start;
+            gap: 25px;
+            transition: all .3s;
+            a{
+                text-decoration: none;
+            font-weight: bold;
+            color: map-get($colores , color1 );
+            margin-left: 15px;
+            &:hover{
+                @include color-degrade-100;
+            }
+            }
+            li{
+                list-style: none;
+            }
+        }
+        .bonton-hamburguesa{
+            width: 150px;
+            height: 40px;
+            background-color: map-get($colores , color1 );
+            border-radius: 100px;
+            cursor: pointer;
+            font-size: 16px;
+            color: map-get($colores , color2 );
+            font-weight: bold;
+            margin-left: 25px;
+            border: none;
+            a{
+                margin-left: -5px;
+                text-decoration: none;
+                color: map-get($colores , color2 );
+            }
+            &:active{
+                background: rgb(0,255,218);
+                background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 100%);
+            a{
+                color: map-get($colores , color1 );
+            }
+            }
+        }
+    }
+
+.imagen-indexarriba{
+display: none;
+}
+
+.h1-index{
+    font-size: 20px;
+display: flex;
+text-align: center;
+justify-content: center;
+    margin-top: 50px;
+    letter-spacing: 4px;
+}
+
+.texto-secudario-index{
+    .h2-index{
+        font-size: 16px;
+        margin-left: 70px;
+        margin-top: 35px;
+    }
+    .medium-h2{
+        margin-left: 20px;
+    }
+    
+    .retangulo{
+    height: 3px;
+    margin-left: 65px;
+    width: 330px;
+    }
+    
+    .unete-ahora{
+        width: 200px;
+        height: 55px;
+        font-size: 18px;
+        margin-left: 130px;
+        margin-top: 45px;
+        letter-spacing: 2.5px;
+    }
+    
+    .icon-flecha-circular{
+        margin-left: 210px;
+        margin-top: 40px;
+        img{
+            height: 110px;
+        }
+    }
+}
+
+.contador-general{
+    @include grid(8.75rem 8.75rem ,3.75rem 3.75rem 3.75rem 3.75rem,"contador contador"  "contador contador" "imagenes imagenes" "descripcion descripcion",none,none);
+    margin-left: 90px;
+    margin-top: 35px;
+    .contador{
+        width: 100px;
+        height: 105px;
+        border-radius: 25%;
+        font-size: 35px;
+        margin-top: 7px;
+        margin-left: 15px;
+    }
+    
+    .imagenes img{
+        width: 225px;
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+    
+    .descripcion{
+        font-size: 13px;
+        margin-top: 15px;
+        text-align: center;
+        p{
+            margin-left: 15px;
+        }    
+    }
+    
+    .num-40{
+        font-weight: bold;
+        font-size: 16px;
+        text-decoration: underline;
+    }
+    
+    .neurona{
+        font-weight: bold;
+        font-size: 14px;
+        text-decoration: underline;
+    }
+}
+
+.contenedor-personaliza{
+    height: 1650px;
+    margin-top: 120px;
+    border-radius: 50px;
+    .h2-personaliza{
+        font-size: 32px;
+        padding-top: 40px;
+        text-align: center;
+        margin-left: -10px;
+    }
+    
+    .text-inferior{
+        font-size: 16px;
+    }
+    
+    .p-personaliza{
+        font-size: 15px;
+        margin-top: 5px;
+        text-align: center;
+        margin-left: 85px;
+        width: 300px;
+        span.line-break {
+            margin-bottom: 2.5px;
+        } 
+        
+        .control-futuro{
+            font-size: 16px;
+        }
+        
+        .you{
+            font-size: 16px;
+        }
+        
+        .financ{
+            font-size: 16px;
+        }
+    }
+}
+
+.contenido-usuario-principal{
+    @include grid(267px,350px 350px 350px 350px,"conten-info-person" "conten-objetivo" "conten-herramienta" "conten-soporte",none,none);
+    margin-top: -1220px;
+    .conten-info-person{
+        grid-area: conten-info-person;
+        width: 267px;
+        height: 350px;
+        border-radius: 35px;
+        .icon-personal{
+            width: 58px;
+            height: 58px;
+            margin-top: 30px;
+            margin-left: 20px;
+            img{
+                width: 38px;
+                height: 38px;
+            }
+        }
+        
+        
+        .h2-info-perfil{
+            font-size: 14px;
+            margin-left: 95px;
+            margin-top: -55px;
+        }
+        
+        .p-gestiona{
+            font-size: 16px;
+            margin-top: 30px;
+        }
+        
+        .lista-clasificacion{
+            font-size: 15px;
+            margin-top: 20px;
+            width: 200px;
+            margin-left: 35px;
+        }
+        
+        .empezar{
+            width: 150px;
+            height: 40px;
+            font-size: 18px;
+            margin-left: 60px;
+            margin-top: 25px;
+            letter-spacing: 2px;
+            .textbutton{
+                margin-left: 20px
+            }
+            .iconbutton{
+                margin-right: 10px;
+                margin-top: 7px;
+            }
+            img{
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }
+    .conten-objetivo{
+        grid-area: conten-objetivo;
+        width: 200px;
+        height: 300px;
+        border-radius: 40px;
+        margin-left: 35px;
+        margin-top: 25px;
+        .icon-objetivo{
+            width: 58px;
+            height: 58px;
+            margin-top: 40px;
+            margin-left: 70px;
+            img{
+                width: 38px;
+                height: 38px;
+            }
+        }
+        
+        .h2-objetivo-finan{
+            margin-top: 50px;
+            font-size: 12px;
+        }
+        
+        .empezar2{
+            width: 150px;
+            height: 40px;
+            font-size: 18px;
+            margin-left: 25px;
+            margin-top: 40px;
+            letter-spacing: 2px;
+            .textbutton2{
+                margin-left: 20px
+            }
+            .iconbutton2{
+                margin-right: 10px;
+                margin-top: 7px;
+            }
+            img{
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }
+    
+    
+    
+    
+    .conten-herramienta{
+        grid-area: conten-herramienta;
+        width: 200px;
+        height: 300px;
+        border-radius: 40px;
+        margin-left: 30px;
+        margin-top: 25px;
+        .icon-herramienta{
+            width: 58px;
+            height: 58px;
+            margin-top: 40px;
+            margin-left: 75px;
+            img{
+                width: 38px;
+                height: 38px;
+            }
+            
+        }
+        
+        .h2-herramientas-inter{
+            margin-top: 50px;
+            font-size: 12px;
+        }
+        
+        .empezar3{
+            width: 150px;
+            height: 40px;
+            font-size: 18px;
+            margin-left: 25px;
+            margin-top: 40px;
+            letter-spacing: 2px;
+            .textbutton3{
+                margin-left: 20px
+            }
+            .iconbutton3{
+                margin-right: 10px;
+                margin-top: 7px;
+            }
+            img{
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }
+    
+    
+    .conten-soporte{
+        grid-area: conten-soporte;
+        width: 200px;
+        height: 300px;
+        border-radius: 40px;
+        margin-left: 30px;
+        margin-top: 25px;
+        .icon-soporte{
+            width: 58px;
+            height: 58px;
+            margin-top: 40px;
+            margin-left: 75px;
+            img{
+                width: 38px;
+                height: 38px;
+            }
+        }
+        
+        .h2-soporte-asist{
+            margin-top: 50px;
+            font-size: 12px;
+        }
+        
+        .empezar4{
+            width: 150px;
+            height: 40px;
+            font-size: 18px;
+            margin-left: 25px;
+            margin-top: 40px;
+            letter-spacing: 2px;
+            .textbutton4{
+                margin-left: 20px
+            }
+            .iconbutton4{
+                margin-right: 10px;
+                margin-top: 7px;
+            }
+            img{
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }
+}
+
+.title-segundo{
+    .h2-index2{
+        letter-spacing: 6px;
+        font-size: 26px;
+        margin-top: 70px;
+    }
+    
+    .h3-index2{
+        font-size: 14px;
+        margin-top: 15px;
+        margin-left: 110px;
+        width: 250px;
+    }
+    
+    .p-index2{
+    display: none;
+    }
+    
+    .p-index2-mobile{
+        display: block;
+        font-family:"radiocanada" ;
+        src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
+        color: map-get($colores , color2 );
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+        margin-top: 25px;
+        width: 400px;
+        margin-left: 40px;
+    }
+    img{
+        width: 440px;
+        margin-left: 20px;
+    }
+    
+    .buttom-index2{
+        width: 165px;
+        height: 50px;
+        font-size: 16px;
+        letter-spacing: 3px;
+        margin-left: 170px;
+        margin-top: -21px;
+        position: absolute;
+    }
+}
+
+footer{
+    padding-right: 30px;
+    border-radius:50px 50px 0px 0px;
+    width: 80%;
+    height: 200px;
+    margin-left: 45px;
+    margin-top: 120px;
+    flex-direction: column;
+    .menu-footer{
+        ul{
+            padding: 0;
+            margin-right: 15px;
+            margin: 0 10px;
+            margin-left: 35px;
+            margin-top: 30px;
+        }
+        li{
+            margin-right: 5px;
+        }
+        a{
+            font-size: 12px;
+        }
+    }
+    .logo-footer{
+        margin-left: 45px;
+        img{
+            height: 50px;
+        }
+    }
+    .redes-sociales{
+        margin-left: 25px;
+        li{
+            margin-right: 15px;
+        }
+        img{
+            width: 25px;
+        }
+    }
+    .copy-mat img{
+        width: 200px;
+        margin-left: 25px;
+    }
+}
+
+.imag-contacto{
+    margin-top: 50px;
+    img{
+        width: 370px;
+    }
+}
+
+.title-1-contacto{
+    .h1-contacto{
+        font-size:28px;
+        letter-spacing: 6px;
+        margin-top: -120px;
+    }
+    
+    .h2-contacto{
+        font-size: 20px;
+        font-weight: 300;
+        letter-spacing: 3px;
+        margin-top: 20px;
+    }
+    
+    .p-contacto{
+        margin-top: 100px;
+        font-size: 20px;
+        letter-spacing: 4px;
+        font-weight: 300;
+        width: 400px;
+        margin-left: 40px;
+        .contacto-nosotros{
+            font-size: 22px;
+        }
+    }
+}
+
+.contenedor-formulario{
+    width: 100%;
+    height: 920px;
+    border-radius: 70px 70px 0px 0px;
+    margin-top: 150px;
+    @include grid(320px,18.75rem 18.75rem 18.75rem,"titulo" "formulario" "boton-formulario",none,0px);
+    .h2-contacto-envianos{
+        font-size: 30px;
+        grid-area: titulo;
+        margin-top: 40px;
+        margin-left: -10px;
+        text-align: center;
+        }
+        
+        .p-contacto2{
+        display: none;
+        }
+        
+        .p-contacto2-mobile{
+        grid-area: titulo;
+        font-family:"radiocanada" ;
+        src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
+        color: map-get($colores , color1 );
+        font-size: 22px;
+        font-weight: 300;
+        margin-top: 170px;
+        margin-left: -45px;
+        text-align: center;
+        width: 400px;
+        display: block;
+        }
+        
+        .formulario{
+            font-size: 24px;
+            font-weight: 400;
+            width: 400px;
+            margin-top: 0px;
+            margin-left: -45px;
+            text-align: center;
+            .input-form{
+                input{
+                    margin-top: 50px;
+                    margin-left: -260px;
+                    border-radius: 100px;
+                    height: 45px;
+                    width: 340px;
+                }
+            }
+            
+            .input-form2{
+                margin-top: 80px;
+                input{
+                    margin-top: 50px;
+                    margin-left: -265px;
+                    border-radius: 100px;
+                    height: 45px;
+                    width: 340px;
+                }
+            }
+            
+            .input-form3{
+                margin-top: 80px;
+                input{
+                    margin-top: 50px;
+                    margin-left: -245px;
+                    border-radius: 50px;
+                    height: 165px;
+                    width: 400px;
+                }
+            }
+            
+            .botton-formulario{
+                grid-area: boton-formulario;
+                .bonton-input{
+                    width: 200px;
+                    height: 50px;
+                    border-radius: 100px;
+                    font-size: 24px;
+                    margin-left: 165px;
+                    letter-spacing: 3px;
+                    margin-top: 225px;
+                    margin-left: 10px;
+                }
+            }
+        }
+}
+
+.sector-contactanos{
+    @include grid(320px,300px 300px 300px,"h1" "card1" "card2",none,0px);
+    margin-top: 50px;
+    .h2-contacto2{
+        font-size: 28px;
+        margin-top: 110px;
+        .Directamente{
+            background: rgb(0,255,218);
+            background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 70%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+    .correo-electronico-contenedor{
+        border-radius: 50px;
+        width: 237px;
+        height: 226px;
+        margin-left: 40px;
+        margin-top: 37px;
+        img{
+            height: 65px;
+            margin-left: 90px;
+            margin-top: 20px;
+        }
+        .h2-card1contacto{
+            margin-top: 10px;
+            font-size: 18px;
+        }
+        
+        .p-card1contacto{
+            font-size: 12px;
+            font-weight: 400;
+            margin-top: 10px;
+        }
+    }
+    .telefono-contenedor{
+        border-radius: 50px;
+        width: 237px;
+        height: 226px;
+        margin-left: 40px;
+        margin-top: 37px;
+        img{
+            height: 65px;
+            margin-left: 90px;
+            margin-top: 20px;
+        }
+        .h1-card2contacto{
+            margin-top: 10px;
+            font-size: 18px;
+        }
+        
+        .p-card2contacto{
+            font-size: 12px;
+            font-weight: 400;
+            margin-top: 50px;
+        }
+    }
+}
+.img-nosotros{
+display: none;
+}
+.title-nosotros-principal{
+    h1{
+        font-size: 35px;
+        margin-top: 50px;
+        letter-spacing: 9px;
+        margin-left: 10px;
+        text-align: center;
+    }
+    h2{
+        font-size: 30px;
+        letter-spacing: 9px;
+        margin-left: 10px;
+        text-align: center;
+    }
+    img{
+        margin-top: 50px;
+        margin-left: 200px;
+        height: 130px;
+    }
+}
+.contenedor1-superior{
+    width: 100%;
+margin-top: 50px;
+border-radius: 70px 70px 0px 0px;
+height: 550px;
+@include grid(240px 240px,70px 70px 100px 90px 150px,"introduccion introduccion" "titulo-somo titulo-somo" "parrafo-somo parrafo-somo" "titulo-nuestro titulo-nuestro" "parrafo-nuestro parrafo-nuestro",none,none);
+.frase-nosotros{
+    font-size: 16px;
+    margin-top: 20px;
+    width: 350px;
+    text-align: center;
+    margin-left: 50px;
+    .nombre-actor{
+        font-weight: 600;
+    }
+}
+.h2-1nosotros{
+    font-size: 30px;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 10px;
+}
+.h2-2nosotros{
+    font-size: 24px;
+    margin-left: 10px;
+    text-align: center;
+    margin-top: 0px;
+}
+.parrafo-somo{
+    margin-top: 0px;
+    font-size: 16px;
+font-weight: 300px;
+text-align: center;
+margin-left: 50px;
+letter-spacing: -0.5px;
+width: 350px;
+.you{
+    @include you(16px);
+}
+.financ{
+    @include financ(16px);
+}
+}
+.parrafo-nuestro{
+    margin-top: 15px;
+    font-size: 16px;
+font-weight: 300px;
+text-align: center;
+.queremos-nosotros{
+    font-size: 17px;
+}
+}
+}
+
+.card1-nosotros{
+    border-radius: 100px;
+    height: 366px;
+    width: 340px;
+    margin-top: 550px;
+    margin-left: 70px;
+    border-radius: 70px;
+    .h2-card1{
+        margin-top: 50px;
+        font-size: 25px;
+        .mision{
+            letter-spacing: 9px;
+            font-size: 40px;
+        }
+    }
+    .retangulo-nosotros{
+display: none;
+    }
+    .descr-card1{
+        font-size: 14px;
+        font-weight: 300;
+    margin-top: 40px;
+    .you{
+        @include you(14px);
+    }
+    .financ{
+        @include financ(14px);
+    }
+    }
+}
+.card2-nosotros{
+    height: 366px;
+    width: 340px;
+    margin-top: 950px;
+    margin-left: 70px;
+    border-radius: 70px;
+    .h2-card2{
+        margin-top: 50px;
+        font-size: 25px;
+        .enfoque{
+            font-size: 40px;
+        }
+    }
+    .descr-card2{
+        font-size: 14px;
+        font-weight: 300;
+    margin-top: 40px;
+    .you{
+        @include you(14px);
+    }
+    .financ{
+        @include financ(14px);
+    }
+    }
+}
+.contenedor1-inferior{
+    margin-top: 1250px;
+    border-radius: 0px 0px 100px 100px;
+    height: 750px;
+    @include grid(240px 240px,170px 80px 65px 65px 65px 230px,"titulo-q titulo-q" "texto-prin texto-prin" "lista-p1 lista-p1" "lista-s2 lista-s2" "lista-t3 lista-t3" "texto-fin texto-fin",10px,none);
+    .h2-ofrecemos{
+        margin-top: 80px;
+        font-size: 25px;
+        text-align: center;
+    }
+    .p-ofrecemos{
+display: none;
+    }
+    .p-ofrecemos-reponsive{
+        font-weight: 300;
+        font-size: 16px;
+        margin-top: 0px;
+        width: 400px;
+        text-align: center;
+        margin-left: 35px;
+        .you{
+            @include you(17px);
+        }
+        .financ{
+            @include financ(17px);
+        }
+    }
+    .lista-nosotros1{
+        font-size: 16px;
+        font-weight: 300;
+        width: 350px;
+        text-align: center;
+        margin-left: 65px;
+    }
+    .lista-nosotros2{
+        font-size: 16px;
+        font-weight: 300;
+        margin-left: 10px;
+        width: 350px;
+        text-align: center;
+        margin-left: 65px;
+    }
+    .lista-nosotros3{
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+        margin-left: 65px;
+        width: 350px;
+    }
+    .parrafos-finales{
+display: none;
+    }
+    .parrafos-finales-reponsive{
+        width: 400px;
+        display: block;
+        text-align: center;
+        margin-left: 40px;
+        grid-area: texto-fin;
+        .you{
+            @include you(16px);
+        }
+        .financ{
+            @include financ(16px);
+        }
+        .p-ofrecemos2{
+            font-size: 16px;
+            font-weight: 300;
+        }
+        
+        .p-ofrecemos3{
+            font-size: 14px;
+            font-weight: 300;
+            margin-top: 15px;
+        }
+        
+        .p-ofrecemos32{
+            font-size: 14px;
+            font-weight: 300;
+        }
+        
+        .p-ofrecemos33{
+            font-size: 14px;
+            font-weight: 300;
+        }
+    }
+}
+
+.info-nosotros-fin{
+    .h2-nosotros2{
+        font-size: 30px;
+        letter-spacing: 9px;
+        margin-top: 70px;
+    }
+    .p-nosotros2{
+display: none;
+    }
+    .p-nosotros2-reponsive{
+        font-size: 15px;
+        font-weight: 300;
+        margin-top: 50px;
+        width: 380px;
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: map-get($colores , color2 );
+        .you{
+            @include you(16px);
+        }
+        .financ{
+            @include financ(16px);
+        }
+        .comienza-constr{
+            font-weight: bold;
+        }
+    }
+    img{
+        margin-top: 50px;
+        margin-left: 20px;
+        width: 440px;
+    }
+    .buttom-nosotros2{
+        width: 200px;
+        height: 55px;
+        border-radius: 100px;
+        font-size: 20px;
+        letter-spacing: 6px;
+        margin-left: 135px;
+        margin-top: -30px;
+        border: 8px solid map-get($colores , color1 );
+    }
+}
+}
+
+@media(max-width:320px){
+    header{
+        padding-right: 25px;
+        .logo img{
+            height: 25px;
+            margin: 25px;
+        }
+        .menu{
+            display: none;
+        }
+        .bonton{
+            display: none;
+        }
+        .nav-menu-hamburgueza {
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .menu_hamburguesa{
+            display: none;
+        }
+        .menu_hamburguesa:checked + .menu-links{
+            height: 200px;
+        }
+        .labe_hamburguesa {
+            cursor: pointer;
+            img{
+                height: 30px;
+            }
+        }
+        .menu-links{
+            list-style: none;
+            width: 200px;
+            border-radius: 25px;
+            background-color: map-get($colores , color2 );
+            position: absolute;
+            margin-top: 270px;
+            right: 10px;
+            height: 0;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: start;
+            gap: 25px;
+            transition: all .3s;
+            li{
+                list-style: none;
+            }
+            a{
+                text-decoration: none;
+            font-weight: bold;
+            color: map-get($colores , color1 );
+            margin-left: 15px;
+            &:hover{
+                @include color-degrade-100;
+            }
+            }
+        }
+        .bonton-hamburguesa{
+            width: 150px;
+            height: 40px;
+            background-color: map-get($colores , color1 );
+            border-radius: 100px;
+            cursor: pointer;
+            font-size: 16px;
+            color: map-get($colores , color2 );
+            font-weight: bold;
+            margin-left: 25px;
+            border: none;
+            &:active{
+                background: rgb(0,255,218);
+                background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 100%);
+                color: map-get($colores , color2 );
+            }
+        }
+    }
+
+.imagen-indexarriba{
+display: none;
+}
+
+.h1-index{
+    font-size: 16px;
+display: flex;
+text-align: center;
+    margin-top: 50px;
+    letter-spacing: 4px;
+    margin-left: -10px;
+}
+
+.texto-secudario-index{
+    .h2-index{
+        font-size: 13px;
+        margin-left: 1.875rem;
+        margin-top: 35px;
+    }
+    .medium-h2{
+        margin-left: 1.125rem;
+    }
+    
+    .retangulo{
+    height: 3px;
+    margin-left: 25px;
+    width: 270px;
+    }
+    
+    .unete-ahora{
+        width: 200px;
+        height: 55px;
+        font-size: 18px;
+        margin-left: 55px;
+        margin-top: 45px;
+        letter-spacing: 2.5px;
+    }
+    
+    .icon-flecha-circular{
+        margin-left: 130px;
+        margin-top: 40px;
+        img{
+            height: 110px;
+        }
+    }
+}
+
+
+
+
+.contador-general{
+    @include grid(8.75rem 8.75rem ,3.75rem 3.75rem 3.75rem 3.75rem,"contador contador"  "contador contador" "imagenes imagenes" "descripcion descripcion",none,none);
+    margin-left: 10px;
+    margin-top: 35px;
+    .contador{
+        width: 100px;
+        height: 105px;
+        border-radius: 25%;
+        font-size: 35px;
+        margin-top: 7px;
+        margin-left: 15px;
+    }
+    
+    .imagenes img{
+        width: 225px;
+        margin-left: 15px;
+        margin-top: 2px;
+    }
+    
+    .descripcion{
+        font-size: 13px;
+        margin-top: 5px;
+        text-align: center;
+        p{
+            margin-left: 15px;
+        }
+    }
+    
+    .num-40{
+        font-weight: bold;
+        font-size: 16px;
+        text-decoration: underline;
+    }
+    
+    .neurona{
+        font-weight: bold;
+        font-size: 14px;
+        text-decoration: underline;
+    }
+}
+
+
+
+.contenedor-personaliza{
+    height: 1650px;
+    margin-top: 120px;
+    border-radius: 50px;
+    .h2-personaliza{
+        font-size: 25px;
+        padding-top: 40px;
+        text-align: center;
+        margin-left: -10px;
+    }
+    .text-inferior{
+        font-size: 16px;
+    }
+    
+    .p-personaliza{
+        font-size: 15px;
+        margin-top: 25px;
+        text-align: center;
+        margin-left: 7px;
+        span.line-break {
+            margin-bottom: 2.5px;
+        } 
+        
+        .control-futuro{
+            font-size: 16px;
+        }
+        
+        .you{
+            font-size: 16px;
+        }
+        
+        .financ{
+            font-size: 16px;
+        }
+    }
+}
+
+
+
+
+
+
+.contenido-usuario-principal{
+    @include grid(267px,350px 350px 350px 350px,"conten-info-person" "conten-objetivo" "conten-herramienta" "conten-soporte",none,none);
+    margin-top: -1240px;
+    .conten-info-person{
+        grid-area: conten-info-person;
+        width: 267px;
+        height: 350px;
+        border-radius: 35px;.icon-personal{
+            width: 58px;
+            height: 58px;
+            margin-top: 30px;
+            margin-left: 20px;
+            img{
+                width: 38px;
+                height: 38px;
+            }
+        }
+        
+        .h2-info-perfil{
+            font-size: 14px;
+            margin-left: 95px;
+            margin-top: -55px;
+        }
+        
+        .p-gestiona{
+            font-size: 16px;
+            margin-top: 30px;
+        }
+        
+        .lista-clasificacion{
+            font-size: 15px;
+            margin-top: 20px;
+            width: 200px;
+            margin-left: 35px;
+        }
+        
+        .empezar{
+            width: 150px;
+            height: 40px;
+            font-size: 18px;
+            margin-left: 60px;
+            margin-top: 20px;
+            letter-spacing: 2px;
+            .textbutton{
+                margin-left: 20px
+            }
+            .iconbutton{
+                margin-right: 10px;
+                margin-top: 7px;
+            }
+            img{
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }
+    
+    
+    
+    .conten-objetivo{
+        grid-area: conten-objetivo;
+        width: 200px;
+        height: 300px;
+        border-radius: 40px;
+        margin-left: 35px;
+        margin-top: 25px;
+        .icon-objetivo{
+            width: 58px;
+            height: 58px;
+            margin-top: 40px;
+            margin-left: 70px;
+            img{
+                width: 38px;
+                height: 38px;
+            }
+        }
+        
+        .h2-objetivo-finan{
+            margin-top: 50px;
+            font-size: 12px;
+        }
+        
+        .empezar2{
+            width: 150px;
+            height: 40px;
+            font-size: 18px;
+            margin-left: 25px;
+            margin-top: 40px;
+            letter-spacing: 2px;
+            .textbutton2{
+                margin-left: 20px
+            }
+            .iconbutton2{
+                margin-right: 10px;
+                margin-top: 7px;
+            }
+            img{
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }
+    
+    
+    
+    .conten-herramienta{
+        grid-area: conten-herramienta;
+        width: 200px;
+        height: 300px;
+        border-radius: 40px;
+        margin-left: 35px;
+        margin-top: 25px;
+        
+    .icon-herramienta{
+        width: 58px;
+        height: 58px;
+        margin-top: 40px;
+        margin-left: 75px;
+        img{
+            width: 38px;
+            height: 38px;
+        }
+    }
+    
+    .h2-herramientas-inter{
+        margin-top: 50px;
+        font-size: 12px;
+    }
+    
+    .empezar3{
+        width: 150px;
+        height: 40px;
+        font-size: 18px;
+        margin-left: 25px;
+        margin-top: 40px;
+        letter-spacing: 2px;
+        .textbutton3{
+            margin-left: 20px
+        }
+        .iconbutton3{
+            margin-right: 10px;
+            margin-top: 7px;
+        }
+        img{
+            width: 24px;
+            height: 24px;
+        }
+    }
+    }
+    
+    
+    .conten-soporte{
+        grid-area: conten-soporte;
+        width: 200px;
+        height: 300px;
+        border-radius: 40px;
+        margin-left: 35px;
+        margin-top: 25px;
+        .icon-soporte{
+            width: 58px;
+            height: 58px;
+            margin-top: 40px;
+            margin-left: 75px;
+            img{
+                width: 38px;
+                height: 38px;
+            }
+        }
+        
+        .h2-soporte-asist{
+            margin-top: 50px;
+            font-size: 12px;
+        }
+        
+        .empezar4{
+            width: 150px;
+            height: 40px;
+            font-size: 18px;
+            margin-left: 25px;
+            margin-top: 40px;
+            letter-spacing: 2px;
+            .textbutton4{
+                margin-left: 20px
+            }
+            .iconbutton4{
+                margin-right: 10px;
+                margin-top: 7px;
+            }
+            img{
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }
+    
+}
+
+.title-segundo{
+    .h2-index2{
+        letter-spacing: 6px;
+        font-size: 20px;
+        margin-top: 70px;
+    }
+    
+    .h3-index2{
+        font-size: 12px;
+        margin-top: 15px;
+        margin-left: 30px;
+        width: 250px;
+    }
+    
+    .p-index2{
+    display: none;
+    }
+    
+    .p-index2-mobile{
+        display: block;
+        font-family:"radiocanada" ;
+        src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
+        color: map-get($colores , color1 );
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+        margin-top: 25px;
+    }
+    img{
+        width: 320px;
+        margin-top: 25px;
+        margin-left: 0px;
+    }
+    .buttom-index2{
+        width: 145px;
+        height: 40px;
+        font-size: 14px;
+        letter-spacing: 3px;
+        margin-left: 85px;
+        margin-top: -21px;
+        position: absolute;
+    }    
+}
+
+
+
+footer{
+    padding-right: 30px;
+    border-radius:50px 50px 0px 0px;
+    width: 320px;
+    height: 220px;
+    margin-left: 0px;
+    margin-top: 120px;
+    flex-direction: column;
+    .menu-footer{
+        ul{
+            padding: 0;
+            margin-right: 15px;
+            margin: 0 10px;
+            margin-left: 35px;
+            margin-top: 30px;
+        }
+        li{
+            margin-right: 5px;
+        }
+        a{
+            font-size: 12px;
+        }        
+    }
+    .logo-footer{
+        margin-left: 45px;
+        img{
+            height: 50px;
+        }
+    }
+    .redes-sociales{
+        margin-left: 25px;
+        li{
+            margin-right: 15px;
+        }
+        img{
+            width: 25px;
+        }
+    }
+    
+    .copy-mat img{
+        width: 200px;
+        margin-left: 25px;
+    }    
+}
+
+.imag-contacto{
+    margin-top: 50px;
+    img{
+        width: 230px;
+    }
+}
+.title-1-contacto{
+    .h1-contacto{
+        font-size:16px;
+        letter-spacing: 6px;
+        margin-top: -90px;
+    }
+    
+    .h2-contacto{
+        font-size: 15px;
+        font-weight: 300;
+        letter-spacing: 3px;
+        margin-top: 15px;
+    }
+    
+    .p-contacto{
+        margin-top: 100px;
+        font-size: 16px;
+        letter-spacing: 4px;
+        font-weight: 300;
+        width: 250px;
+        margin-left: 30px;
+        .contacto-nosotros{
+            font-size: 18px;
+        }
+    }    
+}
+
+
+
+.contenedor-formulario{
+    width: 320px;
+    height: 920px;
+    border-radius: 70px 70px 0px 0px;
+    margin-top: 200px;
+    @include grid(320px,18.75rem 18.75rem 18.75rem,"titulo" "formulario" "boton-formulario",none,0px);
+    .h2-contacto-envianos{
+        font-size: 25px;
+        grid-area: titulo;
+        margin-top: 40px;
+        margin-left: -10px;
+        text-align: center;
+        }
+        
+        .p-contacto2{
+        display: none;
+        }
+        
+        .p-contacto2-mobile{
+        grid-area: titulo;
+        font-family:"radiocanada" ;
+        src: url(../assets/fonts/RadioCanada-VariableFont_wdth\,wght.ttf);
+        color: map-get($colores , color1 );
+        font-size: 18px;
+        font-weight: 300;
+        margin-top: 170px;
+        margin-left: 10px;
+        text-align: center;
+        width: 290px;
+        display: block;
+        }
+        
+        .formulario{
+            font-size: 20px;
+            font-weight: 400;
+            width: 300px;
+            margin-top: 0px;
+            margin-left: 5px;
+            text-align: center;
+            .input-form{
+                input{
+                    margin-top: 50px;
+                    margin-left: -220px;
+                    border-radius: 100px;
+                    height: 45px;
+                    width: 290px;
+                }
+            }
+            
+            .input-form2{
+                margin-top: 80px;
+                input{
+                    margin-top: 50px;
+                    margin-left: -225px;
+                    border-radius: 100px;
+                    height: 45px;
+                    width: 290px;
+                }
+            }
+            
+            .input-form3{
+                margin-top: 80px;
+                input{
+                    margin-top: 50px;
+                    margin-left: -183px;
+                    border-radius: 50px;
+                    height: 165px;
+                    width: 300px;
+                }
+            }
+            
+            .botton-formulario{
+                grid-area: boton-formulario;
+                .bonton-input{
+                    width: 200px;
+                    height: 50px;
+                    border-radius: 100px;
+                    font-size: 24px;
+                    margin-left: 165px;
+                    letter-spacing: 3px;
+                    margin-top: 225px;
+                    margin-left: 10px;
+                }    
+            }
+        }
+}
+
+.sector-contactanos{
+    @include grid(320px,300px 300px 300px,"h1" "card1" "card2",0px,none);
+    margin-top: 50px;
+    .h2-contacto2{
+        font-size: 22px;
+        margin-top: 110px;
+        .Directamente{
+            background: rgb(0,255,218);
+            background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 70%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+    .correo-electronico-contenedor{
+        border-radius: 50px;
+        width: 237px;
+        height: 226px;
+        margin-left: 40px;
+        margin-top: 37px;
+        img{
+            height: 65px;
+            margin-left: 90px;
+            margin-top: 20px;
+        }
+        
+        .h2-card1contacto{
+            margin-top: 10px;
+            font-size: 18px;
+        }
+        
+        .p-card1contacto{
+            font-size: 12px;
+            font-weight: 400;
+            margin-top: 10px;
+        }
+    }        
+}
+
+
+
+
+
+
+
+.telefono-contenedor{
+    border-radius: 50px;
+    width: 237px;
+    height: 226px;
+    margin-left: 40px;
+    margin-top: 37px;
+    img{
+        height: 65px;
+        margin-left: 90px;
+        margin-top: 20px;
+    }
+    
+    .h1-card2contacto{
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    
+    .p-card2contacto{
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: 50px;
+    }
+}
+.img-nosotros{
+    display: none;
+    }
+    .title-nosotros-principal{
+        h1{
+            font-size: 35px;
+            margin-top: 50px;
+            letter-spacing: 9px;
+            margin-left: 10px;
+            text-align: center;
+        }
+        h2{
+            font-size: 30px;
+            letter-spacing: 9px;
+            margin-left: 10px;
+            text-align: center;
+        }
+        img{
+            margin-top: 50px;
+            margin-left: 130px;
+            height: 130px;
+        }
+    }
+    .contenedor1-superior{
+        width: 100%;
+    margin-top: 50px;
+    border-radius: 70px 70px 0px 0px;
+    height: 550px;
+    @include grid(320px,70px 70px 100px 90px 150px,"introduccion" "titulo-somo" "parrafo-somo" "titulo-nuestro" "parrafo-nuestro",none,none);
+    .frase-nosotros{
+        font-size: 12px;
+        margin-top: 20px;
+        width: 220px;
+        text-align: center;
+        margin-left: 45px;
+        .nombre-actor{
+            font-weight: 600;
+        }
+    }
+    .h2-1nosotros{
+        font-size: 30px;
+        margin-top: 15px;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .h2-2nosotros{
+        font-size: 24px;
+        margin-left: 10px;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .parrafo-somo{
+        margin-top: 0px;
+        font-size: 12px;
+    font-weight: 300px;
+    text-align: center;
+    margin-left: 7px;
+    letter-spacing: -0.5px;
+    width: 300px;
+    .you{
+        @include you(16px);
+    }
+    .financ{
+        @include financ(16px);
+    }
+    }
+    .parrafo-nuestro{
+        margin-top: 15px;
+        font-size: 12px;
+    font-weight: 300px;
+    text-align: center;
+    width: 290px;
+    margin-left: 15px;
+    .queremos-nosotros{
+        font-size: 17px;
+    }
+    }
+    }
+    
+    .card1-nosotros{
+        border-radius: 100px;
+        height: 320px;
+        width: 270px;
+        margin-top: 550px;
+        margin-left: 25px;
+        border-radius: 70px;
+        .h2-card1{
+            margin-top: 25px;
+            font-size: 25px;
+            .mision{
+                letter-spacing: 9px;
+                font-size: 40px;
+            }
+        }
+        .retangulo-nosotros{
+    display: none;
+        }
+        .descr-card1{
+            font-size: 12px;
+            font-weight: 300;
+        margin-top: 40px;
+        .you{
+            @include you(13px);
+        }
+        .financ{
+            @include financ(13px);
+        }
+        }
+    }
+    .card2-nosotros{
+        height: 320px;
+        width: 270px;
+        margin-top: 950px;
+        margin-left: 25px;
+        border-radius: 70px;
+        .h2-card2{
+            margin-top: 25px;
+            font-size: 25px;
+            .enfoque{
+                font-size: 40px;
+            }
+        }
+        .descr-card2{
+            font-size: 12px;
+            font-weight: 300;
+        margin-top: 40px;
+        .you{
+            @include you(13px);
+        }
+        .financ{
+            @include financ(13px);
+        }
+        }
+    }
+    .contenedor1-inferior{
+        margin-top: 1210px;
+        border-radius: 0px 0px 100px 100px;
+        height: 750px;
+        @include grid(320px,170px 70px 60px 65px 60px 230px,"titulo-q" "texto-prin" "lista-p1" "lista-s2" "lista-t3" "texto-fin",10px,none);
+        .h2-ofrecemos{
+            margin-top: 80px;
+            font-size: 25px;
+            text-align: center;
+        }
+        .p-ofrecemos{
+    display: none;
+        }
+        .p-ofrecemos-reponsive{
+            font-weight: 300;
+            font-size: 12px;
+            margin-top: 0px;
+            width: 290px;
+            text-align: center;
+            margin-left: 10px;
+            .you{
+                @include you(17px);
+            }
+            .financ{
+                @include financ(17px);
+            }
+        }
+        .lista-nosotros1{
+            font-size: 14px;
+            font-weight: 300;
+            width: 250px;
+            text-align: center;
+            margin-left: 35px;
+        }
+        .lista-nosotros2{
+            font-size: 14px;
+            font-weight: 300;
+            margin-left: 10px;
+            width: 250px;
+            text-align: center;
+            margin-left: 35px;
+        }
+        .lista-nosotros3{
+            font-size: 14px;
+            font-weight: 200;
+            text-align: center;
+            margin-left: 35px;
+            width: 250px;
+        }
+        .parrafos-finales{
+    display: none;
+        }
+        .parrafos-finales-reponsive{
+            width: 270px;
+            display: block;
+            text-align: center;
+            margin-left: 20px;
+            grid-area: texto-fin;
+            .you{
+                @include you(14px);
+            }
+            .financ{
+                @include financ(14px);
+            }
+            .p-ofrecemos2{
+                font-size: 14px;
+                font-weight: 300;
+            }
+            
+            .p-ofrecemos3{
+                font-size: 12px;
+                font-weight: 300;
+                margin-top: 15px;
+            }
+            
+            .p-ofrecemos32{
+                font-size: 12px;
+                font-weight: 300;
+            }
+            
+            .p-ofrecemos33{
+                font-size: 12px;
+                font-weight: 300;
+            }
+        }
+    }
+    
+    .info-nosotros-fin{
+        .h2-nosotros2{
+            font-size: 20px;
+            letter-spacing: 9px;
+            margin-top: 70px;
+        }
+        .p-nosotros2{
+    display: none;
+        }
+        .p-nosotros2-reponsive{
+            font-size: 15px;
+            font-weight: 300;
+            margin-top: 50px;
+            width: 300px;
+            margin-left: 10px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            color: map-get($colores , color2 );
+            .you{
+                @include you(16px);
+            }
+            .financ{
+                @include financ(16px);
+            }
+            .comienza-constr{
+                font-weight: bold;
+            }
+        }
+        img{
+            margin-top: 50px;
+            margin-left: 5px;
+            width: 310px;
+        }
+        .buttom-nosotros2{
+            width: 150px;
+            height: 45px;
+            border-radius: 100px;
+            font-size: 14px;
+            letter-spacing: 3px;
+            margin-left: 85px;
+            margin-top: -25px;
+            border: 6px solid map-get($colores , color1 );
+        }
+    }
+}
