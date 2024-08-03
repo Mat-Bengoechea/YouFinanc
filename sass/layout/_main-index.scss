@@ -9,7 +9,7 @@
         font-weight: bold;
         font-size: 47px;
         margin-left: 1.875rem;
-        margin-top: -71.69rem;
+        margin-top: -68.75rem;
         color: map-get($colores , color2 );
         text-transform: $texto-transfor;
         letter-spacing: .5625rem;
@@ -118,7 +118,9 @@
     height: 42.375rem;
     margin-top: 15.625rem;
     box-shadow: inset 0px 10px 10px map-get($colores , color3 );
+    @include grid(40% 60%, 200px 200px,"titulo-person descripcion-person" "textinferio-person descripcion-person",0px,0px);
     .h2-personaliza{
+        grid-area: titulo-person;
         color: map-get($colores , color1 );
         font-size: 60px;
         font-weight: bold;
@@ -127,18 +129,20 @@
         padding-top: 5.625rem;
     }
     .text-inferior{
+        grid-area: textinferio-person;
         font-size: 38px;
         font-weight: 25rem;
         text-transform: none;
     }
     .p-personaliza{
+        grid-area: descripcion-person;
         color:map-get($colores , color1 );
         font-size: 20px;
         font-weight: 6.25rem;
+        padding-top: 6.875rem;
         display: flex;
         flex-direction: column;
-        margin-left: 46.25rem;
-        margin-top: -20.3125rem;
+        margin: 0 auto;
         span.line-break {
             display: block;
             margin-bottom: 10px;
@@ -428,6 +432,8 @@
 .title-segundo{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     .h2-index2{
         letter-spacing: 9px;
         font-size: 60px;
@@ -453,6 +459,7 @@
         font-weight: 18.75rem;
         text-align: center;
         margin-top: 30px;
+        margin-bottom: 50px;
     }
     .p-index2-mobile{
         display: none;
@@ -475,8 +482,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 550px;
-        margin-top: -45px;
+        margin: 0 auto;
+        margin-top: 1055px;
         position: absolute;
         border: none;
         border: 10px solid map-get($colores , color1 );

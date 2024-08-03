@@ -19,7 +19,7 @@
     .menu{
         margin-right: 25px;
         margin: 0 5px;
-        margin-left: 300px;
+        margin-left: 12.5rem;
     }
     
     .menu li{
@@ -132,7 +132,7 @@
     .p-personaliza{
         font-size: 15px;
         margin-top: -220px;
-        margin-left: 500px;
+        margin: 0 auto;
         span.line-break {
             margin-bottom: 5px;
         } 
@@ -346,8 +346,7 @@
         height: 70px;
         font-size: 26px;
         letter-spacing: 6px;
-        margin-left: 384px;
-        margin-top: -30px;
+        margin-top: 850px;
         border: 7px solid map-get($colores , color1 );
     }
 }
@@ -779,16 +778,16 @@ font-weight: 300px;
     
     .menu{
         margin-right: 15px;
-        margin: 0 5px;
-        margin-left: 35px;
+        margin: 0 auto;
+        margin-left: 0px;
     }
     
     .menu li{
-        margin-right: 15px;
+        margin-right: 20px;
     }
     
     .menu a{
-        font-size: 14px;
+        font-size: 12px;
     }
     
     .bonton{
@@ -896,8 +895,7 @@ font-weight: 300px;
     }
     .p-personaliza{
         font-size: 12px;
-        margin-top: -140px;
-        margin-left: 350px;
+        margin-top: -35px;
         span.line-break {
             margin-bottom: 2.5px;
         } 
@@ -1105,20 +1103,17 @@ font-weight: 300px;
         font-size: 14px;
         margin-top: 20px;
         width: 530px;
-        margin-left: 120px;
+        margin-bottom: 20px;
     }
     img{
         width: 680px;
-        margin-top: 30px;
-        margin-left: 45px;
     }
     .buttom-index2{
         width: 185px;
         height: 50px;
         font-size: 20px;
         letter-spacing: 3px;
-        margin-left: 291px;
-        margin-top: -21px;
+        margin-top: 640px;
         border: 5px solid map-get($colores , color1 );
     }    
 }
@@ -1590,7 +1585,7 @@ header{
             border-radius: 25px;
             background-color: map-get($colores , color2 );
             position: absolute;
-            margin-top: 270px;
+            margin-top: 250px;
             right: 10px;
             height: 0;
             overflow: hidden;
@@ -1598,7 +1593,7 @@ header{
             justify-content: center;
             flex-direction: column;
             align-items: start;
-            gap: 25px;
+            gap: 15px;
             transition: all .3s;
             a{
                 text-decoration: none;
@@ -1728,26 +1723,29 @@ justify-content: center;
 }
 
 .contenedor-personaliza{
-    height: 1650px;
-    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 1750px;
     border-radius: 50px;
     .h2-personaliza{
         font-size: 32px;
-        padding-top: 40px;
-        text-align: center;
-        margin-left: -10px;
+        margin: 0 auto;
+        padding-top: 50px;
     }
     
     .text-inferior{
         font-size: 16px;
+        margin: 0 auto;
+        padding-top: 20px;
     }
     
     .p-personaliza{
         font-size: 15px;
-        margin-top: 5px;
-        text-align: center;
-        margin-left: 85px;
+        padding-top: 20px;
         width: 300px;
+        margin: 0 auto;
         span.line-break {
             margin-bottom: 2.5px;
         } 
@@ -1768,7 +1766,7 @@ justify-content: center;
 
 .contenido-usuario-principal{
     @include grid(267px,350px 350px 350px 350px,"conten-info-person" "conten-objetivo" "conten-herramienta" "conten-soporte",none,none);
-    margin-top: -1220px;
+    margin-top: -1300px;
     .conten-info-person{
         grid-area: conten-info-person;
         width: 267px;
@@ -1971,8 +1969,8 @@ justify-content: center;
     
     .h3-index2{
         font-size: 14px;
-        margin-top: 15px;
-        margin-left: 110px;
+        padding-top: 25px;
+        margin: 0 auto;
         width: 250px;
     }
     
@@ -1990,11 +1988,9 @@ justify-content: center;
         text-align: center;
         margin-top: 25px;
         width: 400px;
-        margin-left: 40px;
     }
     img{
         width: 440px;
-        margin-left: 20px;
     }
     
     .buttom-index2{
@@ -2002,8 +1998,8 @@ justify-content: center;
         height: 50px;
         font-size: 16px;
         letter-spacing: 3px;
-        margin-left: 170px;
-        margin-top: -21px;
+        margin: 0 auto;
+        margin-top: 435px;
         position: absolute;
     }
 }
@@ -2543,7 +2539,7 @@ display: none;
             justify-content: center;
             flex-direction: column;
             align-items: start;
-            gap: 25px;
+            gap: 15px;
             transition: all .3s;
             li{
                 list-style: none;
@@ -2569,10 +2565,17 @@ display: none;
             font-weight: bold;
             margin-left: 25px;
             border: none;
+            a{
+                margin-left: -5px;
+                text-decoration: none;
+                color: map-get($colores , color2 );
+            }
             &:active{
                 background: rgb(0,255,218);
                 background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 100%);
-                color: map-get($colores , color2 );
+            a{
+                color: map-get($colores , color1 );
+            }
             }
         }
     }
@@ -2674,11 +2677,13 @@ text-align: center;
     height: 1650px;
     margin-top: 120px;
     border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     .h2-personaliza{
         font-size: 25px;
         padding-top: 40px;
-        text-align: center;
-        margin-left: -10px;
     }
     .text-inferior{
         font-size: 16px;
@@ -2919,7 +2924,7 @@ text-align: center;
     .h3-index2{
         font-size: 12px;
         margin-top: 15px;
-        margin-left: 30px;
+        margin: 0 auto;
         width: 250px;
     }
     
@@ -2940,15 +2945,14 @@ text-align: center;
     img{
         width: 320px;
         margin-top: 25px;
-        margin-left: 0px;
     }
     .buttom-index2{
         width: 145px;
         height: 40px;
         font-size: 14px;
         letter-spacing: 3px;
-        margin-left: 85px;
-        margin-top: -21px;
+        margin: 0 auto;
+        margin-top: 350px;
         position: absolute;
     }    
 }

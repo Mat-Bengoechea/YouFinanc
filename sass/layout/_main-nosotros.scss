@@ -84,102 +84,105 @@ font-weight: 300px;
 }
 }
 }
-.card1-nosotros{
-    position: absolute;
-    background: $color-card;
-    border-radius: 100px;
-    height: 626px;
-    width: 630px;
-    margin-top: 655px;
-    margin-left: 40px;
-    display: flex;
-    flex-direction: column;
-    filter: drop-shadow(0px 10px 10px map-get($colores , color1 )) opacity(2);
-    .h2-card1{
+.cards-nosotros{
+    margin-top: 39.375rem;
+    @include grid(50% 50%,630px,"card1 card2",0px,0px);
+    .card1-nosotros{
+        grid-area: card1;
+        background: $color-card;
+        border-radius: 100px;
+        height: 626px;
+        width: 630px;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        filter: drop-shadow(0px 10px 10px map-get($colores , color1 )) opacity(2);
+        .h2-card1{
+            text-align: center;
+            margin-top: 100px;
+            font-size: 35px;
+            text-transform: $texto-transfor;
+            color: map-get($colores , color2 );
+            .mision{
+                letter-spacing: 9px;
+                @include color-degrade-90;
+                font-size: 60px;
+            }
+        }
+        .retangulo-nosotros{
+            height: 4px;
+            background-color: map-get($colores , color3 );
+            width: 250px;
+            margin-left: 185px;
+            margin-top: -10px;
+            background: rgb(0,255,218);
+            background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 95%);
+            
+        }
+        .descr-card1{
+            font-size: 20px;
+            font-weight: 300;
+            color: map-get($colores , color2 );
         text-align: center;
-        margin-top: 100px;
-        font-size: 35px;
-        text-transform: $texto-transfor;
-        color: map-get($colores , color2 );
-        .mision{
-            letter-spacing: 9px;
-            @include color-degrade-90;
-            font-size: 60px;
+        margin-top: 70px;
+        .estabilidad-finan{
+            font-weight: bold;
+            .you{
+                @include you(20px);
+            }
+            .financ{
+                @include financ(20px);
+            }
+        }    
         }
     }
-    .retangulo-nosotros{
-        height: 4px;
-        background-color: map-get($colores , color3 );
-        width: 250px;
-        margin-left: 185px;
-        margin-top: -10px;
-        background: rgb(0,255,218);
-        background: linear-gradient(90deg, rgba(0,255,218,1) 0%, rgba(60,61,247,1) 95%);
-        
-    }
-    .descr-card1{
-        font-size: 20px;
-        font-weight: 300;
-        color: map-get($colores , color2 );
-    text-align: center;
-    margin-top: 70px;
-    .estabilidad-finan{
-        font-weight: bold;
+    .card2-nosotros{
+        grid-area: card2;
+        background: $color-card;
+        border-radius: 100px;
+        height: 626px;
+        width: 630px;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        filter: drop-shadow(0px 10px 10px map-get($colores , color1 )) opacity(2);
+        .h2-card2{
+            text-align: center;
+            margin-top: 100px;
+            font-size: 35px;
+            text-transform: $texto-transfor;
+            color: map-get($colores , color2 );
+            .enfoque{
+                @include color-degrade-90;
+                font-size: 60px;
+            }
+        }
+        .descr-card2{
+            font-size: 20px;
+            font-weight: 300;
+            color: map-get($colores , color2 );
+        text-align: center;
+        margin-top: 70px;
+        .necesidades{
+            font-weight: bold;
+        }
+        .tiene-algo{
+            font-weight: bold;
+            text-decoration: $texto-transfor;
+        }
         .you{
             @include you(20px);
         }
         .financ{
             @include financ(20px);
         }
-    }    
-    }
-}
-.card2-nosotros{
-    position: absolute;
-    background: $color-card;
-    border-radius: 100px;
-    height: 626px;
-    width: 630px;
-    margin-top: 655px;
-    margin-left: 750px;
-    display: flex;
-    flex-direction: column;
-    filter: drop-shadow(0px 10px 10px map-get($colores , color1 )) opacity(2);
-    .h2-card2{
-        text-align: center;
-        margin-top: 100px;
-        font-size: 35px;
-        text-transform: $texto-transfor;
-        color: map-get($colores , color2 );
-        .enfoque{
-            @include color-degrade-90;
-            font-size: 60px;
         }
     }
-    .descr-card2{
-        font-size: 20px;
-        font-weight: 300;
-        color: map-get($colores , color2 );
-    text-align: center;
-    margin-top: 70px;
-    .necesidades{
-        font-weight: bold;
-    }
-    .tiene-algo{
-        font-weight: bold;
-        text-decoration: $texto-transfor;
-    }
-    .you{
-        @include you(20px);
-    }
-    .financ{
-        @include financ(20px);
-    }
-    }
+    
 }
 .contenedor1-inferior{
     background: map-get($colores , color2 );
-    margin-top: 1170px;
+    margin-top: -100px;
     border-radius: 0px 0px 100px 100px;
     box-shadow: inset 0px 10px 10px map-get($colores , color3 );
     height: 966px;
@@ -270,6 +273,9 @@ font-weight: 300px;
     }
 }
 .info-nosotros-fin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     .h2-nosotros2{
         font-size: 60px;
         letter-spacing: 9px;
@@ -301,8 +307,8 @@ font-weight: 300px;
         display: none;
     }
     img{
-        margin-top: 50px;
-        margin-left: 55px;
+        padding-top: 50px;
+        margin: 0 auto;
     }
     .buttom-nosotros2{
         width: 363px;
@@ -318,9 +324,7 @@ font-weight: 300px;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 530px;
         margin-top: -45px;
-        position: absolute;
         border: none;
         border: 10px solid map-get($colores , color1 );
         &:active{
