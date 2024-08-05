@@ -1121,7 +1121,7 @@ header {
   border-radius: 100px 100px 0px 0px;
   box-shadow: inset 0px 10px 10px #BEBEBE;
   display: grid;
-  grid-template-columns: 670px 670px;
+  grid-template-columns: 40% 50%;
   grid-template-rows: 100px 200px 200px;
   grid-template-areas: "introduccion introduccion" "titulo-somo parrafo-somo" "titulo-nuestro parrafo-nuestro";
   grid-row-gap: none;
@@ -2149,7 +2149,7 @@ footer {
   .contenedor1-superior {
     width: 100%;
     margin-top: 160px;
-    height: 655px;
+    height: 550px;
     display: grid;
     grid-template-columns: 500px 500px;
     grid-template-rows: 100px 150px 200px;
@@ -2162,90 +2162,98 @@ footer {
       .contenedor1-superior .frase-nosotros .nombre-actor {
         font-weight: 600; }
     .contenedor1-superior .h2-1nosotros {
-      font-size: 40px;
+      font-size: 30px;
+      margin-left: 10px;
       margin-top: 35px; }
     .contenedor1-superior .h2-2nosotros {
-      font-size: 40px; }
+      font-size: 32px;
+      margin-left: 10px; }
     .contenedor1-superior .parrafo-somo {
       margin-top: 35px;
-      font-size: 20px;
+      font-size: 16px;
       font-weight: 300px;
-      letter-spacing: -0.5px; }
+      letter-spacing: -0.5px;
+      width: 450px; }
       .contenedor1-superior .parrafo-somo .you {
         font-family: "montserrat alter";
         src: url(../assets/fonts/MontserratAlternates-Bold.ttf);
-        font-size: 20px;
+        font-size: 16px;
         font-weight: bold; }
       .contenedor1-superior .parrafo-somo .financ {
         font-family: "montserrat";
         src: url(../assets/fonts/Montserrat-Black.ttf);
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 900; }
     .contenedor1-superior .parrafo-nuestro {
       margin-top: 15px;
-      font-size: 20px;
-      font-weight: 300px; }
+      font-size: 16px;
+      font-weight: 300px;
+      width: 450px; }
       .contenedor1-superior .parrafo-nuestro .queremos-nosotros {
-        font-size: 21px; }
-  .card1-nosotros {
-    border-radius: 100px;
-    height: 466px;
-    width: 470px;
-    margin-top: 755px;
-    margin-left: 25px;
-    border-radius: 70px; }
-    .card1-nosotros .h2-card1 {
-      margin-top: 40px;
-      font-size: 35px; }
-      .card1-nosotros .h2-card1 .mision {
-        letter-spacing: 9px;
-        font-size: 60px; }
-    .card1-nosotros .retangulo-nosotros {
-      height: 4px;
-      width: 250px;
-      margin-left: 110px;
-      margin-top: 5px; }
-    .card1-nosotros .descr-card1 {
-      font-size: 20px;
-      font-weight: 300;
-      margin-top: 40px; }
-      .card1-nosotros .descr-card1 .you {
-        font-family: "montserrat alter";
-        src: url(../assets/fonts/MontserratAlternates-Bold.ttf);
+        font-size: 17px; }
+  .cards-nosotros {
+    margin-top: 39.375rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 470px;
+    grid-template-areas: "card1 card2";
+    grid-row-gap: 0px;
+    grid-column-gap: 0px; }
+    .cards-nosotros .card1-nosotros {
+      border-radius: 100px;
+      height: 466px;
+      width: 470px;
+      border-radius: 70px; }
+      .cards-nosotros .card1-nosotros .h2-card1 {
+        margin-top: 40px;
+        font-size: 35px; }
+        .cards-nosotros .card1-nosotros .h2-card1 .mision {
+          letter-spacing: 9px;
+          font-size: 60px; }
+      .cards-nosotros .card1-nosotros .retangulo-nosotros {
+        height: 4px;
+        width: 250px;
+        margin-left: 110px;
+        margin-top: 5px; }
+      .cards-nosotros .card1-nosotros .descr-card1 {
         font-size: 20px;
-        font-weight: bold; }
-      .card1-nosotros .descr-card1 .financ {
-        font-family: "montserrat";
-        src: url(../assets/fonts/Montserrat-Black.ttf);
+        font-weight: 300;
+        margin-top: 40px; }
+        .cards-nosotros .card1-nosotros .descr-card1 .you {
+          font-family: "montserrat alter";
+          src: url(../assets/fonts/MontserratAlternates-Bold.ttf);
+          font-size: 20px;
+          font-weight: bold; }
+        .cards-nosotros .card1-nosotros .descr-card1 .financ {
+          font-family: "montserrat";
+          src: url(../assets/fonts/Montserrat-Black.ttf);
+          font-size: 20px;
+          font-weight: 900; }
+    .cards-nosotros .card2-nosotros {
+      height: 466px;
+      width: 470px;
+      border-radius: 70px; }
+      .cards-nosotros .card2-nosotros .h2-card2 {
+        margin-top: 40px;
+        font-size: 35px; }
+        .cards-nosotros .card2-nosotros .h2-card2 .enfoque {
+          font-size: 60px; }
+      .cards-nosotros .card2-nosotros .descr-card2 {
         font-size: 20px;
-        font-weight: 900; }
-  .card2-nosotros {
-    height: 466px;
-    width: 470px;
-    margin-top: 755px;
-    margin-left: 530px;
-    border-radius: 70px; }
-    .card2-nosotros .h2-card2 {
-      margin-top: 40px;
-      font-size: 35px; }
-      .card2-nosotros .h2-card2 .enfoque {
-        font-size: 60px; }
-    .card2-nosotros .descr-card2 {
-      font-size: 20px;
-      font-weight: 300;
-      margin-top: 40px; }
-      .card2-nosotros .descr-card2 .you {
-        font-family: "montserrat alter";
-        src: url(../assets/fonts/MontserratAlternates-Bold.ttf);
-        font-size: 20px;
-        font-weight: bold; }
-      .card2-nosotros .descr-card2 .financ {
-        font-family: "montserrat";
-        src: url(../assets/fonts/Montserrat-Black.ttf);
-        font-size: 20px;
-        font-weight: 900; }
+        font-weight: 300;
+        margin-top: 40px; }
+        .cards-nosotros .card2-nosotros .descr-card2 .you {
+          font-family: "montserrat alter";
+          src: url(../assets/fonts/MontserratAlternates-Bold.ttf);
+          font-size: 20px;
+          font-weight: bold; }
+        .cards-nosotros .card2-nosotros .descr-card2 .financ {
+          font-family: "montserrat";
+          src: url(../assets/fonts/Montserrat-Black.ttf);
+          font-size: 20px;
+          font-weight: 900; }
   .contenedor1-inferior {
-    margin-top: 1170px;
+    margin-top: -70px;
     border-radius: 0px 0px 100px 100px;
     height: 966px;
     display: grid;
@@ -2326,7 +2334,6 @@ footer {
       font-weight: 900; }
   .info-nosotros-fin img {
     margin-top: 50px;
-    margin-left: 35px;
     width: 950px; }
   .info-nosotros-fin .buttom-nosotros2 {
     width: 320px;
@@ -2334,9 +2341,223 @@ footer {
     border-radius: 100px;
     font-size: 30px;
     letter-spacing: 9px;
-    margin-left: 350px;
-    margin-top: -45px;
-    border: 8px solid #202020; } }
+    margin-top: -35px;
+    border: 8px solid #202020; }
+  .image-educacionfinanciera {
+    height: 800px;
+    padding-top: 100px; }
+  .title-educacion .h1-educacionfinanciera {
+    font-size: 40px;
+    margin-left: 1.5625rem;
+    margin-top: -600px;
+    letter-spacing: 7px; }
+  .title-educacion .h2-educacionfinanciera {
+    font-size: 16px;
+    margin-left: 7.8125rem;
+    margin-top: .625rem; }
+  .title-educacion .p-educacionfinanciera {
+    font-weight: 300;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 3.4375rem;
+    width: 350px; }
+  .contenedor-informativo {
+    width: 100%;
+    height: 2550px;
+    border-radius: 100px;
+    margin-top: 750px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 220px 300px 300px 300px 300px 300px 300px 300px;
+    grid-template-areas: "introedu introedu" "seccion1 contenido1" "seccion2 contenido2" "seccion3 contenido3" "seccion4 contenido4" "seccion5 contenido5" "seccion6 contenido6" "seccion7 contenido7";
+    grid-row-gap: 30px;
+    grid-column-gap: none; }
+    .contenedor-informativo .p-educacionfinanciera2 {
+      font-weight: 300;
+      font-size: 20px;
+      margin-top: 100px; }
+    .contenedor-informativo .seccion1 {
+      margin-left: 20px; }
+      .contenedor-informativo .seccion1 h2 {
+        font-size: 35px; }
+      .contenedor-informativo .seccion1 p {
+        font-size: 25px;
+        font-weight: 500; }
+    .contenedor-informativo .contenidotitulo1 h2 {
+      font-size: 25px;
+      margin-bottom: 30px; }
+    .contenedor-informativo .contenidotitulo1 ul {
+      font-size: 14px;
+      font-weight: 300;
+      margin-top: 5px; }
+    .contenedor-informativo .contenidotitulo1 img {
+      height: 50px;
+      width: 50px;
+      margin-left: 420px; }
+    .contenedor-informativo .contenidotitulo1 .imagen1 {
+      margin-top: -200px; }
+    .contenedor-informativo .contenidotitulo1 .imagen2 {
+      margin-top: -10px; }
+    .contenedor-informativo .contenidotitulo1 .imagen3 {
+      margin-top: -50px; }
+    .contenedor-informativo .seccion2 {
+      margin-left: 20px; }
+      .contenedor-informativo .seccion2 h2 {
+        font-size: 35px; }
+      .contenedor-informativo .seccion2 p {
+        font-size: 25px;
+        font-weight: 500; }
+    .contenedor-informativo .contenidotitulo2 h2 {
+      font-size: 25px;
+      margin-bottom: 30px; }
+    .contenedor-informativo .contenidotitulo2 ul {
+      font-size: 14px;
+      font-weight: 300;
+      margin-top: 5px; }
+    .contenedor-informativo .contenidotitulo2 img {
+      height: 50px;
+      width: 50px;
+      margin-left: 420px; }
+    .contenedor-informativo .contenidotitulo2 .imagen12 {
+      margin-top: -200px; }
+    .contenedor-informativo .contenidotitulo2 .imagen22 {
+      margin-top: -90px; }
+    .contenedor-informativo .contenidotitulo2 .imagen32 {
+      margin-top: -70px; }
+    .contenedor-informativo .seccion3 {
+      margin-left: 20px; }
+      .contenedor-informativo .seccion3 h2 {
+        font-size: 35px; }
+      .contenedor-informativo .seccion3 p {
+        font-size: 25px;
+        font-weight: 500; }
+    .contenedor-informativo .contenidotitulo3 h2 {
+      font-size: 25px;
+      margin-bottom: 30px; }
+    .contenedor-informativo .contenidotitulo3 ul {
+      font-size: 14px;
+      font-weight: 300;
+      margin-top: 5px; }
+    .contenedor-informativo .contenidotitulo3 img {
+      height: 50px;
+      width: 50px;
+      margin-left: 420px; }
+    .contenedor-informativo .contenidotitulo3 .imagen13 {
+      margin-top: -200px; }
+    .contenedor-informativo .contenidotitulo3 .imagen23 {
+      margin-top: -90px; }
+    .contenedor-informativo .contenidotitulo3 .imagen33 {
+      margin-top: -50px; }
+    .contenedor-informativo .seccion4 {
+      margin-left: 20px; }
+      .contenedor-informativo .seccion4 h2 {
+        font-size: 35px; }
+      .contenedor-informativo .seccion4 p {
+        font-size: 25px;
+        font-weight: 500; }
+    .contenedor-informativo .contenidotitulo4 h2 {
+      font-size: 25px;
+      margin-bottom: 30px; }
+    .contenedor-informativo .contenidotitulo4 ul {
+      font-size: 14px;
+      font-weight: 300;
+      margin-top: 5px; }
+    .contenedor-informativo .contenidotitulo4 img {
+      height: 50px;
+      width: 50px;
+      margin-left: 420px; }
+    .contenedor-informativo .contenidotitulo4 .imagen14 {
+      margin-top: -200px; }
+    .contenedor-informativo .contenidotitulo4 .imagen24 {
+      margin-top: -90px; }
+    .contenedor-informativo .contenidotitulo4 .imagen34 {
+      margin-top: -50px; }
+    .contenedor-informativo .seccion5 {
+      margin-left: 20px; }
+      .contenedor-informativo .seccion5 h2 {
+        font-size: 35px; }
+      .contenedor-informativo .seccion5 p {
+        font-size: 25px;
+        font-weight: 500; }
+    .contenedor-informativo .contenidotitulo5 h2 {
+      font-size: 25px;
+      margin-bottom: 30px; }
+    .contenedor-informativo .contenidotitulo5 ul {
+      font-size: 14px;
+      font-weight: 300;
+      margin-top: 5px; }
+    .contenedor-informativo .contenidotitulo5 img {
+      height: 50px;
+      width: 50px;
+      margin-left: 420px; }
+    .contenedor-informativo .contenidotitulo5 .imagen15 {
+      margin-top: -200px; }
+    .contenedor-informativo .contenidotitulo5 .imagen25 {
+      margin-top: -90px; }
+    .contenedor-informativo .contenidotitulo5 .imagen35 {
+      margin-top: -50px; }
+    .contenedor-informativo .seccion6 {
+      margin-left: 20px; }
+      .contenedor-informativo .seccion6 h2 {
+        font-size: 35px; }
+      .contenedor-informativo .seccion6 p {
+        font-size: 25px;
+        font-weight: 500; }
+    .contenedor-informativo .contenidotitulo6 h2 {
+      font-size: 25px;
+      margin-bottom: 30px; }
+    .contenedor-informativo .contenidotitulo6 ul {
+      font-size: 14px;
+      font-weight: 300;
+      margin-top: 5px; }
+    .contenedor-informativo .contenidotitulo6 img {
+      height: 50px;
+      width: 50px;
+      margin-left: 420px; }
+    .contenedor-informativo .contenidotitulo6 .imagen16 {
+      margin-top: -200px; }
+    .contenedor-informativo .contenidotitulo6 .imagen26 {
+      margin-top: -90px; }
+    .contenedor-informativo .contenidotitulo6 .imagen36 {
+      margin-top: -50px; }
+    .contenedor-informativo .seccion7 {
+      margin-left: 20px; }
+      .contenedor-informativo .seccion7 h2 {
+        font-size: 35px; }
+      .contenedor-informativo .seccion7 p {
+        font-size: 25px;
+        font-weight: 500; }
+    .contenedor-informativo .contenidotitulo7 h2 {
+      font-size: 25px;
+      margin-bottom: 30px; }
+    .contenedor-informativo .contenidotitulo7 .contenidotitulo7 ul {
+      font-size: 14px;
+      font-weight: 300;
+      margin-top: 5px; }
+    .contenedor-informativo .contenidotitulo7 img {
+      height: 50px;
+      width: 50px;
+      margin-left: 420px; }
+    .contenedor-informativo .contenidotitulo7 .imagen17 {
+      margin-top: -200px; }
+    .contenedor-informativo .contenidotitulo7 .imagen27 {
+      margin-top: -90px; }
+    .contenedor-informativo .contenidotitulo7 .imagen37 {
+      margin-top: -50px; }
+  .title-2-educacion .h2-preguntas {
+    font-size: 45px;
+    margin-top: 150px; }
+  .title-2-educacion .FAQs {
+    font-size: 24px;
+    font-weight: 300; }
+  .title-2-educacion .pregunta-frecuente {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0 auto; }
+    .title-2-educacion .pregunta-frecuente .p-preguntafrecuente {
+      margin-top: 40px; }
+    .title-2-educacion .pregunta-frecuente img {
+      margin-top: 30px; } }
 
 @media (max-width: 768px) {
   header {
@@ -2443,9 +2664,9 @@ footer {
         font-size: 14px; }
   .contenido-usuario-principal {
     display: grid;
-    grid-template-columns: 267px 200px 200px;
+    grid-template-columns: 50% 50%;
     grid-template-rows: 350px 350px;
-    grid-template-areas: "conten-info-person conten-objetivo conten-herramienta" "conten-info-person conten-soporte conten-herramienta";
+    grid-template-areas: "conten-info-person conten-objetivo" "conten-herramienta conten-soporte";
     grid-row-gap: 25px;
     grid-column-gap: 25px;
     margin-top: -550px; }
@@ -2453,7 +2674,8 @@ footer {
       grid-area: conten-info-person;
       width: 267px;
       height: 350px;
-      border-radius: 35px; }
+      border-radius: 35px;
+      margin: 0 auto; }
       .contenido-usuario-principal .conten-info-person .icon-personal {
         width: 58px;
         height: 58px;
@@ -2493,7 +2715,8 @@ footer {
       grid-area: conten-objetivo;
       width: 200px;
       height: 300px;
-      border-radius: 40px; }
+      border-radius: 40px;
+      margin: 0 auto; }
       .contenido-usuario-principal .conten-objetivo .icon-objetivo {
         width: 58px;
         height: 58px;
@@ -2520,68 +2743,71 @@ footer {
         .contenido-usuario-principal .conten-objetivo .empezar2 img {
           width: 24px;
           height: 24px; }
-  .conten-herramienta {
-    grid-area: conten-herramienta;
-    width: 200px;
-    height: 300px;
-    border-radius: 40px; }
-    .conten-herramienta .icon-herramienta {
-      width: 58px;
-      height: 58px;
-      margin-top: 40px;
-      margin-left: 75px; }
-      .conten-herramienta .icon-herramienta img {
-        width: 38px;
-        height: 38px; }
-    .conten-herramienta .h2-herramientas-inter {
-      margin-top: 50px;
-      font-size: 12px; }
-    .conten-herramienta .empezar3 {
-      width: 150px;
-      height: 40px;
-      font-size: 18px;
-      margin-left: 25px;
-      margin-top: 40px;
-      letter-spacing: 2px; }
-      .conten-herramienta .empezar3 .textbutton3 {
-        margin-left: 20px; }
-      .conten-herramienta .empezar3 .iconbutton3 {
-        margin-right: 10px;
-        margin-top: 7px; }
-      .conten-herramienta .empezar3 img {
-        width: 24px;
-        height: 24px; }
-    .conten-herramienta .conten-soporte {
-      grid-area: conten-soporte;
+    .contenido-usuario-principal .conten-herramienta {
+      grid-area: conten-herramienta;
       width: 200px;
       height: 300px;
-      border-radius: 40px; }
-      .conten-herramienta .conten-soporte .icon-soporte {
+      border-radius: 40px;
+      margin: 0 auto; }
+      .contenido-usuario-principal .conten-herramienta .icon-herramienta {
         width: 58px;
         height: 58px;
         margin-top: 40px;
         margin-left: 75px; }
-        .conten-herramienta .conten-soporte .icon-soporte img {
+        .contenido-usuario-principal .conten-herramienta .icon-herramienta img {
           width: 38px;
           height: 38px; }
-      .conten-herramienta .conten-soporte .h2-soporte-asist {
+      .contenido-usuario-principal .conten-herramienta .h2-herramientas-inter {
         margin-top: 50px;
         font-size: 12px; }
-    .conten-herramienta .empezar4 {
-      width: 150px;
-      height: 40px;
-      font-size: 18px;
-      margin-left: 25px;
-      margin-top: 40px;
-      letter-spacing: 2px; }
-      .conten-herramienta .empezar4 .textbutton4 {
-        margin-left: 20px; }
-      .conten-herramienta .empezar4 .iconbutton4 {
-        margin-right: 10px;
-        margin-top: 7px; }
-      .conten-herramienta .empezar4 img {
-        width: 24px;
-        height: 24px; }
+      .contenido-usuario-principal .conten-herramienta .empezar3 {
+        width: 150px;
+        height: 40px;
+        font-size: 18px;
+        margin-left: 25px;
+        margin-top: 40px;
+        letter-spacing: 2px; }
+        .contenido-usuario-principal .conten-herramienta .empezar3 .textbutton3 {
+          margin-left: 20px; }
+        .contenido-usuario-principal .conten-herramienta .empezar3 .iconbutton3 {
+          margin-right: 10px;
+          margin-top: 7px; }
+        .contenido-usuario-principal .conten-herramienta .empezar3 img {
+          width: 24px;
+          height: 24px; }
+      .contenido-usuario-principal .conten-herramienta .conten-soporte {
+        grid-area: conten-soporte;
+        width: 200px;
+        height: 300px;
+        border-radius: 40px; }
+        .contenido-usuario-principal .conten-herramienta .conten-soporte .icon-soporte {
+          width: 58px;
+          height: 58px;
+          margin-top: 40px;
+          margin-left: 75px; }
+          .contenido-usuario-principal .conten-herramienta .conten-soporte .icon-soporte img {
+            width: 38px;
+            height: 38px; }
+        .contenido-usuario-principal .conten-herramienta .conten-soporte .h2-soporte-asist {
+          margin-top: 50px;
+          font-size: 12px; }
+      .contenido-usuario-principal .conten-herramienta .empezar4 {
+        width: 150px;
+        height: 40px;
+        font-size: 18px;
+        margin-left: 25px;
+        margin-top: 40px;
+        letter-spacing: 2px; }
+        .contenido-usuario-principal .conten-herramienta .empezar4 .textbutton4 {
+          margin-left: 20px; }
+        .contenido-usuario-principal .conten-herramienta .empezar4 .iconbutton4 {
+          margin-right: 10px;
+          margin-top: 7px; }
+        .contenido-usuario-principal .conten-herramienta .empezar4 img {
+          width: 24px;
+          height: 24px; }
+    .contenido-usuario-principal .conten-soporte {
+      margin: 0 auto; }
   .title-segundo .h2-index2 {
     letter-spacing: 6px;
     font-size: 35px;
@@ -2680,7 +2906,7 @@ footer {
       font-weight: 400;
       width: 400px;
       margin-top: 0px;
-      margin-left: 75px; }
+      margin: 0 auto; }
       .contenedor-formulario .formulario .input-form input {
         margin-top: 50px;
         margin-left: -220px;
@@ -2699,7 +2925,7 @@ footer {
         margin-top: 80px; }
         .contenedor-formulario .formulario .input-form3 input {
           margin-top: 50px;
-          margin-left: -126px;
+          margin-left: -120px;
           border-radius: 50px;
           height: 173px;
           width: 450px; }
@@ -2717,20 +2943,19 @@ footer {
   .sector-contactanos {
     display: grid;
     grid-template-columns: 384px 384px;
-    grid-template-rows: 400px 400px;
+    grid-template-rows: 250px 250px;
     grid-template-areas: "h1 h1" "card1 card2";
-    grid-row-gap: 50px;
-    grid-column-gap: none;
-    margin-top: 120px; }
+    grid-row-gap: 20px;
+    grid-column-gap: none; }
     .sector-contactanos .h2-contacto2 {
       font-size: 40px;
-      margin-top: 150px; }
+      margin-top: 50px; }
     .sector-contactanos .correo-electronico-contenedor {
       border-radius: 50px;
       width: 237px;
       height: 226px;
       margin-left: 75px;
-      margin-top: 50px; }
+      margin-top: 0px; }
       .sector-contactanos .correo-electronico-contenedor img {
         height: 65px;
         margin-left: 90px;
@@ -2747,7 +2972,7 @@ footer {
       width: 237px;
       height: 226px;
       margin-left: 75px;
-      margin-top: 50px; }
+      margin-top: 0px; }
       .sector-contactanos .telefono-contenedor img {
         height: 65px;
         margin-left: 90px;
@@ -2780,7 +3005,7 @@ footer {
     width: 100%;
     margin-top: 50px;
     border-radius: 70px 70px 0px 0px;
-    height: 550px;
+    height: 480px;
     display: grid;
     grid-template-columns: 384px 384px;
     grid-template-rows: 100px 150px 200px;
@@ -2793,90 +3018,95 @@ footer {
       .contenedor1-superior .frase-nosotros .nombre-actor {
         font-weight: 600; }
     .contenedor1-superior .h2-1nosotros {
-      font-size: 30px;
+      font-size: 26px;
       margin-top: 35px;
       margin-left: 20px; }
     .contenedor1-superior .h2-2nosotros {
-      font-size: 35px;
+      font-size: 26px;
       margin-left: 20px; }
     .contenedor1-superior .parrafo-somo {
       margin-top: 35px;
-      font-size: 16px;
+      font-size: 14px;
       font-weight: 300px;
       letter-spacing: -0.5px;
       width: 350px; }
       .contenedor1-superior .parrafo-somo .you {
         font-family: "montserrat alter";
         src: url(../assets/fonts/MontserratAlternates-Bold.ttf);
-        font-size: 16px;
+        font-size: 14px;
         font-weight: bold; }
       .contenedor1-superior .parrafo-somo .financ {
         font-family: "montserrat";
         src: url(../assets/fonts/Montserrat-Black.ttf);
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 900; }
     .contenedor1-superior .parrafo-nuestro {
       margin-top: 15px;
-      font-size: 16px;
-      font-weight: 300px; }
+      font-size: 14px;
+      font-weight: 300px;
+      width: 350px; }
       .contenedor1-superior .parrafo-nuestro .queremos-nosotros {
-        font-size: 17px; }
-  .card1-nosotros {
-    border-radius: 100px;
-    height: 366px;
-    width: 340px;
-    margin-top: 550px;
-    margin-left: 25px;
-    border-radius: 70px; }
-    .card1-nosotros .h2-card1 {
-      margin-top: 50px;
-      font-size: 25px; }
-      .card1-nosotros .h2-card1 .mision {
-        letter-spacing: 9px;
-        font-size: 40px; }
-    .card1-nosotros .retangulo-nosotros {
-      display: none; }
-    .card1-nosotros .descr-card1 {
-      font-size: 14px;
-      font-weight: 300;
-      margin-top: 40px; }
-      .card1-nosotros .descr-card1 .you {
-        font-family: "montserrat alter";
-        src: url(../assets/fonts/MontserratAlternates-Bold.ttf);
+        font-size: 15px; }
+  .cards-nosotros {
+    margin-top: 30rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 370px;
+    grid-template-areas: "card1 card2";
+    grid-row-gap: 0px;
+    grid-column-gap: 0px; }
+    .cards-nosotros .card1-nosotros {
+      border-radius: 100px;
+      height: 366px;
+      width: 340px;
+      border-radius: 70px; }
+      .cards-nosotros .card1-nosotros .h2-card1 {
+        margin-top: 50px;
+        font-size: 25px; }
+        .cards-nosotros .card1-nosotros .h2-card1 .mision {
+          letter-spacing: 9px;
+          font-size: 40px; }
+      .cards-nosotros .card1-nosotros .retangulo-nosotros {
+        display: none; }
+      .cards-nosotros .card1-nosotros .descr-card1 {
         font-size: 14px;
-        font-weight: bold; }
-      .card1-nosotros .descr-card1 .financ {
-        font-family: "montserrat";
-        src: url(../assets/fonts/Montserrat-Black.ttf);
+        font-weight: 300;
+        margin-top: 40px; }
+        .cards-nosotros .card1-nosotros .descr-card1 .you {
+          font-family: "montserrat alter";
+          src: url(../assets/fonts/MontserratAlternates-Bold.ttf);
+          font-size: 14px;
+          font-weight: bold; }
+        .cards-nosotros .card1-nosotros .descr-card1 .financ {
+          font-family: "montserrat";
+          src: url(../assets/fonts/Montserrat-Black.ttf);
+          font-size: 14px;
+          font-weight: 900; }
+    .cards-nosotros .card2-nosotros {
+      height: 366px;
+      width: 340px;
+      border-radius: 70px; }
+      .cards-nosotros .card2-nosotros .h2-card2 {
+        margin-top: 50px;
+        font-size: 25px; }
+        .cards-nosotros .card2-nosotros .h2-card2 .enfoque {
+          font-size: 40px; }
+      .cards-nosotros .card2-nosotros .descr-card2 {
         font-size: 14px;
-        font-weight: 900; }
-  .card2-nosotros {
-    height: 366px;
-    width: 340px;
-    margin-top: 550px;
-    margin-left: 405px;
-    border-radius: 70px; }
-    .card2-nosotros .h2-card2 {
-      margin-top: 50px;
-      font-size: 25px; }
-      .card2-nosotros .h2-card2 .enfoque {
-        font-size: 40px; }
-    .card2-nosotros .descr-card2 {
-      font-size: 14px;
-      font-weight: 300;
-      margin-top: 40px; }
-      .card2-nosotros .descr-card2 .you {
-        font-family: "montserrat alter";
-        src: url(../assets/fonts/MontserratAlternates-Bold.ttf);
-        font-size: 14px;
-        font-weight: bold; }
-      .card2-nosotros .descr-card2 .financ {
-        font-family: "montserrat";
-        src: url(../assets/fonts/Montserrat-Black.ttf);
-        font-size: 14px;
-        font-weight: 900; }
+        font-weight: 300;
+        margin-top: 40px; }
+        .cards-nosotros .card2-nosotros .descr-card2 .you {
+          font-family: "montserrat alter";
+          src: url(../assets/fonts/MontserratAlternates-Bold.ttf);
+          font-size: 14px;
+          font-weight: bold; }
+        .cards-nosotros .card2-nosotros .descr-card2 .financ {
+          font-family: "montserrat";
+          src: url(../assets/fonts/Montserrat-Black.ttf);
+          font-size: 14px;
+          font-weight: 900; }
   .contenedor1-inferior {
-    margin-top: 850px;
+    margin-top: -70px;
     border-radius: 0px 0px 100px 100px;
     height: 750px;
     display: grid;
@@ -2950,8 +3180,7 @@ footer {
     font-size: 15px;
     font-weight: 300;
     margin-top: 50px;
-    width: 470px;
-    margin-left: 160px; }
+    width: 470px; }
     .info-nosotros-fin .p-nosotros2 .you {
       font-family: "montserrat alter";
       src: url(../assets/fonts/MontserratAlternates-Bold.ttf);
@@ -2963,8 +3192,7 @@ footer {
       font-size: 16px;
       font-weight: 900; }
   .info-nosotros-fin img {
-    margin-top: 50px;
-    margin-left: 50px;
+    margin-top: 20px;
     width: 670px; }
   .info-nosotros-fin .buttom-nosotros2 {
     width: 230px;
@@ -2972,9 +3200,226 @@ footer {
     border-radius: 100px;
     font-size: 20px;
     letter-spacing: 6px;
-    margin-left: 270px;
     margin-top: -30px;
-    border: 8px solid #202020; } }
+    border: 8px solid #202020; }
+  .image-educacionfinanciera {
+    display: none; }
+  .title-educacion .h1-educacionfinanciera {
+    font-size: 40px;
+    padding-top: 100px;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 7px; }
+  .title-educacion .h2-educacionfinanciera {
+    font-size: 16px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: .625rem; }
+  .title-educacion .p-educacionfinanciera {
+    font-weight: 300;
+    font-size: 12px;
+    padding-top: 10px;
+    margin: 0 auto;
+    text-align: center;
+    width: 350px; }
+  .contenedor-informativo {
+    width: 100%;
+    height: 2050px;
+    border-radius: 100px;
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 150px 250px 250px 250px 250px 250px 250px 250px;
+    grid-template-areas: "introedu introedu" "seccion1 contenido1" "seccion2 contenido2" "seccion3 contenido3" "seccion4 contenido4" "seccion5 contenido5" "seccion6 contenido6" "seccion7 contenido7";
+    grid-row-gap: 20px;
+    grid-column-gap: none; }
+    .contenedor-informativo .p-educacionfinanciera2 {
+      font-weight: 300;
+      font-size: 16px;
+      margin-top: 70px; }
+    .contenedor-informativo .seccion1 {
+      margin-left: 20px; }
+      .contenedor-informativo .seccion1 h2 {
+        font-size: 26px; }
+      .contenedor-informativo .seccion1 p {
+        font-size: 18px;
+        font-weight: 500; }
+    .contenedor-informativo .contenidotitulo1 h2 {
+      font-size: 20px;
+      margin-bottom: 30px; }
+    .contenedor-informativo .contenidotitulo1 ul {
+      font-size: 12px;
+      font-weight: 300;
+      margin-top: 5px; }
+    .contenedor-informativo .contenidotitulo1 img {
+      height: 50px;
+      width: 50px;
+      margin-left: 300px; }
+    .contenedor-informativo .contenidotitulo1 .imagen1 {
+      margin-top: -200px; }
+    .contenedor-informativo .contenidotitulo1 .imagen2 {
+      margin-top: -10px; }
+    .contenedor-informativo .contenidotitulo1 .imagen3 {
+      margin-top: -50px; }
+    .contenedor-informativo .seccion2 {
+      margin-left: 20px; }
+      .contenedor-informativo .seccion2 h2 {
+        font-size: 26px; }
+      .contenedor-informativo .seccion2 p {
+        font-size: 18px;
+        font-weight: 500; }
+    .contenedor-informativo .contenidotitulo2 h2 {
+      font-size: 20px;
+      margin-bottom: 30px; }
+    .contenedor-informativo .contenidotitulo2 ul {
+      font-size: 12px;
+      font-weight: 300;
+      margin-top: 5px; }
+    .contenedor-informativo .contenidotitulo2 img {
+      height: 50px;
+      width: 50px;
+      margin-left: 300px; }
+    .contenedor-informativo .contenidotitulo2 .imagen12 {
+      margin-top: -200px; }
+    .contenedor-informativo .contenidotitulo2 .imagen22 {
+      margin-top: -90px; }
+    .contenedor-informativo .contenidotitulo2 .imagen32 {
+      margin-top: -70px; }
+    .contenedor-informativo .seccion3 {
+      margin-left: 20px; }
+      .contenedor-informativo .seccion3 h2 {
+        font-size: 26px; }
+      .contenedor-informativo .seccion3 p {
+        font-size: 18px;
+        font-weight: 500; }
+    .contenedor-informativo .contenidotitulo3 h2 {
+      font-size: 20px;
+      margin-bottom: 30px; }
+    .contenedor-informativo .contenidotitulo3 ul {
+      font-size: 12px;
+      font-weight: 300;
+      margin-top: 5px; }
+    .contenedor-informativo .contenidotitulo3 img {
+      height: 50px;
+      width: 50px;
+      margin-left: 300px; }
+    .contenedor-informativo .contenidotitulo3 .imagen13 {
+      margin-top: -200px; }
+    .contenedor-informativo .contenidotitulo3 .imagen23 {
+      margin-top: -90px; }
+    .contenedor-informativo .contenidotitulo3 .imagen33 {
+      margin-top: -50px; }
+    .contenedor-informativo .seccion4 {
+      margin-left: 20px; }
+      .contenedor-informativo .seccion4 h2 {
+        font-size: 26px; }
+      .contenedor-informativo .seccion4 p {
+        font-size: 18px;
+        font-weight: 500; }
+    .contenedor-informativo .contenidotitulo4 h2 {
+      font-size: 20px;
+      margin-bottom: 30px; }
+    .contenedor-informativo .contenidotitulo4 ul {
+      font-size: 12px;
+      font-weight: 300;
+      margin-top: 5px; }
+    .contenedor-informativo .contenidotitulo4 img {
+      height: 50px;
+      width: 50px;
+      margin-left: 300px; }
+    .contenedor-informativo .contenidotitulo4 .imagen14 {
+      margin-top: -200px; }
+    .contenedor-informativo .contenidotitulo4 .imagen24 {
+      margin-top: -90px; }
+    .contenedor-informativo .contenidotitulo4 .imagen34 {
+      margin-top: -50px; }
+    .contenedor-informativo .seccion5 {
+      margin-left: 20px; }
+      .contenedor-informativo .seccion5 h2 {
+        font-size: 26px; }
+      .contenedor-informativo .seccion5 p {
+        font-size: 18px;
+        font-weight: 500; }
+    .contenedor-informativo .contenidotitulo5 h2 {
+      font-size: 20px;
+      margin-bottom: 30px; }
+    .contenedor-informativo .contenidotitulo5 ul {
+      font-size: 12px;
+      font-weight: 300;
+      margin-top: 5px; }
+    .contenedor-informativo .contenidotitulo5 img {
+      height: 50px;
+      width: 50px;
+      margin-left: 300px; }
+    .contenedor-informativo .contenidotitulo5 .imagen15 {
+      margin-top: -200px; }
+    .contenedor-informativo .contenidotitulo5 .imagen25 {
+      margin-top: -90px; }
+    .contenedor-informativo .contenidotitulo5 .imagen35 {
+      margin-top: -50px; }
+    .contenedor-informativo .seccion6 {
+      margin-left: 20px; }
+      .contenedor-informativo .seccion6 h2 {
+        font-size: 26px; }
+      .contenedor-informativo .seccion6 p {
+        font-size: 18px;
+        font-weight: 500; }
+    .contenedor-informativo .contenidotitulo6 h2 {
+      font-size: 20px;
+      margin-bottom: 30px; }
+    .contenedor-informativo .contenidotitulo6 ul {
+      font-size: 12px;
+      font-weight: 300;
+      margin-top: 5px; }
+    .contenedor-informativo .contenidotitulo6 img {
+      height: 50px;
+      width: 50px;
+      margin-left: 300px; }
+    .contenedor-informativo .contenidotitulo6 .imagen16 {
+      margin-top: -200px; }
+    .contenedor-informativo .contenidotitulo6 .imagen26 {
+      margin-top: -90px; }
+    .contenedor-informativo .contenidotitulo6 .imagen36 {
+      margin-top: -50px; }
+    .contenedor-informativo .seccion7 {
+      margin-left: 20px; }
+      .contenedor-informativo .seccion7 h2 {
+        font-size: 26px; }
+      .contenedor-informativo .seccion7 p {
+        font-size: 18px;
+        font-weight: 500; }
+    .contenedor-informativo .contenidotitulo7 h2 {
+      font-size: 20px;
+      margin-bottom: 30px; }
+    .contenedor-informativo .contenidotitulo7 ul {
+      font-size: 12px;
+      font-weight: 300;
+      margin-top: 5px; }
+    .contenedor-informativo .contenidotitulo7 img {
+      height: 50px;
+      width: 50px;
+      margin-left: 300px; }
+    .contenedor-informativo .contenidotitulo7 .imagen17 {
+      margin-top: -200px; }
+    .contenedor-informativo .contenidotitulo7 .imagen27 {
+      margin-top: -90px; }
+    .contenedor-informativo .contenidotitulo7 .imagen37 {
+      margin-top: -50px; }
+  .title-2-educacion .h2-preguntas {
+    font-size: 35px;
+    margin-top: 150px; }
+  .title-2-educacion .FAQs {
+    font-size: 20px;
+    font-weight: 300; }
+  .title-2-educacion .pregunta-frecuente {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 auto; }
+    .title-2-educacion .pregunta-frecuente .p-preguntafrecuente {
+      margin-top: 40px; }
+    .title-2-educacion .pregunta-frecuente img {
+      margin-top: 25px;
+      margin-left: -150px; } }
 
 @media (max-width: 480px) {
   header {
@@ -3515,7 +3960,7 @@ footer {
     width: 100%;
     margin-top: 50px;
     border-radius: 70px 70px 0px 0px;
-    height: 550px;
+    height: 650px;
     display: grid;
     grid-template-columns: 240px 240px;
     grid-template-rows: 70px 70px 100px 90px 150px;
@@ -3524,28 +3969,25 @@ footer {
     grid-column-gap: none; }
     .contenedor1-superior .frase-nosotros {
       font-size: 16px;
-      margin-top: 20px;
+      padding-top: 20px;
       width: 350px;
-      text-align: center;
-      margin-left: 50px; }
+      margin: 0 auto; }
       .contenedor1-superior .frase-nosotros .nombre-actor {
         font-weight: 600; }
     .contenedor1-superior .h2-1nosotros {
       font-size: 30px;
-      margin-top: 15px;
+      padding-top: 15px;
       text-align: center;
-      margin-left: 10px; }
+      margin: 0 auto; }
     .contenedor1-superior .h2-2nosotros {
       font-size: 24px;
-      margin-left: 10px;
-      text-align: center;
-      margin-top: 0px; }
+      margin: 0 auto;
+      text-align: center; }
     .contenedor1-superior .parrafo-somo {
-      margin-top: 0px;
       font-size: 16px;
       font-weight: 300px;
       text-align: center;
-      margin-left: 50px;
+      margin: 0 auto;
       letter-spacing: -0.5px;
       width: 350px; }
       .contenedor1-superior .parrafo-somo .you {
@@ -3559,69 +4001,76 @@ footer {
         font-size: 16px;
         font-weight: 900; }
     .contenedor1-superior .parrafo-nuestro {
-      margin-top: 15px;
+      padding-top: 15px;
+      margin: 0 auto;
       font-size: 16px;
       font-weight: 300px;
       text-align: center; }
       .contenedor1-superior .parrafo-nuestro .queremos-nosotros {
         font-size: 17px; }
-  .card1-nosotros {
-    border-radius: 100px;
-    height: 366px;
-    width: 340px;
-    margin-top: 550px;
-    margin-left: 70px;
-    border-radius: 70px; }
-    .card1-nosotros .h2-card1 {
-      margin-top: 50px;
-      font-size: 25px; }
-      .card1-nosotros .h2-card1 .mision {
-        letter-spacing: 9px;
-        font-size: 40px; }
-    .card1-nosotros .retangulo-nosotros {
-      display: none; }
-    .card1-nosotros .descr-card1 {
-      font-size: 14px;
-      font-weight: 300;
-      margin-top: 40px; }
-      .card1-nosotros .descr-card1 .you {
-        font-family: "montserrat alter";
-        src: url(../assets/fonts/MontserratAlternates-Bold.ttf);
+  .cards-nosotros {
+    margin-top: 620px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 400px 400px;
+    grid-template-areas: "card1" "card2";
+    grid-row-gap: 0px;
+    grid-column-gap: 0px; }
+    .cards-nosotros .card1-nosotros {
+      border-radius: 100px;
+      height: 366px;
+      width: 340px;
+      border-radius: 70px;
+      margin: 0 auto; }
+      .cards-nosotros .card1-nosotros .h2-card1 {
+        margin-top: 50px;
+        font-size: 25px; }
+        .cards-nosotros .card1-nosotros .h2-card1 .mision {
+          letter-spacing: 9px;
+          font-size: 40px; }
+      .cards-nosotros .card1-nosotros .retangulo-nosotros {
+        display: none; }
+      .cards-nosotros .card1-nosotros .descr-card1 {
         font-size: 14px;
-        font-weight: bold; }
-      .card1-nosotros .descr-card1 .financ {
-        font-family: "montserrat";
-        src: url(../assets/fonts/Montserrat-Black.ttf);
+        font-weight: 300;
+        margin-top: 40px; }
+        .cards-nosotros .card1-nosotros .descr-card1 .you {
+          font-family: "montserrat alter";
+          src: url(../assets/fonts/MontserratAlternates-Bold.ttf);
+          font-size: 14px;
+          font-weight: bold; }
+        .cards-nosotros .card1-nosotros .descr-card1 .financ {
+          font-family: "montserrat";
+          src: url(../assets/fonts/Montserrat-Black.ttf);
+          font-size: 14px;
+          font-weight: 900; }
+    .cards-nosotros .card2-nosotros {
+      height: 366px;
+      width: 340px;
+      border-radius: 70px;
+      margin: 0 auto; }
+      .cards-nosotros .card2-nosotros .h2-card2 {
+        margin-top: 50px;
+        font-size: 25px; }
+        .cards-nosotros .card2-nosotros .h2-card2 .enfoque {
+          font-size: 40px; }
+      .cards-nosotros .card2-nosotros .descr-card2 {
         font-size: 14px;
-        font-weight: 900; }
-  .card2-nosotros {
-    height: 366px;
-    width: 340px;
-    margin-top: 950px;
-    margin-left: 70px;
-    border-radius: 70px; }
-    .card2-nosotros .h2-card2 {
-      margin-top: 50px;
-      font-size: 25px; }
-      .card2-nosotros .h2-card2 .enfoque {
-        font-size: 40px; }
-    .card2-nosotros .descr-card2 {
-      font-size: 14px;
-      font-weight: 300;
-      margin-top: 40px; }
-      .card2-nosotros .descr-card2 .you {
-        font-family: "montserrat alter";
-        src: url(../assets/fonts/MontserratAlternates-Bold.ttf);
-        font-size: 14px;
-        font-weight: bold; }
-      .card2-nosotros .descr-card2 .financ {
-        font-family: "montserrat";
-        src: url(../assets/fonts/Montserrat-Black.ttf);
-        font-size: 14px;
-        font-weight: 900; }
+        font-weight: 300;
+        margin-top: 40px; }
+        .cards-nosotros .card2-nosotros .descr-card2 .you {
+          font-family: "montserrat alter";
+          src: url(../assets/fonts/MontserratAlternates-Bold.ttf);
+          font-size: 14px;
+          font-weight: bold; }
+        .cards-nosotros .card2-nosotros .descr-card2 .financ {
+          font-family: "montserrat";
+          src: url(../assets/fonts/Montserrat-Black.ttf);
+          font-size: 14px;
+          font-weight: 900; }
   .contenedor1-inferior {
-    margin-top: 1250px;
-    border-radius: 0px 0px 100px 100px;
+    margin-top: -90px;
+    border-radius: 0px 0px 70px 70px;
     height: 750px;
     display: grid;
     grid-template-columns: 240px 240px;
@@ -3630,9 +4079,10 @@ footer {
     grid-row-gap: 10px;
     grid-column-gap: none; }
     .contenedor1-inferior .h2-ofrecemos {
-      margin-top: 80px;
+      padding-top: 80px;
       font-size: 25px;
-      text-align: center; }
+      text-align: center;
+      margin: 0 auto; }
     .contenedor1-inferior .p-ofrecemos {
       display: none; }
     .contenedor1-inferior .p-ofrecemos-reponsive {
@@ -3657,19 +4107,19 @@ footer {
       font-weight: 300;
       width: 350px;
       text-align: center;
-      margin-left: 65px; }
+      margin: 0 auto; }
     .contenedor1-inferior .lista-nosotros2 {
       font-size: 16px;
       font-weight: 300;
       margin-left: 10px;
       width: 350px;
       text-align: center;
-      margin-left: 65px; }
+      margin: 0 auto; }
     .contenedor1-inferior .lista-nosotros3 {
       font-size: 16px;
       font-weight: 300;
       text-align: center;
-      margin-left: 65px;
+      margin: 0 auto;
       width: 350px; }
     .contenedor1-inferior .parrafos-finales {
       display: none; }
@@ -3677,7 +4127,7 @@ footer {
       width: 400px;
       display: block;
       text-align: center;
-      margin-left: 40px;
+      margin: 0 auto;
       grid-area: texto-fin; }
       .contenedor1-inferior .parrafos-finales-reponsive .you {
         font-family: "montserrat alter";
@@ -3705,15 +4155,17 @@ footer {
   .info-nosotros-fin .h2-nosotros2 {
     font-size: 30px;
     letter-spacing: 9px;
-    margin-top: 70px; }
+    padding-top: 70px;
+    margin: 0 auto;
+    text-align: center; }
   .info-nosotros-fin .p-nosotros2 {
     display: none; }
   .info-nosotros-fin .p-nosotros2-reponsive {
     font-size: 15px;
     font-weight: 300;
-    margin-top: 50px;
+    padding-top: 50px;
     width: 380px;
-    margin-left: 50px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -3731,18 +4183,261 @@ footer {
     .info-nosotros-fin .p-nosotros2-reponsive .comienza-constr {
       font-weight: bold; }
   .info-nosotros-fin img {
-    margin-top: 50px;
-    margin-left: 20px;
-    width: 440px; }
+    padding-top: 40px;
+    width: 440px;
+    margin: 0 auto; }
   .info-nosotros-fin .buttom-nosotros2 {
     width: 200px;
     height: 55px;
     border-radius: 100px;
     font-size: 20px;
     letter-spacing: 6px;
-    margin-left: 135px;
     margin-top: -30px;
-    border: 8px solid #202020; } }
+    border: 8px solid #202020; }
+  .image-educacionfinanciera {
+    display: none; }
+  .title-educacion .h1-educacionfinanciera {
+    font-size: 30px;
+    padding-top: 100px;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 7px; }
+  .title-educacion .h2-educacionfinanciera {
+    font-size: 16px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: .625rem; }
+  .title-educacion .p-educacionfinanciera {
+    font-weight: 300;
+    font-size: 12px;
+    padding-top: 10px;
+    margin: 0 auto;
+    text-align: center;
+    width: 200px; }
+  .contenedor-informativo {
+    width: 100%;
+    height: 2720px;
+    border-radius: 50px;
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 100px 250px 100px 250px 100px 250px 100px 250px 100px 250px 100px 250px 100px 250px;
+    grid-template-areas: "introedu" "seccion1" "contenido1" "seccion2" "contenido2" "seccion3" "contenido3" "seccion4" "contenido4" "seccion5" "contenido5" "seccion6" "contenido6" "seccion7" "contenido7";
+    grid-row-gap: 10px;
+    grid-column-gap: none; }
+    .contenedor-informativo .p-educacionfinanciera2 {
+      font-weight: 300;
+      font-size: 14px;
+      width: 400px;
+      margin: 0 auto;
+      margin-top: 30px; }
+    .contenedor-informativo .seccion1 {
+      margin: 0 auto;
+      text-align: center; }
+      .contenedor-informativo .seccion1 h2 {
+        font-size: 26px; }
+      .contenedor-informativo .seccion1 p {
+        font-size: 18px;
+        font-weight: 500; }
+    .contenedor-informativo .contenidotitulo1 {
+      margin: 0 auto; }
+      .contenedor-informativo .contenidotitulo1 h2 {
+        font-size: 20px;
+        margin-bottom: 30px; }
+      .contenedor-informativo .contenidotitulo1 ul {
+        font-size: 12px;
+        font-weight: 300;
+        margin-top: 5px; }
+      .contenedor-informativo .contenidotitulo1 img {
+        height: 50px;
+        width: 50px;
+        margin-left: 300px; }
+      .contenedor-informativo .contenidotitulo1 .imagen1 {
+        margin-top: -200px; }
+      .contenedor-informativo .contenidotitulo1 .imagen2 {
+        margin-top: -10px; }
+      .contenedor-informativo .contenidotitulo1 .imagen3 {
+        margin-top: -50px; }
+    .contenedor-informativo .seccion2 {
+      margin: 0 auto;
+      text-align: center; }
+      .contenedor-informativo .seccion2 h2 {
+        font-size: 26px; }
+      .contenedor-informativo .seccion2 p {
+        font-size: 18px;
+        font-weight: 500; }
+    .contenedor-informativo .contenidotitulo2 {
+      margin: 0 auto; }
+      .contenedor-informativo .contenidotitulo2 h2 {
+        font-size: 20px;
+        margin-bottom: 30px; }
+      .contenedor-informativo .contenidotitulo2 ul {
+        font-size: 12px;
+        font-weight: 300;
+        margin-top: 5px; }
+      .contenedor-informativo .contenidotitulo2 img {
+        height: 50px;
+        width: 50px;
+        margin-left: 300px; }
+      .contenedor-informativo .contenidotitulo2 .imagen12 {
+        margin-top: -200px; }
+      .contenedor-informativo .contenidotitulo2 .imagen22 {
+        margin-top: -90px; }
+      .contenedor-informativo .contenidotitulo2 .imagen32 {
+        margin-top: -70px; }
+    .contenedor-informativo .seccion3 {
+      margin: 0 auto;
+      text-align: center; }
+      .contenedor-informativo .seccion3 h2 {
+        font-size: 26px; }
+      .contenedor-informativo .seccion3 p {
+        font-size: 18px;
+        font-weight: 500; }
+    .contenedor-informativo .contenidotitulo3 {
+      margin: 0 auto; }
+      .contenedor-informativo .contenidotitulo3 h2 {
+        font-size: 20px;
+        margin-bottom: 30px; }
+      .contenedor-informativo .contenidotitulo3 ul {
+        font-size: 12px;
+        font-weight: 300;
+        margin-top: 5px; }
+      .contenedor-informativo .contenidotitulo3 img {
+        height: 50px;
+        width: 50px;
+        margin-left: 300px; }
+      .contenedor-informativo .contenidotitulo3 .imagen13 {
+        margin-top: -200px; }
+      .contenedor-informativo .contenidotitulo3 .imagen23 {
+        margin-top: -90px; }
+      .contenedor-informativo .contenidotitulo3 .imagen33 {
+        margin-top: -50px; }
+    .contenedor-informativo .seccion4 {
+      margin: 0 auto;
+      text-align: center; }
+      .contenedor-informativo .seccion4 h2 {
+        font-size: 26px; }
+      .contenedor-informativo .seccion4 p {
+        font-size: 18px;
+        font-weight: 500; }
+    .contenedor-informativo .contenidotitulo4 {
+      margin: 0 auto; }
+      .contenedor-informativo .contenidotitulo4 h2 {
+        font-size: 20px;
+        margin-bottom: 30px; }
+      .contenedor-informativo .contenidotitulo4 ul {
+        font-size: 12px;
+        font-weight: 300;
+        margin-top: 5px; }
+      .contenedor-informativo .contenidotitulo4 img {
+        height: 50px;
+        width: 50px;
+        margin-left: 300px; }
+      .contenedor-informativo .contenidotitulo4 .imagen14 {
+        margin-top: -200px; }
+      .contenedor-informativo .contenidotitulo4 .imagen24 {
+        margin-top: -90px; }
+      .contenedor-informativo .contenidotitulo4 .imagen34 {
+        margin-top: -50px; }
+    .contenedor-informativo .seccion5 {
+      margin: 0 auto;
+      text-align: center; }
+      .contenedor-informativo .seccion5 h2 {
+        font-size: 26px; }
+      .contenedor-informativo .seccion5 p {
+        font-size: 18px;
+        font-weight: 500; }
+    .contenedor-informativo .contenidotitulo5 {
+      margin: 0 auto; }
+      .contenedor-informativo .contenidotitulo5 h2 {
+        font-size: 20px;
+        margin-bottom: 30px; }
+      .contenedor-informativo .contenidotitulo5 ul {
+        font-size: 12px;
+        font-weight: 300;
+        margin-top: 5px; }
+      .contenedor-informativo .contenidotitulo5 img {
+        height: 50px;
+        width: 50px;
+        margin-left: 300px; }
+      .contenedor-informativo .contenidotitulo5 .imagen15 {
+        margin-top: -200px; }
+      .contenedor-informativo .contenidotitulo5 .imagen25 {
+        margin-top: -90px; }
+      .contenedor-informativo .contenidotitulo5 .imagen35 {
+        margin-top: -50px; }
+    .contenedor-informativo .seccion6 {
+      margin: 0 auto;
+      text-align: center; }
+      .contenedor-informativo .seccion6 h2 {
+        font-size: 26px; }
+      .contenedor-informativo .seccion6 p {
+        font-size: 18px;
+        font-weight: 500; }
+    .contenedor-informativo .contenidotitulo6 {
+      margin: 0 auto; }
+      .contenedor-informativo .contenidotitulo6 h2 {
+        font-size: 20px;
+        margin-bottom: 30px; }
+      .contenedor-informativo .contenidotitulo6 ul {
+        font-size: 12px;
+        font-weight: 300;
+        margin-top: 5px; }
+      .contenedor-informativo .contenidotitulo6 img {
+        height: 50px;
+        width: 50px;
+        margin-left: 300px; }
+      .contenedor-informativo .contenidotitulo6 .imagen16 {
+        margin-top: -200px; }
+      .contenedor-informativo .contenidotitulo6 .imagen26 {
+        margin-top: -90px; }
+      .contenedor-informativo .contenidotitulo6 .imagen36 {
+        margin-top: -50px; }
+    .contenedor-informativo .seccion7 {
+      margin: 0 auto;
+      text-align: center; }
+      .contenedor-informativo .seccion7 h2 {
+        font-size: 26px; }
+      .contenedor-informativo .seccion7 p {
+        font-size: 18px;
+        font-weight: 500; }
+    .contenedor-informativo .contenidotitulo7 {
+      margin: 0 auto; }
+      .contenedor-informativo .contenidotitulo7 h2 {
+        font-size: 20px;
+        margin-bottom: 30px; }
+      .contenedor-informativo .contenidotitulo7 ul {
+        font-size: 12px;
+        font-weight: 300;
+        margin-top: 5px; }
+      .contenedor-informativo .contenidotitulo7 img {
+        height: 50px;
+        width: 50px;
+        margin-left: 300px; }
+      .contenedor-informativo .contenidotitulo7 .imagen17 {
+        margin-top: -200px; }
+      .contenedor-informativo .contenidotitulo7 .imagen27 {
+        margin-top: -90px; }
+      .contenedor-informativo .contenidotitulo7 .imagen37 {
+        margin-top: -50px; }
+  .title-2-educacion .h2-preguntas {
+    font-size: 30px;
+    margin-top: 150px; }
+  .title-2-educacion .FAQs {
+    font-size: 16px;
+    font-weight: 300; }
+  .title-2-educacion .pregunta-frecuente {
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0 auto; }
+    .title-2-educacion .pregunta-frecuente .p-preguntafrecuente {
+      padding-top: 45px;
+      margin: 0 auto;
+      margin-left: 10px; }
+    .title-2-educacion .pregunta-frecuente img {
+      margin: 0 auto;
+      padding-top: 30px;
+      margin-left: 280px; } }
 
 @media (max-width: 320px) {
   header {
@@ -4174,30 +4869,30 @@ footer {
       font-weight: 400;
       width: 300px;
       margin-top: 0px;
-      margin-left: 5px;
+      margin: 0 auto;
       text-align: center; }
       .contenedor-formulario .formulario .input-form input {
         margin-top: 50px;
-        margin-left: -220px;
+        margin-left: -205px;
         border-radius: 100px;
         height: 45px;
-        width: 290px; }
+        width: 250px; }
       .contenedor-formulario .formulario .input-form2 {
         margin-top: 80px; }
         .contenedor-formulario .formulario .input-form2 input {
           margin-top: 50px;
-          margin-left: -225px;
+          margin-left: -205px;
           border-radius: 100px;
           height: 45px;
-          width: 290px; }
+          width: 250px; }
       .contenedor-formulario .formulario .input-form3 {
         margin-top: 80px; }
         .contenedor-formulario .formulario .input-form3 input {
           margin-top: 50px;
-          margin-left: -183px;
+          margin-left: -160px;
           border-radius: 50px;
           height: 165px;
-          width: 300px; }
+          width: 250px; }
       .contenedor-formulario .formulario .botton-formulario {
         grid-area: boton-formulario; }
         .contenedor-formulario .formulario .botton-formulario .bonton-input {
@@ -4280,7 +4975,7 @@ footer {
   .contenedor1-superior {
     width: 100%;
     margin-top: 50px;
-    border-radius: 70px 70px 0px 0px;
+    border-radius: 50px 50px 0px 0px;
     height: 550px;
     display: grid;
     grid-template-columns: 320px;
@@ -4290,28 +4985,25 @@ footer {
     grid-column-gap: none; }
     .contenedor1-superior .frase-nosotros {
       font-size: 12px;
-      margin-top: 20px;
       width: 220px;
       text-align: center;
-      margin-left: 45px; }
+      margin: 0 auto; }
       .contenedor1-superior .frase-nosotros .nombre-actor {
         font-weight: 600; }
     .contenedor1-superior .h2-1nosotros {
       font-size: 30px;
-      margin-top: 15px;
       text-align: center;
-      margin-left: 10px; }
+      margin: 0 auto; }
     .contenedor1-superior .h2-2nosotros {
       font-size: 24px;
-      margin-left: 10px;
-      text-align: center;
-      margin-top: 0px; }
+      margin: 0 auto;
+      text-align: center; }
     .contenedor1-superior .parrafo-somo {
-      margin-top: 0px;
+      padding-top: 10px;
       font-size: 12px;
       font-weight: 300px;
       text-align: center;
-      margin-left: 7px;
+      margin: 0 auto;
       letter-spacing: -0.5px;
       width: 300px; }
       .contenedor1-superior .parrafo-somo .you {
@@ -4325,71 +5017,74 @@ footer {
         font-size: 16px;
         font-weight: 900; }
     .contenedor1-superior .parrafo-nuestro {
-      margin-top: 15px;
       font-size: 12px;
       font-weight: 300px;
       text-align: center;
       width: 290px;
-      margin-left: 15px; }
+      margin: 0 auto; }
       .contenedor1-superior .parrafo-nuestro .queremos-nosotros {
-        font-size: 17px; }
-  .card1-nosotros {
-    border-radius: 100px;
-    height: 320px;
-    width: 270px;
+        font-size: 14px; }
+  .cards-nosotros {
     margin-top: 550px;
-    margin-left: 25px;
-    border-radius: 70px; }
-    .card1-nosotros .h2-card1 {
-      margin-top: 25px;
-      font-size: 25px; }
-      .card1-nosotros .h2-card1 .mision {
-        letter-spacing: 9px;
-        font-size: 40px; }
-    .card1-nosotros .retangulo-nosotros {
-      display: none; }
-    .card1-nosotros .descr-card1 {
-      font-size: 12px;
-      font-weight: 300;
-      margin-top: 40px; }
-      .card1-nosotros .descr-card1 .you {
-        font-family: "montserrat alter";
-        src: url(../assets/fonts/MontserratAlternates-Bold.ttf);
-        font-size: 13px;
-        font-weight: bold; }
-      .card1-nosotros .descr-card1 .financ {
-        font-family: "montserrat";
-        src: url(../assets/fonts/Montserrat-Black.ttf);
-        font-size: 13px;
-        font-weight: 900; }
-  .card2-nosotros {
-    height: 320px;
-    width: 270px;
-    margin-top: 950px;
-    margin-left: 25px;
-    border-radius: 70px; }
-    .card2-nosotros .h2-card2 {
-      margin-top: 25px;
-      font-size: 25px; }
-      .card2-nosotros .h2-card2 .enfoque {
-        font-size: 40px; }
-    .card2-nosotros .descr-card2 {
-      font-size: 12px;
-      font-weight: 300;
-      margin-top: 40px; }
-      .card2-nosotros .descr-card2 .you {
-        font-family: "montserrat alter";
-        src: url(../assets/fonts/MontserratAlternates-Bold.ttf);
-        font-size: 13px;
-        font-weight: bold; }
-      .card2-nosotros .descr-card2 .financ {
-        font-family: "montserrat";
-        src: url(../assets/fonts/Montserrat-Black.ttf);
-        font-size: 13px;
-        font-weight: 900; }
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 340px 330px;
+    grid-template-areas: "card1" "card2";
+    grid-row-gap: 0px;
+    grid-column-gap: 0px; }
+    .cards-nosotros .card1-nosotros {
+      border-radius: 100px;
+      height: 320px;
+      width: 270px;
+      border-radius: 50px; }
+      .cards-nosotros .card1-nosotros .h2-card1 {
+        margin-top: 25px;
+        font-size: 25px; }
+        .cards-nosotros .card1-nosotros .h2-card1 .mision {
+          letter-spacing: 9px;
+          font-size: 40px; }
+      .cards-nosotros .card1-nosotros .retangulo-nosotros {
+        display: none; }
+      .cards-nosotros .card1-nosotros .descr-card1 {
+        font-size: 12px;
+        font-weight: 300;
+        margin-top: 40px; }
+        .cards-nosotros .card1-nosotros .descr-card1 .you {
+          font-family: "montserrat alter";
+          src: url(../assets/fonts/MontserratAlternates-Bold.ttf);
+          font-size: 13px;
+          font-weight: bold; }
+        .cards-nosotros .card1-nosotros .descr-card1 .financ {
+          font-family: "montserrat";
+          src: url(../assets/fonts/Montserrat-Black.ttf);
+          font-size: 13px;
+          font-weight: 900; }
+    .cards-nosotros .card2-nosotros {
+      height: 320px;
+      width: 270px;
+      border-radius: 50px; }
+      .cards-nosotros .card2-nosotros .h2-card2 {
+        margin-top: 25px;
+        font-size: 25px; }
+        .cards-nosotros .card2-nosotros .h2-card2 .enfoque {
+          font-size: 40px; }
+      .cards-nosotros .card2-nosotros .descr-card2 {
+        font-size: 12px;
+        font-weight: 300;
+        margin-top: 40px; }
+        .cards-nosotros .card2-nosotros .descr-card2 .you {
+          font-family: "montserrat alter";
+          src: url(../assets/fonts/MontserratAlternates-Bold.ttf);
+          font-size: 13px;
+          font-weight: bold; }
+        .cards-nosotros .card2-nosotros .descr-card2 .financ {
+          font-family: "montserrat";
+          src: url(../assets/fonts/Montserrat-Black.ttf);
+          font-size: 13px;
+          font-weight: 900; }
   .contenedor1-inferior {
-    margin-top: 1210px;
-    border-radius: 0px 0px 100px 100px;
+    margin-top: -70px;
+    border-radius: 0px 0px 50px 50px;
     height: 750px;
     display: grid;
     grid-template-columns: 320px;
@@ -4398,18 +5093,17 @@ footer {
     grid-row-gap: 10px;
     grid-column-gap: none; }
     .contenedor1-inferior .h2-ofrecemos {
-      margin-top: 80px;
       font-size: 25px;
-      text-align: center; }
+      text-align: center;
+      margin: 0 auto; }
     .contenedor1-inferior .p-ofrecemos {
       display: none; }
     .contenedor1-inferior .p-ofrecemos-reponsive {
       font-weight: 300;
       font-size: 12px;
-      margin-top: 0px;
       width: 290px;
       text-align: center;
-      margin-left: 10px; }
+      margin: 0 auto; }
       .contenedor1-inferior .p-ofrecemos-reponsive .you {
         font-family: "montserrat alter";
         src: url(../assets/fonts/MontserratAlternates-Bold.ttf);
@@ -4425,19 +5119,19 @@ footer {
       font-weight: 300;
       width: 250px;
       text-align: center;
-      margin-left: 35px; }
+      margin: 0 auto; }
     .contenedor1-inferior .lista-nosotros2 {
       font-size: 14px;
       font-weight: 300;
       margin-left: 10px;
       width: 250px;
       text-align: center;
-      margin-left: 35px; }
+      margin: 0 auto; }
     .contenedor1-inferior .lista-nosotros3 {
       font-size: 14px;
       font-weight: 200;
       text-align: center;
-      margin-left: 35px;
+      margin: 0 auto;
       width: 250px; }
     .contenedor1-inferior .parrafos-finales {
       display: none; }
@@ -4445,7 +5139,7 @@ footer {
       width: 270px;
       display: block;
       text-align: center;
-      margin-left: 20px;
+      margin: 0 auto;
       grid-area: texto-fin; }
       .contenedor1-inferior .parrafos-finales-reponsive .you {
         font-family: "montserrat alter";
@@ -4473,15 +5167,15 @@ footer {
   .info-nosotros-fin .h2-nosotros2 {
     font-size: 20px;
     letter-spacing: 9px;
-    margin-top: 70px; }
+    padding-top: 70px;
+    margin: 0 auto; }
   .info-nosotros-fin .p-nosotros2 {
     display: none; }
   .info-nosotros-fin .p-nosotros2-reponsive {
     font-size: 15px;
     font-weight: 300;
-    margin-top: 50px;
-    width: 300px;
-    margin-left: 10px;
+    width: 260px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -4499,8 +5193,7 @@ footer {
     .info-nosotros-fin .p-nosotros2-reponsive .comienza-constr {
       font-weight: bold; }
   .info-nosotros-fin img {
-    margin-top: 50px;
-    margin-left: 5px;
+    margin: 0 auto;
     width: 310px; }
   .info-nosotros-fin .buttom-nosotros2 {
     width: 150px;
@@ -4508,6 +5201,253 @@ footer {
     border-radius: 100px;
     font-size: 14px;
     letter-spacing: 3px;
-    margin-left: 85px;
     margin-top: -25px;
-    border: 6px solid #202020; } }
+    border: 6px solid #202020; }
+  .image-educacionfinanciera {
+    display: none; }
+  .title-educacion .h1-educacionfinanciera {
+    font-size: 20px;
+    padding-top: 70px;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 7px; }
+  .title-educacion .h2-educacionfinanciera {
+    font-size: 16px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: .625rem; }
+  .title-educacion .p-educacionfinanciera {
+    font-weight: 300;
+    font-size: 12px;
+    padding-top: 10px;
+    margin: 0 auto;
+    text-align: center;
+    width: 200px; }
+  .contenedor-informativo {
+    width: 100%;
+    height: 2720px;
+    border-radius: 50px;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 100px 250px 100px 250px 100px 250px 100px 250px 100px 250px 100px 250px 100px 250px;
+    grid-template-areas: "introedu" "seccion1" "contenido1" "seccion2" "contenido2" "seccion3" "contenido3" "seccion4" "contenido4" "seccion5" "contenido5" "seccion6" "contenido6" "seccion7" "contenido7";
+    grid-row-gap: 10px;
+    grid-column-gap: none; }
+    .contenedor-informativo .p-educacionfinanciera2 {
+      font-weight: 300;
+      font-size: 12px;
+      width: 280px;
+      margin: 0 auto;
+      margin-top: 30px; }
+    .contenedor-informativo .seccion1 {
+      margin: 0 auto;
+      text-align: center; }
+      .contenedor-informativo .seccion1 h2 {
+        font-size: 26px; }
+      .contenedor-informativo .seccion1 p {
+        font-size: 18px;
+        font-weight: 500; }
+    .contenedor-informativo .contenidotitulo1 {
+      margin: 0 auto; }
+      .contenedor-informativo .contenidotitulo1 h2 {
+        font-size: 20px;
+        margin-bottom: 30px; }
+      .contenedor-informativo .contenidotitulo1 ul {
+        font-size: 12px;
+        font-weight: 300;
+        margin-top: 5px;
+        width: 200px; }
+      .contenedor-informativo .contenidotitulo1 img {
+        height: 35px;
+        width: 35px;
+        margin-left: 260px; }
+      .contenedor-informativo .contenidotitulo1 .imagen1 {
+        margin-top: -200px; }
+      .contenedor-informativo .contenidotitulo1 .imagen2 {
+        margin-top: -10px; }
+      .contenedor-informativo .contenidotitulo1 .imagen3 {
+        margin-top: -50px; }
+    .contenedor-informativo .seccion2 {
+      margin: 0 auto;
+      text-align: center; }
+      .contenedor-informativo .seccion2 h2 {
+        font-size: 26px; }
+      .contenedor-informativo .seccion2 p {
+        font-size: 18px;
+        font-weight: 500; }
+    .contenedor-informativo .contenidotitulo2 {
+      margin: 0 auto; }
+      .contenedor-informativo .contenidotitulo2 h2 {
+        font-size: 20px;
+        margin-bottom: 30px; }
+      .contenedor-informativo .contenidotitulo2 ul {
+        font-size: 12px;
+        font-weight: 300;
+        margin-top: 5px; }
+      .contenedor-informativo .contenidotitulo2 img {
+        height: 35px;
+        width: 35px;
+        margin-left: 260px; }
+      .contenedor-informativo .contenidotitulo2 .imagen12 {
+        margin-top: -200px; }
+      .contenedor-informativo .contenidotitulo2 .imagen22 {
+        margin-top: -90px; }
+      .contenedor-informativo .contenidotitulo2 .imagen32 {
+        margin-top: -70px; }
+    .contenedor-informativo .seccion3 {
+      margin: 0 auto;
+      text-align: center; }
+      .contenedor-informativo .seccion3 h2 {
+        font-size: 26px; }
+      .contenedor-informativo .seccion3 p {
+        font-size: 18px;
+        font-weight: 500; }
+    .contenedor-informativo .contenidotitulo3 {
+      margin: 0 auto; }
+      .contenedor-informativo .contenidotitulo3 h2 {
+        font-size: 20px;
+        margin-bottom: 30px; }
+      .contenedor-informativo .contenidotitulo3 ul {
+        font-size: 12px;
+        font-weight: 300;
+        margin-top: 5px; }
+      .contenedor-informativo .contenidotitulo3 img {
+        height: 35px;
+        width: 35px;
+        margin-left: 260px; }
+      .contenedor-informativo .contenidotitulo3 .imagen13 {
+        margin-top: -200px; }
+      .contenedor-informativo .contenidotitulo3 .imagen23 {
+        margin-top: -90px; }
+      .contenedor-informativo .contenidotitulo3 .imagen33 {
+        margin-top: -50px; }
+    .contenedor-informativo .seccion4 {
+      margin: 0 auto;
+      text-align: center; }
+      .contenedor-informativo .seccion4 h2 {
+        font-size: 26px; }
+      .contenedor-informativo .seccion4 p {
+        font-size: 18px;
+        font-weight: 500; }
+    .contenedor-informativo .contenidotitulo4 {
+      margin: 0 auto; }
+      .contenedor-informativo .contenidotitulo4 h2 {
+        font-size: 20px;
+        margin-bottom: 30px; }
+      .contenedor-informativo .contenidotitulo4 ul {
+        font-size: 12px;
+        font-weight: 300;
+        margin-top: 5px; }
+      .contenedor-informativo .contenidotitulo4 img {
+        height: 35px;
+        width: 35px;
+        margin-left: 260px; }
+      .contenedor-informativo .contenidotitulo4 .imagen14 {
+        margin-top: -200px; }
+      .contenedor-informativo .contenidotitulo4 .imagen24 {
+        margin-top: -90px; }
+      .contenedor-informativo .contenidotitulo4 .imagen34 {
+        margin-top: -50px; }
+    .contenedor-informativo .seccion5 {
+      margin: 0 auto;
+      text-align: center; }
+      .contenedor-informativo .seccion5 h2 {
+        font-size: 26px; }
+      .contenedor-informativo .seccion5 p {
+        font-size: 18px;
+        font-weight: 500; }
+    .contenedor-informativo .contenidotitulo5 {
+      margin: 0 auto; }
+      .contenedor-informativo .contenidotitulo5 h2 {
+        font-size: 20px;
+        margin-bottom: 30px; }
+      .contenedor-informativo .contenidotitulo5 ul {
+        font-size: 12px;
+        font-weight: 300;
+        margin-top: 5px;
+        width: 200px; }
+      .contenedor-informativo .contenidotitulo5 img {
+        height: 35px;
+        width: 35px;
+        margin-left: 260px; }
+      .contenedor-informativo .contenidotitulo5 .imagen15 {
+        margin-top: -200px; }
+      .contenedor-informativo .contenidotitulo5 .imagen25 {
+        margin-top: -90px; }
+      .contenedor-informativo .contenidotitulo5 .imagen35 {
+        margin-top: -50px; }
+    .contenedor-informativo .seccion6 {
+      margin: 0 auto;
+      text-align: center; }
+      .contenedor-informativo .seccion6 h2 {
+        font-size: 26px; }
+      .contenedor-informativo .seccion6 p {
+        font-size: 18px;
+        font-weight: 500; }
+    .contenedor-informativo .contenidotitulo6 {
+      margin: 0 auto; }
+      .contenedor-informativo .contenidotitulo6 h2 {
+        font-size: 20px;
+        margin-bottom: 30px; }
+      .contenedor-informativo .contenidotitulo6 ul {
+        font-size: 12px;
+        font-weight: 300;
+        margin-top: 5px; }
+      .contenedor-informativo .contenidotitulo6 img {
+        height: 35px;
+        width: 35px;
+        margin-left: 260px; }
+      .contenedor-informativo .contenidotitulo6 .imagen16 {
+        margin-top: -200px; }
+      .contenedor-informativo .contenidotitulo6 .imagen26 {
+        margin-top: -90px; }
+      .contenedor-informativo .contenidotitulo6 .imagen36 {
+        margin-top: -50px; }
+    .contenedor-informativo .seccion7 {
+      margin: 0 auto;
+      text-align: center; }
+      .contenedor-informativo .seccion7 h2 {
+        font-size: 26px; }
+      .contenedor-informativo .seccion7 p {
+        font-size: 18px;
+        font-weight: 500; }
+    .contenedor-informativo .contenidotitulo7 {
+      margin: 0 auto; }
+      .contenedor-informativo .contenidotitulo7 h2 {
+        font-size: 20px;
+        margin-bottom: 30px; }
+      .contenedor-informativo .contenidotitulo7 ul {
+        font-size: 12px;
+        font-weight: 300;
+        margin-top: 5px; }
+      .contenedor-informativo .contenidotitulo7 img {
+        height: 35px;
+        width: 35px;
+        margin-left: 260px; }
+      .contenedor-informativo .contenidotitulo7 .imagen17 {
+        margin-top: -200px; }
+      .contenedor-informativo .contenidotitulo7 .imagen27 {
+        margin-top: -90px; }
+      .contenedor-informativo .contenidotitulo7 .imagen37 {
+        margin-top: -50px; }
+  .title-2-educacion .h2-preguntas {
+    font-size: 26px;
+    margin-top: 70px; }
+  .title-2-educacion .FAQs {
+    font-size: 16px;
+    font-weight: 300; }
+  .title-2-educacion .pregunta-frecuente {
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0 auto; }
+    .title-2-educacion .pregunta-frecuente .p-preguntafrecuente {
+      padding-top: 45px;
+      margin: 0 auto;
+      width: 150px; }
+    .title-2-educacion .pregunta-frecuente img {
+      margin: 0 auto;
+      margin-top: 10px;
+      margin-left: 200px;
+      height: 65px;
+      width: 35px; } }

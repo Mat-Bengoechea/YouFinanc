@@ -569,7 +569,7 @@ footer{
 .contenedor1-superior{
     width: 100%;
 margin-top: 160px;
-height: 655px;
+height: 550px;
 @include grid(500px 500px,100px 150px 200px,"introduccion introduccion" "titulo-somo parrafo-somo" "titulo-nuestro parrafo-nuestro",none,none);
 .frase-nosotros{
     font-size: 18px;
@@ -579,94 +579,98 @@ height: 655px;
     }
 }
 .h2-1nosotros{
-    font-size: 40px;
+    font-size: 30px;
+    margin-left: 10px;
     margin-top: 35px;
 }
 .h2-2nosotros{
-    font-size: 40px;
+    font-size: 32px;
+    margin-left: 10px;
 }
 .parrafo-somo{
     margin-top: 35px;
-    font-size: 20px;
+    font-size: 16px;
 font-weight: 300px;
 letter-spacing: -0.5px;
+width: 450px;
 .you{
-    @include you(20px);
+    @include you(16px);
 }
 .financ{
-    @include financ(20px);
+    @include financ(16px);
 }
 }
 .parrafo-nuestro{
     margin-top: 15px;
-    font-size: 20px;
+    font-size: 16px;
 font-weight: 300px;
+width: 450px;
 .queremos-nosotros{
-    font-size: 21px;
+    font-size: 17px;
 }
 }
+}
+.cards-nosotros{
+    margin-top: 39.375rem;
+    @include grid(50% 50%,470px,"card1 card2",0px,0px);
+    .card1-nosotros{
+        border-radius: 100px;
+        height: 466px;
+        width: 470px;
+        border-radius: 70px;
+        .h2-card1{
+            margin-top: 40px;
+            font-size: 35px;
+            .mision{
+                letter-spacing: 9px;
+                font-size: 60px;
+            }
+        }
+        .retangulo-nosotros{
+            height: 4px;
+            width: 250px;
+            margin-left: 110px;
+            margin-top: 5px;
+        }
+        .descr-card1{
+            font-size: 20px;
+            font-weight: 300;
+        margin-top: 40px;
+        .you{
+            @include you(20px);
+        }
+        .financ{
+            @include financ(20px);
+        }
+        }
+    }
+    .card2-nosotros{
+        height: 466px;
+        width: 470px;
+        border-radius: 70px;
+        .h2-card2{
+            margin-top: 40px;
+            font-size: 35px;
+            .enfoque{
+                font-size: 60px;
+            }
+        }
+        .descr-card2{
+            font-size: 20px;
+            font-weight: 300;
+        margin-top: 40px;
+        .you{
+            @include you(20px);
+        }
+        .financ{
+            @include financ(20px);
+        }
+        }
+    }    
 }
 
-.card1-nosotros{
-    border-radius: 100px;
-    height: 466px;
-    width: 470px;
-    margin-top: 755px;
-    margin-left: 25px;
-    border-radius: 70px;
-    .h2-card1{
-        margin-top: 40px;
-        font-size: 35px;
-        .mision{
-            letter-spacing: 9px;
-            font-size: 60px;
-        }
-    }
-    .retangulo-nosotros{
-        height: 4px;
-        width: 250px;
-        margin-left: 110px;
-        margin-top: 5px;
-    }
-    .descr-card1{
-        font-size: 20px;
-        font-weight: 300;
-    margin-top: 40px;
-    .you{
-        @include you(20px);
-    }
-    .financ{
-        @include financ(20px);
-    }
-    }
-}
-.card2-nosotros{
-    height: 466px;
-    width: 470px;
-    margin-top: 755px;
-    margin-left: 530px;
-    border-radius: 70px;
-    .h2-card2{
-        margin-top: 40px;
-        font-size: 35px;
-        .enfoque{
-            font-size: 60px;
-        }
-    }
-    .descr-card2{
-        font-size: 20px;
-        font-weight: 300;
-    margin-top: 40px;
-    .you{
-        @include you(20px);
-    }
-    .financ{
-        @include financ(20px);
-    }
-    }
-}
 .contenedor1-inferior{
-    margin-top: 1170px;
+    margin-top: -70px;
     border-radius: 0px 0px 100px 100px;
     height: 966px;
     @include grid(410px 510px,330px 164px 164px 240px,"titulo-q texto-prin" "lista-p1 lista-s2" "lista-t3 lista-t3" "texto-fin texto-fin",10px,none);
@@ -749,7 +753,6 @@ font-weight: 300px;
     }
     img{
         margin-top: 50px;
-        margin-left: 35px;
         width: 950px;
     }
     .buttom-nosotros2{
@@ -758,9 +761,335 @@ font-weight: 300px;
         border-radius: 100px;
         font-size: 30px;
         letter-spacing: 9px;
-        margin-left: 350px;
-        margin-top: -45px;
+        margin-top: -35px;
         border: 8px solid map-get($colores , color1 );
+    }
+}
+.image-educacionfinanciera{
+    height: 800px;
+    padding-top: 100px;
+}
+.title-educacion{
+    .h1-educacionfinanciera{
+        font-size: 40px;
+        margin-left: 1.5625rem;
+        margin-top: -600px;
+        letter-spacing: 7px;
+    }
+    .h2-educacionfinanciera{
+        font-size: 16px;
+        margin-left: 7.8125rem;
+        margin-top: .625rem;
+    }
+    .p-educacionfinanciera{
+        font-weight: 300;
+        font-size: 12px;
+        margin-top: 10px;
+        margin-left: 3.4375rem;
+        width: 350px;
+    }
+}
+
+.contenedor-informativo{
+    width: 100%;
+    height: 2550px;
+    border-radius: 100px;
+    margin-top: 750px;
+    @include grid(50% 50%,220px 300px 300px 300px 300px 300px 300px 300px,"introedu introedu" "seccion1 contenido1" "seccion2 contenido2" "seccion3 contenido3" "seccion4 contenido4" "seccion5 contenido5" "seccion6 contenido6" "seccion7 contenido7", 30px,none);
+.p-educacionfinanciera2{
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 100px;
+}
+.seccion1{
+    margin-left: 20px;
+    h2{
+        font-size: 35px;
+    }
+    p{
+        font-size: 25px;
+        font-weight: 500;
+    }    
+}
+.contenidotitulo1{
+    h2{
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    ul{
+        font-size: 14px;
+        font-weight: 300;
+        margin-top: 5px;
+    }
+    img{
+        height: 50px;
+        width: 50px;
+        margin-left: 420px;
+    }
+    .imagen1{
+        margin-top: -200px;
+    }
+    
+    .imagen2{
+        margin-top: -10px;
+    }
+    
+    .imagen3{
+        margin-top: -50px;
+    }
+}
+.seccion2{
+    margin-left: 20px;
+    h2{
+        font-size: 35px;
+    }
+    p{
+        font-size: 25px;
+        font-weight: 500;
+    }
+}
+
+.contenidotitulo2{
+    h2{
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    ul{
+        font-size: 14px;
+        font-weight: 300;
+        margin-top: 5px;
+    }
+    img{
+        height: 50px;
+        width: 50px;
+        margin-left: 420px;
+    }
+    .imagen12{
+        margin-top: -200px;
+    }
+    
+    .imagen22{
+        margin-top: -90px;
+    }
+    
+    .imagen32{
+        margin-top: -70px;
+    }
+}
+.seccion3{
+    margin-left: 20px;
+    h2{
+        font-size: 35px;
+    }
+    p{
+        font-size: 25px;
+        font-weight: 500;
+    }
+}
+
+.contenidotitulo3{
+    h2{
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    ul{
+        font-size: 14px;
+        font-weight: 300;
+        margin-top: 5px;
+    }
+    img{
+        height: 50px;
+        width: 50px;
+        margin-left: 420px;
+    }
+    .imagen13{
+        margin-top: -200px;
+    }
+    
+    .imagen23{
+        margin-top: -90px;
+    }
+    
+    .imagen33{
+        margin-top: -50px;
+    }
+}
+
+.seccion4{
+    margin-left: 20px;
+    h2{
+        font-size: 35px;
+    }
+    p{
+        font-size: 25px;
+        font-weight: 500;
+    }
+}
+
+.contenidotitulo4{
+    h2{
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    ul{
+        font-size: 14px;
+        font-weight: 300;
+        margin-top: 5px;
+    }
+    img{
+        height: 50px;
+        width: 50px;
+        margin-left: 420px;
+    }
+    .imagen14{
+        margin-top: -200px;
+    }
+    
+    .imagen24{
+        margin-top: -90px;
+    }
+    
+    .imagen34{
+        margin-top: -50px;
+    }
+}
+
+.seccion5{
+    margin-left: 20px;
+    h2{
+        font-size: 35px;
+    }
+    p{
+        font-size: 25px;
+        font-weight: 500;
+    }
+}
+
+.contenidotitulo5{
+    h2{
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    ul{
+        font-size: 14px;
+        font-weight: 300;
+        margin-top: 5px;
+    }
+    img{
+        height: 50px;
+        width: 50px;
+        margin-left: 420px;
+    }
+    .imagen15{
+        margin-top: -200px;
+    }
+    
+    .imagen25{
+        margin-top: -90px;
+    }
+    
+    .imagen35{
+        margin-top: -50px;
+    }
+}
+
+.seccion6{
+    margin-left: 20px;
+    h2{
+        font-size: 35px;
+    }
+    p{
+        font-size: 25px;
+        font-weight: 500;
+    }
+}
+
+.contenidotitulo6{
+    h2{
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    ul{
+        font-size: 14px;
+        font-weight: 300;
+        margin-top: 5px;
+    }
+    img{
+        height: 50px;
+        width: 50px;
+        margin-left: 420px;
+    }
+    .imagen16{
+        margin-top: -200px;
+    }
+    
+    .imagen26{
+        margin-top: -90px;
+    }
+    
+    .imagen36{
+        margin-top: -50px;
+    }
+}
+
+.seccion7{
+    margin-left: 20px;
+    h2{
+        font-size: 35px;
+    }
+    p{
+        font-size: 25px;
+        font-weight: 500;
+    }
+}
+
+.contenidotitulo7{
+    h2{
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    .contenidotitulo7 ul{
+        font-size: 14px;
+        font-weight: 300;
+        margin-top: 5px;
+    }
+    img{
+        height: 50px;
+        width: 50px;
+        margin-left: 420px;
+    }
+    .imagen17{
+        margin-top: -200px;
+    }
+    
+    .imagen27{
+        margin-top: -90px;
+    }
+    
+    .imagen37{
+        margin-top: -50px;
+    }
+}
+}
+.title-2-educacion{
+    .h2-preguntas{
+        font-size: 45px;
+        margin-top: 150px;
+    }
+    .FAQs{
+        font-size: 24px;
+        font-weight: 300;
+    }
+    .pregunta-frecuente{
+        font-size: 20px;
+        font-weight: 300;
+        margin: 0 auto;
+        .p-preguntafrecuente{
+            margin-top: 40px;
+        }
+        img{
+            margin-top: 30px;
+        }
     }
 }
 }
@@ -915,13 +1244,14 @@ font-weight: 300px;
 }
 
 .contenido-usuario-principal{
-    @include grid(267px 200px 200px,350px 350px,"conten-info-person conten-objetivo conten-herramienta"  "conten-info-person conten-soporte conten-herramienta",25px,25px);
+    @include grid(50% 50%,350px 350px,"conten-info-person conten-objetivo"  "conten-herramienta conten-soporte",25px,25px);
     margin-top: -550px;
     .conten-info-person{
         grid-area: conten-info-person;
         width: 267px;
         height: 350px;
         border-radius: 35px;
+        margin: 0 auto;
         .icon-personal{
             width: 58px;
             height: 58px;
@@ -973,6 +1303,7 @@ font-weight: 300px;
         width: 200px;
         height: 300px;
         border-radius: 40px;
+        margin: 0 auto;
         .icon-objetivo{
             width: 58px;
             height: 58px;
@@ -1006,53 +1337,14 @@ font-weight: 300px;
                 height: 24px;
             }
         }
-    }   
-}
-
-.conten-herramienta{
-    grid-area: conten-herramienta;
-    width: 200px;
-    height: 300px;
-    border-radius: 40px;
-    .icon-herramienta{
-        width: 58px;
-        height: 58px;
-        margin-top: 40px;
-        margin-left: 75px;
-        img{
-            width: 38px;
-            height: 38px;
-        }
-    }
-    .h2-herramientas-inter{
-        margin-top: 50px;
-        font-size: 12px;
-    }
-    .empezar3{
-        width: 150px;
-        height: 40px;
-        font-size: 18px;
-        margin-left: 25px;
-        margin-top: 40px;
-        letter-spacing: 2px;
-        .textbutton3{
-            margin-left: 20px
-        }
-        .iconbutton3{
-            margin-right: 10px;
-            margin-top: 7px;
-        }
-        img{
-            width: 24px;
-            height: 24px;
-        }
-    }
-    .conten-soporte{
-        grid-area: conten-soporte;
+    }  
+    .conten-herramienta{
+        grid-area: conten-herramienta;
         width: 200px;
         height: 300px;
         border-radius: 40px;
-        .icon-soporte{
+        margin: 0 auto;
+        .icon-herramienta{
             width: 58px;
             height: 58px;
             margin-top: 40px;
@@ -1062,32 +1354,75 @@ font-weight: 300px;
                 height: 38px;
             }
         }
-        .h2-soporte-asist{
+        .h2-herramientas-inter{
             margin-top: 50px;
             font-size: 12px;
         }
-        
+        .empezar3{
+            width: 150px;
+            height: 40px;
+            font-size: 18px;
+            margin-left: 25px;
+            margin-top: 40px;
+            letter-spacing: 2px;
+            .textbutton3{
+                margin-left: 20px
+            }
+            .iconbutton3{
+                margin-right: 10px;
+                margin-top: 7px;
+            }
+            img{
+                width: 24px;
+                height: 24px;
+            }
+        }
+        .conten-soporte{
+            grid-area: conten-soporte;
+            width: 200px;
+            height: 300px;
+            border-radius: 40px;
+            .icon-soporte{
+                width: 58px;
+                height: 58px;
+                margin-top: 40px;
+                margin-left: 75px;
+                img{
+                    width: 38px;
+                    height: 38px;
+                }
+            }
+            .h2-soporte-asist{
+                margin-top: 50px;
+                font-size: 12px;
+            }
+            
+        }
+        .empezar4{
+            width: 150px;
+            height: 40px;
+            font-size: 18px;
+            margin-left: 25px;
+            margin-top: 40px;
+            letter-spacing: 2px;
+            .textbutton4{
+                margin-left: 20px
+            }
+            .iconbutton4{
+                margin-right: 10px;
+                margin-top: 7px;
+            }
+            img{
+                width: 24px;
+                height: 24px;
+            }
+        }
     }
-    .empezar4{
-        width: 150px;
-        height: 40px;
-        font-size: 18px;
-        margin-left: 25px;
-        margin-top: 40px;
-        letter-spacing: 2px;
-        .textbutton4{
-            margin-left: 20px
-        }
-        .iconbutton4{
-            margin-right: 10px;
-            margin-top: 7px;
-        }
-        img{
-            width: 24px;
-            height: 24px;
-        }
-    }
+    .conten-soporte{
+        margin: 0 auto;
+    }     
 }
+
 
 .title-segundo{
     .h2-index2{
@@ -1218,7 +1553,7 @@ footer{
             font-weight: 400;
             width: 400px;
             margin-top: 0px;
-            margin-left: 75px;
+            margin: 0 auto;
             .input-form{
                 input{
                     margin-top: 50px;
@@ -1227,9 +1562,7 @@ footer{
                     height: 54px;
                     width: 450px;
                 }
-            }
-            
-            
+            }  
             .input-form2{
                 margin-top: 80px;
                 input{
@@ -1240,18 +1573,16 @@ footer{
                     width: 450px;
                 }
             }
-            
             .input-form3{
                 margin-top: 80px;
                 input{
                     margin-top: 50px;
-                    margin-left: -126px;
+                    margin-left: -120px;
                     border-radius: 50px;
                     height: 173px;
                     width: 450px;
                 }
             }
-            
             .botton-formulario{
                 grid-area: boton-formulario;
                 .bonton-input{
@@ -1269,18 +1600,17 @@ footer{
 }
 
 .sector-contactanos{
-    @include grid(384px 384px,400px 400px,"h1 h1" "card1 card2",50px,none);
-    margin-top: 120px;
+    @include grid(384px 384px,250px 250px,"h1 h1" "card1 card2",20px,none);
     .h2-contacto2{
         font-size: 40px;
-        margin-top: 150px;
+        margin-top: 50px;
     }
     .correo-electronico-contenedor{
         border-radius: 50px;
         width: 237px;
         height: 226px;
         margin-left:75px;
-        margin-top: 50px;
+        margin-top: 0px;
         img{
             height: 65px;
             margin-left: 90px;
@@ -1301,7 +1631,7 @@ footer{
         width: 237px;
         height: 226px;
         margin-left: 75px;
-        margin-top: 50px;
+        margin-top: 0px;
         img{
             height: 65px;
             margin-left: 90px;
@@ -1346,7 +1676,7 @@ footer{
     width: 100%;
 margin-top: 50px;
 border-radius: 70px 70px 0px 0px;
-height: 550px;
+height: 480px;
 @include grid(384px 384px,100px 150px 200px,"introduccion introduccion" "titulo-somo parrafo-somo" "titulo-nuestro parrafo-nuestro",none,none);
 .frase-nosotros{
     font-size: 16px;
@@ -1356,94 +1686,96 @@ height: 550px;
     }
 }
 .h2-1nosotros{
-    font-size: 30px;
+    font-size: 26px;
     margin-top: 35px;
     margin-left: 20px;
 }
 .h2-2nosotros{
-    font-size: 35px;
+    font-size: 26px;
     margin-left: 20px;
 }
 .parrafo-somo{
     margin-top: 35px;
-    font-size: 16px;
+    font-size: 14px;
 font-weight: 300px;
 letter-spacing: -0.5px;
 width: 350px;
 .you{
-    @include you(16px);
+    @include you(14px);
 }
 .financ{
-    @include financ(16px);
+    @include financ(14px);
 }
 }
 .parrafo-nuestro{
     margin-top: 15px;
-    font-size: 16px;
+    font-size: 14px;
 font-weight: 300px;
+width: 350px;
 .queremos-nosotros{
-    font-size: 17px;
+    font-size: 15px;
 }
 }
+}
+.cards-nosotros{
+    margin-top: 30rem;
+    @include grid(50% 50%,370px,"card1 card2",0px,0px);
+    .card1-nosotros{
+        border-radius: 100px;
+        height: 366px;
+        width: 340px;
+        border-radius: 70px;
+        .h2-card1{
+            margin-top: 50px;
+            font-size: 25px;
+            .mision{
+                letter-spacing: 9px;
+                font-size: 40px;
+            }
+        }
+        .retangulo-nosotros{
+    display: none;
+        }
+        .descr-card1{
+            font-size: 14px;
+            font-weight: 300;
+        margin-top: 40px;
+        .you{
+            @include you(14px);
+        }
+        .financ{
+            @include financ(14px);
+        }
+        }
+    }
+    .card2-nosotros{
+        height: 366px;
+        width: 340px;
+        border-radius: 70px;
+        .h2-card2{
+            margin-top: 50px;
+            font-size: 25px;
+            .enfoque{
+                font-size: 40px;
+            }
+        }
+        .descr-card2{
+            font-size: 14px;
+            font-weight: 300;
+        margin-top: 40px;
+        .you{
+            @include you(14px);
+        }
+        .financ{
+            @include financ(14px);
+        }
+        }
+    }
+    
 }
 
-.card1-nosotros{
-    border-radius: 100px;
-    height: 366px;
-    width: 340px;
-    margin-top: 550px;
-    margin-left: 25px;
-    border-radius: 70px;
-    .h2-card1{
-        margin-top: 50px;
-        font-size: 25px;
-        .mision{
-            letter-spacing: 9px;
-            font-size: 40px;
-        }
-    }
-    .retangulo-nosotros{
-display: none;
-    }
-    .descr-card1{
-        font-size: 14px;
-        font-weight: 300;
-    margin-top: 40px;
-    .you{
-        @include you(14px);
-    }
-    .financ{
-        @include financ(14px);
-    }
-    }
-}
-.card2-nosotros{
-    height: 366px;
-    width: 340px;
-    margin-top: 550px;
-    margin-left: 405px;
-    border-radius: 70px;
-    .h2-card2{
-        margin-top: 50px;
-        font-size: 25px;
-        .enfoque{
-            font-size: 40px;
-        }
-    }
-    .descr-card2{
-        font-size: 14px;
-        font-weight: 300;
-    margin-top: 40px;
-    .you{
-        @include you(14px);
-    }
-    .financ{
-        @include financ(14px);
-    }
-    }
-}
 .contenedor1-inferior{
-    margin-top: 850px;
+    margin-top: -70px;
     border-radius: 0px 0px 100px 100px;
     height: 750px;
     @include grid(355px 400px,330px 90px 90px 240px,"titulo-q texto-prin" "lista-p1 lista-s2" "lista-t3 lista-t3" "texto-fin texto-fin",10px,none);
@@ -1524,7 +1856,6 @@ display: none;
         font-weight: 300;
         margin-top: 50px;
         width: 470px;
-        margin-left: 160px;
         .you{
             @include you(16px);
         }
@@ -1533,8 +1864,7 @@ display: none;
         }
     }
     img{
-        margin-top: 50px;
-        margin-left: 50px;
+        margin-top: 20px;
         width: 670px;
     }
     .buttom-nosotros2{
@@ -1543,9 +1873,338 @@ display: none;
         border-radius: 100px;
         font-size: 20px;
         letter-spacing: 6px;
-        margin-left: 270px;
         margin-top: -30px;
         border: 8px solid map-get($colores , color1 );
+    }
+}
+.image-educacionfinanciera{
+display: none;
+}
+.title-educacion{
+    .h1-educacionfinanciera{
+        font-size: 40px;
+        padding-top: 100px;
+        margin: 0 auto;
+        text-align: center;
+        letter-spacing: 7px;
+    }
+    .h2-educacionfinanciera{
+        font-size: 16px;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: .625rem;
+    }
+    .p-educacionfinanciera{
+        font-weight: 300;
+        font-size: 12px;
+        padding-top: 10px;
+        margin: 0 auto;
+        text-align: center;
+        width: 350px;
+    }
+}
+
+.contenedor-informativo{
+    width: 100%;
+    height: 2050px;
+    border-radius: 100px;
+    margin-top: 150px;
+    @include grid(50% 50%,150px 250px 250px 250px 250px 250px 250px 250px,"introedu introedu" "seccion1 contenido1" "seccion2 contenido2" "seccion3 contenido3" "seccion4 contenido4" "seccion5 contenido5" "seccion6 contenido6" "seccion7 contenido7", 20px,none);
+.p-educacionfinanciera2{
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 70px;
+}
+.seccion1{
+    margin-left: 20px;
+    h2{
+        font-size: 26px;
+    }
+    p{
+        font-size: 18px;
+        font-weight: 500;
+    }    
+}
+.contenidotitulo1{
+    h2{
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    ul{
+        font-size: 12px;
+        font-weight: 300;
+        margin-top: 5px;
+    }
+    img{
+        height: 50px;
+        width: 50px;
+        margin-left: 300px;
+    }
+    .imagen1{
+        margin-top: -200px;
+    }
+    
+    .imagen2{
+        margin-top: -10px;
+    }
+    
+    .imagen3{
+        margin-top: -50px;
+    }
+}
+.seccion2{
+    margin-left: 20px;
+    h2{
+        font-size: 26px;
+    }
+    p{
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+
+.contenidotitulo2{
+    h2{
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    ul{
+        font-size: 12px;
+        font-weight: 300;
+        margin-top: 5px;
+    }
+    img{
+        height: 50px;
+        width: 50px;
+        margin-left: 300px;
+    }
+    .imagen12{
+        margin-top: -200px;
+    }
+    
+    .imagen22{
+        margin-top: -90px;
+    }
+    
+    .imagen32{
+        margin-top: -70px;
+    }
+}
+.seccion3{
+    margin-left: 20px;
+    h2{
+        font-size: 26px;
+    }
+    p{
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+
+.contenidotitulo3{
+    h2{
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    ul{
+        font-size: 12px;
+        font-weight: 300;
+        margin-top: 5px;
+    }
+    img{
+        height: 50px;
+        width: 50px;
+        margin-left: 300px;
+    }
+    .imagen13{
+        margin-top: -200px;
+    }
+    
+    .imagen23{
+        margin-top: -90px;
+    }
+    
+    .imagen33{
+        margin-top: -50px;
+    }
+}
+
+.seccion4{
+    margin-left: 20px;
+    h2{
+        font-size: 26px;
+    }
+    p{
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+
+.contenidotitulo4{
+    h2{
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    ul{
+        font-size: 12px;
+        font-weight: 300;
+        margin-top: 5px;
+    }
+    img{
+        height: 50px;
+        width: 50px;
+        margin-left: 300px;
+    }
+    .imagen14{
+        margin-top: -200px;
+    }
+    
+    .imagen24{
+        margin-top: -90px;
+    }
+    
+    .imagen34{
+        margin-top: -50px;
+    }
+}
+
+.seccion5{
+    margin-left: 20px;
+    h2{
+        font-size: 26px;
+    }
+    p{
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+
+.contenidotitulo5{
+    h2{
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    ul{
+        font-size: 12px;
+        font-weight: 300;
+        margin-top: 5px;
+    }
+    img{
+        height: 50px;
+        width: 50px;
+        margin-left: 300px;
+    }
+    .imagen15{
+        margin-top: -200px;
+    }
+    
+    .imagen25{
+        margin-top: -90px;
+    }
+    
+    .imagen35{
+        margin-top: -50px;
+    }
+}
+
+.seccion6{
+    margin-left: 20px;
+    h2{
+        font-size: 26px;
+    }
+    p{
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+
+.contenidotitulo6{
+    h2{
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    ul{
+        font-size: 12px;
+        font-weight: 300;
+        margin-top: 5px;
+    }
+    img{
+        height: 50px;
+        width: 50px;
+        margin-left: 300px;
+    }
+    .imagen16{
+        margin-top: -200px;
+    }
+    
+    .imagen26{
+        margin-top: -90px;
+    }
+    
+    .imagen36{
+        margin-top: -50px;
+    }
+}
+
+.seccion7{
+    margin-left: 20px;
+    h2{
+        font-size: 26px;
+    }
+    p{
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+
+.contenidotitulo7{
+    h2{
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    ul{
+        font-size: 12px;
+        font-weight: 300;
+        margin-top: 5px;
+    }
+    img{
+        height: 50px;
+        width: 50px;
+        margin-left: 300px;
+    }
+    .imagen17{
+        margin-top: -200px;
+    }
+    
+    .imagen27{
+        margin-top: -90px;
+    }
+    
+    .imagen37{
+        margin-top: -50px;
+    }
+}
+}
+.title-2-educacion{
+    .h2-preguntas{
+        font-size: 35px;
+        margin-top: 150px;
+    }
+    .FAQs{
+        font-size: 20px;
+        font-weight: 300;
+    }
+    .pregunta-frecuente{
+        font-size: 16px;
+        font-weight: 300;
+        margin: 0 auto;
+        .p-preguntafrecuente{
+            margin-top: 40px;
+        }
+        img{
+            margin-top: 25px;
+            margin-left: -150px;
+        }
     }
 }
 }
@@ -2255,36 +2914,33 @@ display: none;
     width: 100%;
 margin-top: 50px;
 border-radius: 70px 70px 0px 0px;
-height: 550px;
+height: 650px;
 @include grid(240px 240px,70px 70px 100px 90px 150px,"introduccion introduccion" "titulo-somo titulo-somo" "parrafo-somo parrafo-somo" "titulo-nuestro titulo-nuestro" "parrafo-nuestro parrafo-nuestro",none,none);
 .frase-nosotros{
     font-size: 16px;
-    margin-top: 20px;
+    padding-top: 20px;
     width: 350px;
-    text-align: center;
-    margin-left: 50px;
+    margin: 0 auto;
     .nombre-actor{
         font-weight: 600;
     }
 }
 .h2-1nosotros{
     font-size: 30px;
-    margin-top: 15px;
+    padding-top: 15px;
     text-align: center;
-    margin-left: 10px;
+    margin: 0 auto;
 }
 .h2-2nosotros{
     font-size: 24px;
-    margin-left: 10px;
+    margin: 0 auto;
     text-align: center;
-    margin-top: 0px;
 }
 .parrafo-somo{
-    margin-top: 0px;
     font-size: 16px;
 font-weight: 300px;
 text-align: center;
-margin-left: 50px;
+margin: 0 auto;
 letter-spacing: -0.5px;
 width: 350px;
 .you{
@@ -2295,7 +2951,8 @@ width: 350px;
 }
 }
 .parrafo-nuestro{
-    margin-top: 15px;
+    padding-top: 15px;
+    margin: 0 auto;
     font-size: 16px;
 font-weight: 300px;
 text-align: center;
@@ -2304,71 +2961,75 @@ text-align: center;
 }
 }
 }
+.cards-nosotros{
+    margin-top: 620px;
+    @include grid(100%,400px 400px,"card1" "card2",0px,0px);
+    .card1-nosotros{
+        border-radius: 100px;
+        height: 366px;
+        width: 340px;
+        border-radius: 70px;
+        margin: 0 auto;
+        .h2-card1{
+            margin-top: 50px;
+            font-size: 25px;
+            .mision{
+                letter-spacing: 9px;
+                font-size: 40px;
+            }
+        }
+        .retangulo-nosotros{
+    display: none;
+        }
+        .descr-card1{
+            font-size: 14px;
+            font-weight: 300;
+        margin-top: 40px;
+        .you{
+            @include you(14px);
+        }
+        .financ{
+            @include financ(14px);
+        }
+        }
+    }
+    .card2-nosotros{
+        height: 366px;
+        width: 340px;
+        border-radius: 70px;
+        margin: 0 auto;
+        .h2-card2{
+            margin-top: 50px;
+            font-size: 25px;
+            .enfoque{
+                font-size: 40px;
+            }
+        }
+        .descr-card2{
+            font-size: 14px;
+            font-weight: 300;
+        margin-top: 40px;
+        .you{
+            @include you(14px);
+        }
+        .financ{
+            @include financ(14px);
+        }
+        }
+    }
+    
+}
 
-.card1-nosotros{
-    border-radius: 100px;
-    height: 366px;
-    width: 340px;
-    margin-top: 550px;
-    margin-left: 70px;
-    border-radius: 70px;
-    .h2-card1{
-        margin-top: 50px;
-        font-size: 25px;
-        .mision{
-            letter-spacing: 9px;
-            font-size: 40px;
-        }
-    }
-    .retangulo-nosotros{
-display: none;
-    }
-    .descr-card1{
-        font-size: 14px;
-        font-weight: 300;
-    margin-top: 40px;
-    .you{
-        @include you(14px);
-    }
-    .financ{
-        @include financ(14px);
-    }
-    }
-}
-.card2-nosotros{
-    height: 366px;
-    width: 340px;
-    margin-top: 950px;
-    margin-left: 70px;
-    border-radius: 70px;
-    .h2-card2{
-        margin-top: 50px;
-        font-size: 25px;
-        .enfoque{
-            font-size: 40px;
-        }
-    }
-    .descr-card2{
-        font-size: 14px;
-        font-weight: 300;
-    margin-top: 40px;
-    .you{
-        @include you(14px);
-    }
-    .financ{
-        @include financ(14px);
-    }
-    }
-}
 .contenedor1-inferior{
-    margin-top: 1250px;
-    border-radius: 0px 0px 100px 100px;
+    margin-top: -90px;
+    border-radius: 0px 0px 70px 70px;
     height: 750px;
     @include grid(240px 240px,170px 80px 65px 65px 65px 230px,"titulo-q titulo-q" "texto-prin texto-prin" "lista-p1 lista-p1" "lista-s2 lista-s2" "lista-t3 lista-t3" "texto-fin texto-fin",10px,none);
     .h2-ofrecemos{
-        margin-top: 80px;
+        padding-top: 80px;
         font-size: 25px;
         text-align: center;
+        margin: 0 auto;
     }
     .p-ofrecemos{
 display: none;
@@ -2392,7 +3053,7 @@ display: none;
         font-weight: 300;
         width: 350px;
         text-align: center;
-        margin-left: 65px;
+        margin: 0 auto;
     }
     .lista-nosotros2{
         font-size: 16px;
@@ -2400,13 +3061,13 @@ display: none;
         margin-left: 10px;
         width: 350px;
         text-align: center;
-        margin-left: 65px;
+        margin: 0 auto;
     }
     .lista-nosotros3{
         font-size: 16px;
         font-weight: 300;
         text-align: center;
-        margin-left: 65px;
+        margin: 0 auto;
         width: 350px;
     }
     .parrafos-finales{
@@ -2416,7 +3077,7 @@ display: none;
         width: 400px;
         display: block;
         text-align: center;
-        margin-left: 40px;
+        margin: 0 auto;
         grid-area: texto-fin;
         .you{
             @include you(16px);
@@ -2451,7 +3112,9 @@ display: none;
     .h2-nosotros2{
         font-size: 30px;
         letter-spacing: 9px;
-        margin-top: 70px;
+        padding-top: 70px;
+        margin: 0 auto;
+        text-align: center;
     }
     .p-nosotros2{
 display: none;
@@ -2459,9 +3122,9 @@ display: none;
     .p-nosotros2-reponsive{
         font-size: 15px;
         font-weight: 300;
-        margin-top: 50px;
+        padding-top: 50px;
         width: 380px;
-        margin-left: 50px;
+        margin: 0 auto;
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -2477,9 +3140,9 @@ display: none;
         }
     }
     img{
-        margin-top: 50px;
-        margin-left: 20px;
+        padding-top: 40px;
         width: 440px;
+        margin: 0 auto;
     }
     .buttom-nosotros2{
         width: 200px;
@@ -2487,11 +3150,351 @@ display: none;
         border-radius: 100px;
         font-size: 20px;
         letter-spacing: 6px;
-        margin-left: 135px;
         margin-top: -30px;
         border: 8px solid map-get($colores , color1 );
     }
 }
+.image-educacionfinanciera{
+    display: none;
+    }
+    .title-educacion{
+        .h1-educacionfinanciera{
+            font-size: 30px;
+            padding-top: 100px;
+            margin: 0 auto;
+            text-align: center;
+            letter-spacing: 7px;
+        }
+        .h2-educacionfinanciera{
+            font-size: 16px;
+            margin: 0 auto;
+            text-align: center;
+            padding-top: .625rem;
+        }
+        .p-educacionfinanciera{
+            font-weight: 300;
+            font-size: 12px;
+            padding-top: 10px;
+            margin: 0 auto;
+            text-align: center;
+            width: 200px;
+        }
+    }
+    .contenedor-informativo{
+        width: 100%;
+        height: 2720px;
+        border-radius: 50px;
+        margin-top: 150px;
+        @include grid(100%,100px 100px 250px 100px 250px 100px 250px 100px 250px 100px 250px 100px 250px 100px 250px,"introedu" "seccion1" "contenido1" "seccion2" "contenido2" "seccion3" "contenido3" "seccion4" "contenido4" "seccion5" "contenido5" "seccion6" "contenido6" "seccion7" "contenido7", 10px,none);
+    .p-educacionfinanciera2{
+        font-weight: 300;
+        font-size: 14px;
+        width: 400px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .seccion1{
+        @include margin0;
+        h2{
+            font-size: 26px;
+        }
+        p{
+            font-size: 18px;
+            font-weight: 500;
+        }    
+    }
+    .contenidotitulo1{
+        margin: 0 auto;
+        h2{
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+        ul{
+            font-size: 12px;
+            font-weight: 300;
+            margin-top: 5px;
+        }
+        img{
+            height: 50px;
+            width: 50px;
+            margin-left: 300px;
+        }
+        .imagen1{
+            margin-top: -200px;
+        }
+        
+        .imagen2{
+            margin-top: -10px;
+        }
+        
+        .imagen3{
+            margin-top: -50px;
+        }
+    }
+    .seccion2{
+        @include margin0;
+        h2{
+            font-size: 26px;
+        }
+        p{
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+    
+    .contenidotitulo2{
+        margin: 0 auto;
+        h2{
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+        ul{
+            font-size: 12px;
+            font-weight: 300;
+            margin-top: 5px;
+        }
+        img{
+            height: 50px;
+            width: 50px;
+            margin-left: 300px;
+        }
+        .imagen12{
+            margin-top: -200px;
+        }
+        
+        .imagen22{
+            margin-top: -90px;
+        }
+        
+        .imagen32{
+            margin-top: -70px;
+        }
+    }
+    .seccion3{
+        @include margin0;
+        h2{
+            font-size: 26px;
+        }
+        p{
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+    
+    .contenidotitulo3{
+        margin: 0 auto;
+        h2{
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+        ul{
+            font-size: 12px;
+            font-weight: 300;
+            margin-top: 5px;
+        }
+        img{
+            height: 50px;
+            width: 50px;
+            margin-left: 300px;
+        }
+        .imagen13{
+            margin-top: -200px;
+        }
+        
+        .imagen23{
+            margin-top: -90px;
+        }
+        
+        .imagen33{
+            margin-top: -50px;
+        }
+    }
+    
+    .seccion4{
+        @include margin0;
+        h2{
+            font-size: 26px;
+        }
+        p{
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+    
+    .contenidotitulo4{
+        margin: 0 auto;
+        h2{
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+        ul{
+            font-size: 12px;
+            font-weight: 300;
+            margin-top: 5px;
+        }
+        img{
+            height: 50px;
+            width: 50px;
+            margin-left: 300px;
+        }
+        .imagen14{
+            margin-top: -200px;
+        }
+        
+        .imagen24{
+            margin-top: -90px;
+        }
+        
+        .imagen34{
+            margin-top: -50px;
+        }
+    }
+    
+    .seccion5{
+        @include margin0;
+        h2{
+            font-size: 26px;
+        }
+        p{
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+    
+    .contenidotitulo5{
+        margin: 0 auto;
+        h2{
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+        ul{
+            font-size: 12px;
+            font-weight: 300;
+            margin-top: 5px;
+        }
+        img{
+            height: 50px;
+            width: 50px;
+            margin-left: 300px;
+        }
+        .imagen15{
+            margin-top: -200px;
+        }
+        
+        .imagen25{
+            margin-top: -90px;
+        }
+        
+        .imagen35{
+            margin-top: -50px;
+        }
+    }
+    
+    .seccion6{
+@include margin0;
+        h2{
+            font-size: 26px;
+        }
+        p{
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+    
+    .contenidotitulo6{
+        margin: 0 auto;
+        h2{
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+        ul{
+            font-size: 12px;
+            font-weight: 300;
+            margin-top: 5px;
+        }
+        img{
+            height: 50px;
+            width: 50px;
+            margin-left: 300px;
+        }
+        .imagen16{
+            margin-top: -200px;
+        }
+        
+        .imagen26{
+            margin-top: -90px;
+        }
+        
+        .imagen36{
+            margin-top: -50px;
+        }
+    }
+    
+    .seccion7{
+        @include margin0;
+        h2{
+            font-size: 26px;
+        }
+        p{
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+    
+    .contenidotitulo7{
+        margin: 0 auto;
+        h2{
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+        ul{
+            font-size: 12px;
+            font-weight: 300;
+            margin-top: 5px;
+        }
+        img{
+            height: 50px;
+            width: 50px;
+            margin-left: 300px;
+        }
+        .imagen17{
+            margin-top: -200px;
+        }
+        
+        .imagen27{
+            margin-top: -90px;
+        }
+        
+        .imagen37{
+            margin-top: -50px;
+        }
+    }
+    }
+    .title-2-educacion{
+        .h2-preguntas{
+            font-size: 30px;
+            margin-top: 150px;
+        }
+        .FAQs{
+            font-size: 16px;
+            font-weight: 300;
+        }
+        .pregunta-frecuente{
+            font-size: 12px;
+            font-weight: 300;
+            margin: 0 auto;
+            .p-preguntafrecuente{
+                padding-top: 45px;
+                margin: 0 auto;
+                margin-left: 10px;
+            }
+            img{
+                margin: 0 auto;
+                padding-top: 30px;
+                margin-left: 280px;
+            }
+        }
+    }
 }
 
 @media(max-width:320px){
@@ -3076,15 +4079,15 @@ footer{
             font-weight: 400;
             width: 300px;
             margin-top: 0px;
-            margin-left: 5px;
+            margin: 0 auto;
             text-align: center;
             .input-form{
                 input{
                     margin-top: 50px;
-                    margin-left: -220px;
+                    margin-left: -205px;
                     border-radius: 100px;
                     height: 45px;
-                    width: 290px;
+                    width: 250px;
                 }
             }
             
@@ -3092,10 +4095,10 @@ footer{
                 margin-top: 80px;
                 input{
                     margin-top: 50px;
-                    margin-left: -225px;
+                    margin-left: -205px;
                     border-radius: 100px;
                     height: 45px;
-                    width: 290px;
+                    width: 250px;
                 }
             }
             
@@ -3103,10 +4106,10 @@ footer{
                 margin-top: 80px;
                 input{
                     margin-top: 50px;
-                    margin-left: -183px;
+                    margin-left: -160px;
                     border-radius: 50px;
                     height: 165px;
-                    width: 300px;
+                    width: 250px;
                 }
             }
             
@@ -3220,37 +4223,34 @@ footer{
     .contenedor1-superior{
         width: 100%;
     margin-top: 50px;
-    border-radius: 70px 70px 0px 0px;
+    border-radius: 50px 50px 0px 0px;
     height: 550px;
     @include grid(320px,70px 70px 100px 90px 150px,"introduccion" "titulo-somo" "parrafo-somo" "titulo-nuestro" "parrafo-nuestro",none,none);
     .frase-nosotros{
         font-size: 12px;
-        margin-top: 20px;
         width: 220px;
         text-align: center;
-        margin-left: 45px;
+        margin: 0 auto;
         .nombre-actor{
             font-weight: 600;
         }
     }
     .h2-1nosotros{
         font-size: 30px;
-        margin-top: 15px;
         text-align: center;
-        margin-left: 10px;
+        margin: 0 auto;
     }
     .h2-2nosotros{
         font-size: 24px;
-        margin-left: 10px;
+        margin: 0 auto;
         text-align: center;
-        margin-top: 0px;
     }
     .parrafo-somo{
-        margin-top: 0px;
+        padding-top: 10px;
         font-size: 12px;
     font-weight: 300px;
     text-align: center;
-    margin-left: 7px;
+    margin: 0 auto;
     letter-spacing: -0.5px;
     width: 300px;
     .you{
@@ -3261,82 +4261,82 @@ footer{
     }
     }
     .parrafo-nuestro{
-        margin-top: 15px;
         font-size: 12px;
     font-weight: 300px;
     text-align: center;
     width: 290px;
-    margin-left: 15px;
+   margin: 0 auto;
     .queremos-nosotros{
-        font-size: 17px;
+        font-size: 14px;
     }
     }
     }
     
-    .card1-nosotros{
-        border-radius: 100px;
-        height: 320px;
-        width: 270px;
+    .cards-nosotros{
         margin-top: 550px;
-        margin-left: 25px;
-        border-radius: 70px;
-        .h2-card1{
-            margin-top: 25px;
-            font-size: 25px;
-            .mision{
-                letter-spacing: 9px;
-                font-size: 40px;
+        @include grid(100%,340px 330px,"card1" "card2",0px,0px);
+        .card1-nosotros{
+            border-radius: 100px;
+            height: 320px;
+            width: 270px;
+            border-radius: 50px;
+            .h2-card1{
+                margin-top: 25px;
+                font-size: 25px;
+                .mision{
+                    letter-spacing: 9px;
+                    font-size: 40px;
+                }
+            }
+            .retangulo-nosotros{
+        display: none;
+            }
+            .descr-card1{
+                font-size: 12px;
+                font-weight: 300;
+            margin-top: 40px;
+            .you{
+                @include you(13px);
+            }
+            .financ{
+                @include financ(13px);
+            }
             }
         }
-        .retangulo-nosotros{
-    display: none;
-        }
-        .descr-card1{
-            font-size: 12px;
-            font-weight: 300;
-        margin-top: 40px;
-        .you{
-            @include you(13px);
-        }
-        .financ{
-            @include financ(13px);
-        }
-        }
-    }
-    .card2-nosotros{
-        height: 320px;
-        width: 270px;
-        margin-top: 950px;
-        margin-left: 25px;
-        border-radius: 70px;
-        .h2-card2{
-            margin-top: 25px;
-            font-size: 25px;
-            .enfoque{
-                font-size: 40px;
+        .card2-nosotros{
+            height: 320px;
+            width: 270px;
+            border-radius: 50px;
+            .h2-card2{
+                margin-top: 25px;
+                font-size: 25px;
+                .enfoque{
+                    font-size: 40px;
+                }
             }
-        }
-        .descr-card2{
-            font-size: 12px;
-            font-weight: 300;
-        margin-top: 40px;
-        .you{
-            @include you(13px);
-        }
-        .financ{
-            @include financ(13px);
-        }
-        }
+            .descr-card2{
+                font-size: 12px;
+                font-weight: 300;
+            margin-top: 40px;
+            .you{
+                @include you(13px);
+            }
+            .financ{
+                @include financ(13px);
+            }
+            }
+        }    
     }
+    
     .contenedor1-inferior{
-        margin-top: 1210px;
-        border-radius: 0px 0px 100px 100px;
+        margin-top: -70px;
+        border-radius: 0px 0px 50px 50px;
         height: 750px;
         @include grid(320px,170px 70px 60px 65px 60px 230px,"titulo-q" "texto-prin" "lista-p1" "lista-s2" "lista-t3" "texto-fin",10px,none);
         .h2-ofrecemos{
-            margin-top: 80px;
             font-size: 25px;
             text-align: center;
+            margin: 0 auto;
         }
         .p-ofrecemos{
     display: none;
@@ -3344,10 +4344,9 @@ footer{
         .p-ofrecemos-reponsive{
             font-weight: 300;
             font-size: 12px;
-            margin-top: 0px;
             width: 290px;
             text-align: center;
-            margin-left: 10px;
+            margin: 0 auto;
             .you{
                 @include you(17px);
             }
@@ -3360,7 +4359,7 @@ footer{
             font-weight: 300;
             width: 250px;
             text-align: center;
-            margin-left: 35px;
+            margin: 0 auto;
         }
         .lista-nosotros2{
             font-size: 14px;
@@ -3368,13 +4367,13 @@ footer{
             margin-left: 10px;
             width: 250px;
             text-align: center;
-            margin-left: 35px;
+            margin: 0 auto;
         }
         .lista-nosotros3{
             font-size: 14px;
             font-weight: 200;
             text-align: center;
-            margin-left: 35px;
+            margin: 0 auto;
             width: 250px;
         }
         .parrafos-finales{
@@ -3384,7 +4383,7 @@ footer{
             width: 270px;
             display: block;
             text-align: center;
-            margin-left: 20px;
+            margin: 0 auto;
             grid-area: texto-fin;
             .you{
                 @include you(14px);
@@ -3419,7 +4418,8 @@ footer{
         .h2-nosotros2{
             font-size: 20px;
             letter-spacing: 9px;
-            margin-top: 70px;
+            padding-top: 70px;
+            margin: 0 auto;
         }
         .p-nosotros2{
     display: none;
@@ -3427,9 +4427,8 @@ footer{
         .p-nosotros2-reponsive{
             font-size: 15px;
             font-weight: 300;
-            margin-top: 50px;
-            width: 300px;
-            margin-left: 10px;
+            width: 260px;
+            margin: 0 auto;
             display: flex;
             flex-direction: column;
             text-align: center;
@@ -3445,8 +4444,7 @@ footer{
             }
         }
         img{
-            margin-top: 50px;
-            margin-left: 5px;
+            margin: 0 auto;
             width: 310px;
         }
         .buttom-nosotros2{
@@ -3455,9 +4453,353 @@ footer{
             border-radius: 100px;
             font-size: 14px;
             letter-spacing: 3px;
-            margin-left: 85px;
             margin-top: -25px;
             border: 6px solid map-get($colores , color1 );
         }
     }
+    .image-educacionfinanciera{
+        display: none;
+        }
+        .title-educacion{
+            .h1-educacionfinanciera{
+                font-size: 20px;
+                padding-top: 70px;
+                margin: 0 auto;
+                text-align: center;
+                letter-spacing: 7px;
+            }
+            .h2-educacionfinanciera{
+                font-size: 16px;
+                margin: 0 auto;
+                text-align: center;
+                padding-top: .625rem;
+            }
+            .p-educacionfinanciera{
+                font-weight: 300;
+                font-size: 12px;
+                padding-top: 10px;
+                margin: 0 auto;
+                text-align: center;
+                width: 200px;
+            }
+        }
+        .contenedor-informativo{
+            width: 100%;
+            height: 2720px;
+            border-radius: 50px;
+            margin-top: 100px;
+            @include grid(100%,100px 100px 250px 100px 250px 100px 250px 100px 250px 100px 250px 100px 250px 100px 250px,"introedu" "seccion1" "contenido1" "seccion2" "contenido2" "seccion3" "contenido3" "seccion4" "contenido4" "seccion5" "contenido5" "seccion6" "contenido6" "seccion7" "contenido7", 10px,none);
+        .p-educacionfinanciera2{
+            font-weight: 300;
+            font-size: 12px;
+            width: 280px;
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+        .seccion1{
+            @include margin0;
+            h2{
+                font-size: 26px;
+            }
+            p{
+                font-size: 18px;
+                font-weight: 500;
+            }    
+        }
+        .contenidotitulo1{
+            margin: 0 auto;
+            h2{
+                font-size: 20px;
+                margin-bottom: 30px;
+            }
+            ul{
+                font-size: 12px;
+                font-weight: 300;
+                margin-top: 5px;
+                width: 200px;
+            }
+            img{
+                height: 35px;
+                width: 35px;
+                margin-left: 260px;
+            }
+            .imagen1{
+                margin-top: -200px;
+            }
+            
+            .imagen2{
+                margin-top: -10px;
+            }
+            
+            .imagen3{
+                margin-top: -50px;
+            }
+        }
+        .seccion2{
+            @include margin0;
+            h2{
+                font-size: 26px;
+            }
+            p{
+                font-size: 18px;
+                font-weight: 500;
+            }
+        }
+        
+        .contenidotitulo2{
+            margin: 0 auto;
+            h2{
+                font-size: 20px;
+                margin-bottom: 30px;
+            }
+            ul{
+                font-size: 12px;
+                font-weight: 300;
+                margin-top: 5px;
+            }
+            img{
+                height: 35px;
+                width: 35px;
+                margin-left: 260px;
+            }
+            .imagen12{
+                margin-top: -200px;
+            }
+            
+            .imagen22{
+                margin-top: -90px;
+            }
+            
+            .imagen32{
+                margin-top: -70px;
+            }
+        }
+        .seccion3{
+            @include margin0;
+            h2{
+                font-size: 26px;
+            }
+            p{
+                font-size: 18px;
+                font-weight: 500;
+            }
+        }
+        
+        .contenidotitulo3{
+            margin: 0 auto;
+            h2{
+                font-size: 20px;
+                margin-bottom: 30px;
+            }
+            ul{
+                font-size: 12px;
+                font-weight: 300;
+                margin-top: 5px;
+            }
+            img{
+                height: 35px;
+                width: 35px;
+                margin-left: 260px;
+            }
+            .imagen13{
+                margin-top: -200px;
+            }
+            
+            .imagen23{
+                margin-top: -90px;
+            }
+            
+            .imagen33{
+                margin-top: -50px;
+            }
+        }
+        
+        .seccion4{
+            @include margin0;
+            h2{
+                font-size: 26px;
+            }
+            p{
+                font-size: 18px;
+                font-weight: 500;
+            }
+        }
+        
+        .contenidotitulo4{
+            margin: 0 auto;
+            h2{
+                font-size: 20px;
+                margin-bottom: 30px;
+            }
+            ul{
+                font-size: 12px;
+                font-weight: 300;
+                margin-top: 5px;
+            }
+            img{
+                height: 35px;
+                width: 35px;
+                margin-left: 260px;
+            }
+            .imagen14{
+                margin-top: -200px;
+            }
+            
+            .imagen24{
+                margin-top: -90px;
+            }
+            
+            .imagen34{
+                margin-top: -50px;
+            }
+        }
+        
+        .seccion5{
+            @include margin0;
+            h2{
+                font-size: 26px;
+            }
+            p{
+                font-size: 18px;
+                font-weight: 500;
+            }
+        }
+        
+        .contenidotitulo5{
+            margin: 0 auto;
+            h2{
+                font-size: 20px;
+                margin-bottom: 30px;
+            }
+            ul{
+                font-size: 12px;
+                font-weight: 300;
+                margin-top: 5px;
+                width: 200px;
+            }
+            img{
+                height: 35px;
+                width: 35px;
+                margin-left: 260px;
+            }
+            .imagen15{
+                margin-top: -200px;
+            }
+            
+            .imagen25{
+                margin-top: -90px;
+            }
+            
+            .imagen35{
+                margin-top: -50px;
+            }
+        }
+        
+        .seccion6{
+    @include margin0;
+            h2{
+                font-size: 26px;
+            }
+            p{
+                font-size: 18px;
+                font-weight: 500;
+            }
+        }
+        
+        .contenidotitulo6{
+            margin: 0 auto;
+            h2{
+                font-size: 20px;
+                margin-bottom: 30px;
+            }
+            ul{
+                font-size: 12px;
+                font-weight: 300;
+                margin-top: 5px;
+            }
+            img{
+                height: 35px;
+                width: 35px;
+                margin-left: 260px;
+            }
+            .imagen16{
+                margin-top: -200px;
+            }
+            
+            .imagen26{
+                margin-top: -90px;
+            }
+            
+            .imagen36{
+                margin-top: -50px;
+            }
+        }
+        
+        .seccion7{
+            @include margin0;
+            h2{
+                font-size: 26px;
+            }
+            p{
+                font-size: 18px;
+                font-weight: 500;
+            }
+        }
+        
+        .contenidotitulo7{
+            margin: 0 auto;
+            h2{
+                font-size: 20px;
+                margin-bottom: 30px;
+            }
+            ul{
+                font-size: 12px;
+                font-weight: 300;
+                margin-top: 5px;
+            }
+            img{
+                height: 35px;
+                width: 35px;
+                margin-left: 260px;
+            }
+            .imagen17{
+                margin-top: -200px;
+            }
+            
+            .imagen27{
+                margin-top: -90px;
+            }
+            
+            .imagen37{
+                margin-top: -50px;
+            }
+        }
+        }
+        .title-2-educacion{
+            .h2-preguntas{
+                font-size: 26px;
+                margin-top: 70px;
+            }
+            .FAQs{
+                font-size: 16px;
+                font-weight: 300;
+            }
+            .pregunta-frecuente{
+                font-size: 12px;
+                font-weight: 300;
+                margin: 0 auto;
+                .p-preguntafrecuente{
+                    padding-top: 45px;
+                    margin: 0 auto;
+                    width: 150px;
+                }
+                img{
+                    margin: 0 auto;
+                    margin-top: 10px;
+                    margin-left: 200px;
+                    height: 65px;
+                    width: 35px;
+                }
+            }
+        }
 }

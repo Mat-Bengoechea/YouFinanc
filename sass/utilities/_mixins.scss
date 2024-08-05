@@ -64,3 +64,8 @@
     font-size: $size;
     font-weight: 900;
 }
+
+@mixin margin0{
+    margin: 0 auto;
+    text-align: center;
+}
