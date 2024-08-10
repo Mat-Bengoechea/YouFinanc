@@ -139,6 +139,9 @@
                     color: map-get($colores , color1 );
                 }
         }
+        .button-cerrar-reponsive{
+            display: none;
+        }
     }
     .contenedor-izq-perfil{
         grid-area: contenedor-izq-perfil;

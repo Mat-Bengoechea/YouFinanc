@@ -1564,6 +1564,8 @@ header {
         background: transparent;
         border: 5px solid #202020;
         color: #202020; }
+    .content-menu-perfil .contenedor-derecho-perfil .button-cerrar-reponsive {
+      display: none; }
   .content-menu-perfil .contenedor-izq-perfil {
     grid-area: contenedor-izq-perfil;
     width: 932px;
@@ -2557,7 +2559,169 @@ footer {
     .title-2-educacion .pregunta-frecuente .p-preguntafrecuente {
       margin-top: 40px; }
     .title-2-educacion .pregunta-frecuente img {
-      margin-top: 30px; } }
+      margin-top: 30px; }
+  .h1-perfil {
+    font-size: 30px;
+    margin-left: 450px;
+    margin-top: 80px; }
+  .content-menu-perfil {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 28% 70%;
+    grid-template-rows: 1055px;
+    grid-template-areas: "contenedor-derecho-perfil contenedor-izq-perfil";
+    grid-row-gap: 0px;
+    grid-column-gap: 0px; }
+    .content-menu-perfil .contenedor-derecho-perfil {
+      width: 285px;
+      height: 1050px;
+      border-radius: 70px; }
+      .content-menu-perfil .contenedor-derecho-perfil .clums-perfil {
+        margin-top: -120px;
+        margin-left: 5px;
+        width: 280px; }
+      .content-menu-perfil .contenedor-derecho-perfil .img-perfil {
+        margin-top: 70px;
+        margin-left: 25px;
+        height: 70px;
+        width: 70px; }
+      .content-menu-perfil .contenedor-derecho-perfil .h2-nombreuser {
+        font-size: 16px;
+        margin-left: 110px;
+        margin-top: 85px; }
+      .content-menu-perfil .contenedor-derecho-perfil .p-correo {
+        font-weight: 300;
+        font-size: 14px;
+        margin-left: 110px;
+        margin-top: 110px; }
+      .content-menu-perfil .contenedor-derecho-perfil .h2-menu {
+        font-size: 40px;
+        padding-top: 35px;
+        margin: 0 auto;
+        margin-left: 80px; }
+      .content-menu-perfil .contenedor-derecho-perfil .menu-dere-1 {
+        margin-top: -150px;
+        font-size: 20px;
+        margin-left: 80px;
+        width: 150px; }
+        .content-menu-perfil .contenedor-derecho-perfil .menu-dere-1 img {
+          height: 35px;
+          width: 35px;
+          margin-left: -105px;
+          margin-top: -3px; }
+      .content-menu-perfil .contenedor-derecho-perfil .menu-dere-2 {
+        margin-top: 90px;
+        margin-left: 55px;
+        font-size: 20px;
+        width: 200px; }
+        .content-menu-perfil .contenedor-derecho-perfil .menu-dere-2 img {
+          height: 35px;
+          width: 35px;
+          margin-left: -100px; }
+      .content-menu-perfil .contenedor-derecho-perfil .menu-dere-3 {
+        margin-top: 75px;
+        margin-left: 60px;
+        font-size: 20px;
+        width: 200px; }
+        .content-menu-perfil .contenedor-derecho-perfil .menu-dere-3 img {
+          height: 35px;
+          width: 35px;
+          margin-top: -2px;
+          margin-left: -115px; }
+      .content-menu-perfil .contenedor-derecho-perfil .menu-dere-4 {
+        margin-top: 80px;
+        margin-left: 55px;
+        font-size: 20px;
+        width: 200px; }
+        .content-menu-perfil .contenedor-derecho-perfil .menu-dere-4 img {
+          height: 35px;
+          width: 35px;
+          margin-left: -100px; }
+      .content-menu-perfil .contenedor-derecho-perfil .button-cerrar {
+        width: 211px;
+        height: 58px;
+        border-radius: 100px;
+        font-size: 20px;
+        margin-top: -100px;
+        margin-left: 35px; }
+    .content-menu-perfil .contenedor-izq-perfil {
+      width: 710px;
+      height: 850px;
+      border-radius: 70px;
+      margin-left: 5px;
+      margin-top: 200px;
+      display: grid;
+      grid-template-columns: 150px 250px 315px;
+      grid-template-rows: 210px 255px 316px;
+      grid-template-areas: "menu-d perfil-izq perfil-izq" "menu-d datos-person datos-person2" "menu-d direccion direccion2";
+      grid-row-gap: none;
+      grid-column-gap: none; }
+      .content-menu-perfil .contenedor-izq-perfil .clumna-perfil2 {
+        width: 545px; }
+      .content-menu-perfil .contenedor-izq-perfil .menu-contenedor2-derecho {
+        margin-top: 20px;
+        font-size: 16px; }
+        .content-menu-perfil .contenedor-izq-perfil .menu-contenedor2-derecho li {
+          margin-top: 40px; }
+      .content-menu-perfil .contenedor-izq-perfil .h2-perfil2 {
+        margin-left: 25px;
+        margin-top: 25px;
+        font-size: 20px; }
+      .content-menu-perfil .contenedor-izq-perfil .img-perfil2 {
+        margin-left: 25px;
+        margin-top: 80px;
+        height: 100px;
+        width: 100px; }
+      .content-menu-perfil .contenedor-izq-perfil .h2-nombre-apellido {
+        margin-left: 140px;
+        margin-top: 110px;
+        font-size: 18px; }
+      .content-menu-perfil .contenedor-izq-perfil .p-direccion {
+        margin-left: 140px;
+        margin-top: 135px;
+        font-weight: 300;
+        font-size: 16px; }
+      .content-menu-perfil .contenedor-izq-perfil .editor {
+        margin-left: 430px;
+        margin-top: 115px; }
+        .content-menu-perfil .contenedor-izq-perfil .editor img {
+          margin-top: -23px;
+          margin-left: 55px; }
+      .content-menu-perfil .contenedor-izq-perfil .h2-datos-person {
+        margin-left: 25px;
+        margin-top: 20px;
+        font-size: 20px; }
+      .content-menu-perfil .contenedor-izq-perfil .datos-lista-perfil {
+        margin-top: 5px;
+        margin-left: 20px;
+        font-size: 12px; }
+        .content-menu-perfil .contenedor-izq-perfil .datos-lista-perfil li {
+          margin-top: 70px; }
+        .content-menu-perfil .contenedor-izq-perfil .datos-lista-perfil .titulos-datos-perfil {
+          font-size: 13px;
+          font-weight: 300; }
+      .content-menu-perfil .contenedor-izq-perfil .editor2 {
+        margin-left: 180px;
+        margin-top: 20px; }
+        .content-menu-perfil .contenedor-izq-perfil .editor2 img {
+          margin-top: -23px;
+          margin-left: 60px; }
+      .content-menu-perfil .contenedor-izq-perfil .h2-direccion {
+        margin-left: 25px;
+        margin-top: 20px;
+        font-size: 20px; }
+      .content-menu-perfil .contenedor-izq-perfil .datos-lista-direccion {
+        margin-top: 5px;
+        margin-left: 20px;
+        font-size: 12px; }
+        .content-menu-perfil .contenedor-izq-perfil .datos-lista-direccion li {
+          margin-top: 70px; }
+      .content-menu-perfil .contenedor-izq-perfil .editor3 {
+        margin-left: 180px;
+        margin-top: 20px; }
+        .content-menu-perfil .contenedor-izq-perfil .editor3 img {
+          margin-top: -23px;
+          margin-left: 60px; } }
 
 @media (max-width: 768px) {
   header {

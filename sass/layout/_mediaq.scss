@@ -1092,6 +1092,198 @@ width: 450px;
         }
     }
 }
+.h1-perfil{
+    font-size: 30px;
+    margin-left: 450px;
+    margin-top: 80px;
+}
+
+.content-menu-perfil{
+    margin-top: 80px;
+    @include grid(28% 70%,1055px,"contenedor-derecho-perfil contenedor-izq-perfil",0px,0px);
+    .contenedor-derecho-perfil{
+        width: 285px;
+        height: 1050px;
+        border-radius: 70px;
+    .clums-perfil{ 
+        margin-top: -120px;
+        margin-left: 5px;
+        width: 280px;
+    }
+    .img-perfil{
+        margin-top: 70px;
+        margin-left: 25px;
+        height: 70px;
+        width: 70px;
+    }
+        .h2-nombreuser{
+            font-size: 16px;
+            margin-left: 110px;
+            margin-top: 85px;
+        }
+        .p-correo{
+            font-weight: 300;
+            font-size: 14px;
+            margin-left: 110px;
+            margin-top: 110px;
+        }
+        .h2-menu{
+            font-size: 40px;
+        padding-top: 35px;
+        margin: 0 auto;
+        margin-left: 80px;
+        }
+        .menu-dere-1{
+            margin-top: -150px;
+            font-size: 20px;
+            margin-left: 80px;
+            width: 150px;
+            img{
+                height: 35px;
+                width: 35px;
+                margin-left: -105px;
+                margin-top: -3px;
+            }
+        }
+        .menu-dere-2{
+            margin-top: 90px;
+            margin-left: 55px;
+            font-size: 20px;
+            width: 200px;
+            img{
+                height: 35px;
+                width: 35px;
+                margin-left: -100px;
+            }
+        }
+        .menu-dere-3{
+            margin-top: 75px;
+            margin-left: 60px;
+            font-size: 20px;
+            width: 200px;
+            img{
+                height: 35px;
+                width: 35px;
+                margin-top: -2px;
+                margin-left: -115px;
+            }
+        }
+        .menu-dere-4{
+            margin-top: 80px;
+            margin-left: 55px;
+            font-size: 20px;
+            width: 200px;
+            img{
+                height: 35px;
+                width: 35px;
+                margin-left: -100px;
+            }
+        }
+        .button-cerrar{
+            width: 211px;
+            height: 58px;
+            border-radius: 100px;
+            font-size: 20px;
+            margin-top: -100px;
+            margin-left: 35px;
+        }
+    }
+    .contenedor-izq-perfil{
+        width: 710px;
+        height: 850px;
+        border-radius: 70px;
+        margin-left: 5px;
+        margin-top: 200px;
+    @include grid(150px 250px 315px,210px 255px 316px,"menu-d perfil-izq perfil-izq" "menu-d datos-person datos-person2" "menu-d direccion direccion2",none,none);
+    .clumna-perfil2{
+        width: 545px;
+    }
+    .menu-contenedor2-derecho{
+        margin-top: 20px;
+        font-size: 16px;
+        li{
+            margin-top: 40px;
+            }
+    }
+        
+    .h2-perfil2{
+        margin-left: 25px;
+        margin-top: 25px;
+        font-size: 20px;
+    }
+    .img-perfil2{
+        margin-left: 25px;
+        margin-top: 80px;
+        height: 100px;
+        width: 100px;
+        }
+        .h2-nombre-apellido{
+            margin-left: 140px;
+            margin-top: 110px;
+            font-size: 18px;
+            }
+            .p-direccion{
+                margin-left: 140px;
+                margin-top: 135px;
+                font-weight: 300;
+                font-size: 16px;
+                }
+                .editor{
+                    margin-left: 430px;
+                    margin-top: 115px;
+                    img{
+                        margin-top: -23px;
+                        margin-left: 55px;
+                    }
+                    }
+                    .h2-datos-person{
+                        margin-left: 25px;
+                        margin-top: 20px;
+                        font-size: 20px;
+                    }
+                    .datos-lista-perfil{
+                        margin-top: 5px;
+                        margin-left: 20px;
+                        font-size: 12px;
+                        li{
+                            margin-top: 70px;
+                        }
+                        .titulos-datos-perfil{
+                            font-size: 13px;
+                            font-weight: 300;
+                        }
+                        }
+                        .editor2{
+                            margin-left: 180px;
+                            margin-top: 20px;
+                            img{
+                                margin-top: -23px;
+                                margin-left: 60px;
+                            }
+                            }
+                            .h2-direccion{
+                                margin-left: 25px;
+                                margin-top: 20px;
+                                font-size: 20px;
+                            }
+                            .datos-lista-direccion{
+                                margin-top: 5px;
+                                margin-left: 20px;
+                                font-size: 12px;
+                                li{
+                                    margin-top: 70px;
+                                }
+                            }
+                            .editor3{
+                                margin-left: 180px;
+                            margin-top: 20px;
+                            img{
+                                margin-top: -23px;
+                                margin-left: 60px;
+                            }
+                            }
+    }    
+}
 }
 
 @media(max-width:768px){
