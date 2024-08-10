@@ -48,6 +48,9 @@
             margin-top: 120px;
             color: map-get($colores , color1 );
         }
+        .p-correo-reponsive{
+            display: none;
+        }
         .h2-menu{
             grid-area: menu-derecho;
             text-transform: $texto-transfor;
@@ -140,6 +143,9 @@
                 }
         }
         .button-cerrar-reponsive{
+            display: none;
+        }
+        .menu-responsive-2{
             display: none;
         }
     }
@@ -242,6 +248,9 @@
                             font-weight: 300;
                         }
                         }
+                        .responsive-correo{
+                            display: none;
+                        }
                         .editor2{
                             margin-left: 300px;
                             margin-top: 44px;
@@ -268,6 +277,9 @@
                                 li{
                                     margin-top: 90px;
                                 }
+                            }
+                            .datos-lista-direccion-responsive{
+                                display: none;
                             }
                             .editor3{
                                 margin-left: 300px;
